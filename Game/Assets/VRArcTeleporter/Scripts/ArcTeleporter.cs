@@ -465,14 +465,14 @@ namespace VRInteraction
 				if (_roomShapeInstance != null) _roomShapeInstance.SetActive(false);
 			}
 				
-			_lineRenderer.numPositions = positions1.Count;
+			_lineRenderer.positionCount = positions1.Count;
 			_lineRenderer.SetPositions(positions1.ToArray());
 			_lineRenderer.material.mainTextureScale = new Vector2((totalDistance1*matScale)/_vrPlayArea.localScale.magnitude, 1);
 			_lineRenderer.material.mainTextureOffset = new Vector2(_lineRenderer.material.mainTextureOffset.x+texMovementSpeed.x, _lineRenderer.material.mainTextureOffset.y+texMovementSpeed.y);
 
 			if (_lineRenderer2.enabled)
 			{
-				_lineRenderer2.numPositions = positions2.Count;
+				_lineRenderer2.positionCount = positions2.Count;
 				_lineRenderer2.SetPositions(positions2.ToArray());
 				_lineRenderer2.material.mainTextureScale = new Vector2((totalDistance2*matScale)/_vrPlayArea.localScale.magnitude, 1);
 				_lineRenderer2.material.mainTextureOffset = new Vector2(_lineRenderer2.material.mainTextureOffset.x+texMovementSpeed.x, _lineRenderer2.material.mainTextureOffset.y+texMovementSpeed.y);
