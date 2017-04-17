@@ -1,0 +1,1448 @@
+fileFormatVersion: 2
+guid: 68b7a396d236a4de7a4854f00297a431
+timeCreated: 1492086815
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Back_Foot
+    100002: Back_Foot_2
+    100004: bicep_n_shirt__NO_
+    100006: bicep_n_shirt__NO__2
+    100008: Boot
+    100010: Boot_2
+    100012: buttons
+    100014: buttons_1
+    100016: Cap_1
+    100018: Cap_1_2
+    100020: Cap_1_3
+    100022: Cap_1_4
+    100024: Cap_1_5
+    100026: Cap_2
+    100028: Cap_2_2
+    100030: Cap_2_3
+    100032: Cap_2_4
+    100034: Cap_2_5
+    100036: Collar
+    100038: Collar_1
+    100040: crest
+    100042: crotch
+    100044: Cube
+    100046: Cube_1
+    100048: Cube_10
+    100050: Cube_11
+    100052: Cube_12
+    100054: Cube_13
+    100056: Cube_14
+    100058: Cube_15
+    100060: Cube_16
+    100062: Cube_17
+    100064: Cube_18
+    100066: Cube_19
+    100068: Cube_1_2
+    100070: Cube_1_3
+    100072: Cube_1_4
+    100074: Cube_1_5
+    100076: Cube_1_6
+    100078: Cube_2
+    100080: Cube_20
+    100082: Cube_21
+    100084: Cube_22
+    100086: Cube_23
+    100088: Cube_24
+    100090: Cube_25
+    100092: Cube_26
+    100094: Cube_27
+    100096: Cube_28
+    100098: Cube_29
+    100100: Cube_2_2
+    100102: Cube_2_3
+    100104: Cube_2_4
+    100106: Cube_3
+    100108: Cube_30
+    100110: Cube_31
+    100112: Cube_32
+    100114: Cube_33
+    100116: Cube_34
+    100118: Cube_35
+    100120: Cube_36
+    100122: Cube_37
+    100124: Cube_38
+    100126: Cube_39
+    100128: Cube_4
+    100130: Cube_40
+    100132: Cube_41
+    100134: Cube_42
+    100136: Cube_43
+    100138: Cube_44
+    100140: Cube_45
+    100142: Cube_46
+    100144: Cube_47
+    100146: Cube_48
+    100148: Cube_49
+    100150: Cube_5
+    100152: Cube_50
+    100154: Cube_51
+    100156: Cube_52
+    100158: Cube_53
+    100160: Cube_54
+    100162: Cube_55
+    100164: Cube_56
+    100166: Cube_57
+    100168: Cube_58
+    100170: Cube_59
+    100172: Cube_6
+    100174: Cube_60
+    100176: Cube_61
+    100178: Cube_62
+    100180: Cube_63
+    100182: Cube_64
+    100184: Cube_65
+    100186: Cube_66
+    100188: Cube_67
+    100190: Cube_68
+    100192: Cube_69
+    100194: Cube_7
+    100196: Cube_70
+    100198: Cube_71
+    100200: Cube_72
+    100202: Cube_73
+    100204: Cube_74
+    100206: Cube_75
+    100208: Cube_76
+    100210: Cube_77
+    100212: Cube_8
+    100214: Cube_9
+    100216: Detail
+    100218: Detail_2
+    100220: Detail_3
+    100222: Detail_4
+    100224: Disc
+    100226: Disc_1
+    100228: Disc_1_2
+    100230: Disc_1_3
+    100232: eye_l_big
+    100234: eye_l_big_1
+    100236: eye_l_big_2
+    100238: eye_r_big
+    100240: Finger1
+    100242: Finger1_2
+    100244: Finger1_Tip
+    100246: Finger1_Tip_2
+    100248: Finger2
+    100250: Finger2_2
+    100252: Finger2_Tip
+    100254: Finger2_Tip_2
+    100256: Finger3
+    100258: Finger3_2
+    100260: Finger3_Tip
+    100262: Finger3_Tip_2
+    100264: Finger4
+    100266: Finger4_2
+    100268: Finger4_Tip
+    100270: Finger4_Tip_2
+    100272: forearm
+    100274: forearm_2
+    100276: forearm_3
+    100278: forearm_4
+    100280: forefinger2
+    100282: forefinger2_2
+    100284: forefinger3
+    100286: forefinger3_2
+    100288: forefinger4
+    100290: forefinger4_2
+    100292: forefinger_1
+    100294: forefinger_1_2
+    100296: Full_Hand_R_1
+    100298: Full_Hand_R_1_2
+    100300: glasses
+    100302: glasses_1
+    100304: hand_base
+    100306: hand_base_2
+    100308: head
+    100310: head_2
+    100312: Knee_Down
+    100314: Knee_Down_2
+    100316: knee_r
+    100318: knee_r_2
+    100320: L_Arm
+    100322: L_Top_Leg_Connector
+    100324: leg_r
+    100326: leg_r_2
+    100328: Lower_Shirt
+    100330: Lower_Shirt_1
+    100332: mask
+    100334: midfinger1
+    100336: midfinger1_2
+    100338: midfinger2
+    100340: midfinger2_2
+    100342: midfinger3
+    100344: midfinger3_2
+    100346: midfinger4
+    100348: midfinger4_2
+    100350: Midsection
+    100352: Neck
+    100354: Neck_2
+    100356: R_Arm
+    100358: R_Top_Leg_Connector
+    100360: Red_Dot
+    100362: //RootNode
+    100364: Subdivision_Surface
+    100366: Subdivision_Surface_1
+    100368: Subdivision_Surface_10
+    100370: Subdivision_Surface_11
+    100372: Subdivision_Surface_11_2
+    100374: Subdivision_Surface_12
+    100376: Subdivision_Surface_12_2
+    100378: Subdivision_Surface_13
+    100380: Subdivision_Surface_13_2
+    100382: Subdivision_Surface_2
+    100384: Subdivision_Surface_2_2
+    100386: Subdivision_Surface_2_3
+    100388: Subdivision_Surface_3
+    100390: Subdivision_Surface_3_2
+    100392: Subdivision_Surface_4
+    100394: Subdivision_Surface_4_2
+    100396: Subdivision_Surface_4_3
+    100398: Subdivision_Surface_5
+    100400: Subdivision_Surface_5_2
+    100402: Subdivision_Surface_5_3
+    100404: Subdivision_Surface_6
+    100406: Subdivision_Surface_6_2
+    100408: Subdivision_Surface_7
+    100410: Subdivision_Surface_8
+    100412: Subdivision_Surface_9
+    100414: Subdivision_Surface_9_2
+    100416: Sweep
+    100418: Sweep_1
+    100420: Sweep_2
+    100422: Sweep_3
+    100424: Sweep_4
+    100426: Thumb
+    100428: thumb
+    100430: thumb_1
+    100432: thumb_1_2
+    100434: Thumb_2
+    100436: thumb_2
+    100438: thumb_tip
+    100440: thumb_tip_2
+    100442: Toes
+    100444: Toes_2
+    100446: torso
+    100448: Torso_Details
+    100450: Torus_2
+    100452: Torus_2_2
+    100454: Torus_3
+    100456: Torus_4
+    100458: Torus_5
+    100460: Torus_6
+    100462: Torus_6_2
+    100464: Torus_7
+    100466: Torus_7_2
+    100468: Torus_8
+    100470: Torus_8_2
+    100472: Tummy
+    100474: tummy
+    100476: Turtleneck
+    100478: undershirt
+    100480: upper_arm
+    100482: upper_arm_2
+    100484: Upper_Collar
+    100486: Upper_Shirt
+    100488: wrist_band_L
+    100490: wrist_band_R
+    400000: Back_Foot
+    400002: Back_Foot_2
+    400004: bicep_n_shirt__NO_
+    400006: bicep_n_shirt__NO__2
+    400008: Boot
+    400010: Boot_2
+    400012: buttons
+    400014: buttons_1
+    400016: Cap_1
+    400018: Cap_1_2
+    400020: Cap_1_3
+    400022: Cap_1_4
+    400024: Cap_1_5
+    400026: Cap_2
+    400028: Cap_2_2
+    400030: Cap_2_3
+    400032: Cap_2_4
+    400034: Cap_2_5
+    400036: Collar
+    400038: Collar_1
+    400040: crest
+    400042: crotch
+    400044: Cube
+    400046: Cube_1
+    400048: Cube_10
+    400050: Cube_11
+    400052: Cube_12
+    400054: Cube_13
+    400056: Cube_14
+    400058: Cube_15
+    400060: Cube_16
+    400062: Cube_17
+    400064: Cube_18
+    400066: Cube_19
+    400068: Cube_1_2
+    400070: Cube_1_3
+    400072: Cube_1_4
+    400074: Cube_1_5
+    400076: Cube_1_6
+    400078: Cube_2
+    400080: Cube_20
+    400082: Cube_21
+    400084: Cube_22
+    400086: Cube_23
+    400088: Cube_24
+    400090: Cube_25
+    400092: Cube_26
+    400094: Cube_27
+    400096: Cube_28
+    400098: Cube_29
+    400100: Cube_2_2
+    400102: Cube_2_3
+    400104: Cube_2_4
+    400106: Cube_3
+    400108: Cube_30
+    400110: Cube_31
+    400112: Cube_32
+    400114: Cube_33
+    400116: Cube_34
+    400118: Cube_35
+    400120: Cube_36
+    400122: Cube_37
+    400124: Cube_38
+    400126: Cube_39
+    400128: Cube_4
+    400130: Cube_40
+    400132: Cube_41
+    400134: Cube_42
+    400136: Cube_43
+    400138: Cube_44
+    400140: Cube_45
+    400142: Cube_46
+    400144: Cube_47
+    400146: Cube_48
+    400148: Cube_49
+    400150: Cube_5
+    400152: Cube_50
+    400154: Cube_51
+    400156: Cube_52
+    400158: Cube_53
+    400160: Cube_54
+    400162: Cube_55
+    400164: Cube_56
+    400166: Cube_57
+    400168: Cube_58
+    400170: Cube_59
+    400172: Cube_6
+    400174: Cube_60
+    400176: Cube_61
+    400178: Cube_62
+    400180: Cube_63
+    400182: Cube_64
+    400184: Cube_65
+    400186: Cube_66
+    400188: Cube_67
+    400190: Cube_68
+    400192: Cube_69
+    400194: Cube_7
+    400196: Cube_70
+    400198: Cube_71
+    400200: Cube_72
+    400202: Cube_73
+    400204: Cube_74
+    400206: Cube_75
+    400208: Cube_76
+    400210: Cube_77
+    400212: Cube_8
+    400214: Cube_9
+    400216: Detail
+    400218: Detail_2
+    400220: Detail_3
+    400222: Detail_4
+    400224: Disc
+    400226: Disc_1
+    400228: Disc_1_2
+    400230: Disc_1_3
+    400232: eye_l_big
+    400234: eye_l_big_1
+    400236: eye_l_big_2
+    400238: eye_r_big
+    400240: Finger1
+    400242: Finger1_2
+    400244: Finger1_Tip
+    400246: Finger1_Tip_2
+    400248: Finger2
+    400250: Finger2_2
+    400252: Finger2_Tip
+    400254: Finger2_Tip_2
+    400256: Finger3
+    400258: Finger3_2
+    400260: Finger3_Tip
+    400262: Finger3_Tip_2
+    400264: Finger4
+    400266: Finger4_2
+    400268: Finger4_Tip
+    400270: Finger4_Tip_2
+    400272: forearm
+    400274: forearm_2
+    400276: forearm_3
+    400278: forearm_4
+    400280: forefinger2
+    400282: forefinger2_2
+    400284: forefinger3
+    400286: forefinger3_2
+    400288: forefinger4
+    400290: forefinger4_2
+    400292: forefinger_1
+    400294: forefinger_1_2
+    400296: Full_Hand_R_1
+    400298: Full_Hand_R_1_2
+    400300: glasses
+    400302: glasses_1
+    400304: hand_base
+    400306: hand_base_2
+    400308: head
+    400310: head_2
+    400312: Knee_Down
+    400314: Knee_Down_2
+    400316: knee_r
+    400318: knee_r_2
+    400320: L_Arm
+    400322: L_Top_Leg_Connector
+    400324: leg_r
+    400326: leg_r_2
+    400328: Lower_Shirt
+    400330: Lower_Shirt_1
+    400332: mask
+    400334: midfinger1
+    400336: midfinger1_2
+    400338: midfinger2
+    400340: midfinger2_2
+    400342: midfinger3
+    400344: midfinger3_2
+    400346: midfinger4
+    400348: midfinger4_2
+    400350: Midsection
+    400352: Neck
+    400354: Neck_2
+    400356: R_Arm
+    400358: R_Top_Leg_Connector
+    400360: Red_Dot
+    400362: //RootNode
+    400364: Subdivision_Surface
+    400366: Subdivision_Surface_1
+    400368: Subdivision_Surface_10
+    400370: Subdivision_Surface_11
+    400372: Subdivision_Surface_11_2
+    400374: Subdivision_Surface_12
+    400376: Subdivision_Surface_12_2
+    400378: Subdivision_Surface_13
+    400380: Subdivision_Surface_13_2
+    400382: Subdivision_Surface_2
+    400384: Subdivision_Surface_2_2
+    400386: Subdivision_Surface_2_3
+    400388: Subdivision_Surface_3
+    400390: Subdivision_Surface_3_2
+    400392: Subdivision_Surface_4
+    400394: Subdivision_Surface_4_2
+    400396: Subdivision_Surface_4_3
+    400398: Subdivision_Surface_5
+    400400: Subdivision_Surface_5_2
+    400402: Subdivision_Surface_5_3
+    400404: Subdivision_Surface_6
+    400406: Subdivision_Surface_6_2
+    400408: Subdivision_Surface_7
+    400410: Subdivision_Surface_8
+    400412: Subdivision_Surface_9
+    400414: Subdivision_Surface_9_2
+    400416: Sweep
+    400418: Sweep_1
+    400420: Sweep_2
+    400422: Sweep_3
+    400424: Sweep_4
+    400426: Thumb
+    400428: thumb
+    400430: thumb_1
+    400432: thumb_1_2
+    400434: Thumb_2
+    400436: thumb_2
+    400438: thumb_tip
+    400440: thumb_tip_2
+    400442: Toes
+    400444: Toes_2
+    400446: torso
+    400448: Torso_Details
+    400450: Torus_2
+    400452: Torus_2_2
+    400454: Torus_3
+    400456: Torus_4
+    400458: Torus_5
+    400460: Torus_6
+    400462: Torus_6_2
+    400464: Torus_7
+    400466: Torus_7_2
+    400468: Torus_8
+    400470: Torus_8_2
+    400472: Tummy
+    400474: tummy
+    400476: Turtleneck
+    400478: undershirt
+    400480: upper_arm
+    400482: upper_arm_2
+    400484: Upper_Collar
+    400486: Upper_Shirt
+    400488: wrist_band_L
+    400490: wrist_band_R
+    2300000: Cap_1
+    2300002: Cap_1_2
+    2300004: Cap_1_3
+    2300006: Cap_1_4
+    2300008: Cap_1_5
+    2300010: Cap_2
+    2300012: Cap_2_2
+    2300014: Cap_2_3
+    2300016: Cap_2_4
+    2300018: Cap_2_5
+    2300020: Collar
+    2300022: crest
+    2300024: Cube
+    2300026: Cube_1
+    2300028: Cube_10
+    2300030: Cube_11
+    2300032: Cube_12
+    2300034: Cube_13
+    2300036: Cube_14
+    2300038: Cube_15
+    2300040: Cube_16
+    2300042: Cube_17
+    2300044: Cube_18
+    2300046: Cube_19
+    2300048: Cube_1_2
+    2300050: Cube_1_3
+    2300052: Cube_1_4
+    2300054: Cube_1_5
+    2300056: Cube_1_6
+    2300058: Cube_20
+    2300060: Cube_21
+    2300062: Cube_22
+    2300064: Cube_23
+    2300066: Cube_24
+    2300068: Cube_25
+    2300070: Cube_26
+    2300072: Cube_27
+    2300074: Cube_28
+    2300076: Cube_29
+    2300078: Cube_2_2
+    2300080: Cube_2_3
+    2300082: Cube_2_4
+    2300084: Cube_3
+    2300086: Cube_30
+    2300088: Cube_31
+    2300090: Cube_32
+    2300092: Cube_33
+    2300094: Cube_34
+    2300096: Cube_35
+    2300098: Cube_36
+    2300100: Cube_37
+    2300102: Cube_38
+    2300104: Cube_39
+    2300106: Cube_4
+    2300108: Cube_40
+    2300110: Cube_41
+    2300112: Cube_42
+    2300114: Cube_43
+    2300116: Cube_44
+    2300118: Cube_45
+    2300120: Cube_46
+    2300122: Cube_47
+    2300124: Cube_48
+    2300126: Cube_49
+    2300128: Cube_5
+    2300130: Cube_50
+    2300132: Cube_51
+    2300134: Cube_52
+    2300136: Cube_53
+    2300138: Cube_54
+    2300140: Cube_55
+    2300142: Cube_56
+    2300144: Cube_57
+    2300146: Cube_58
+    2300148: Cube_59
+    2300150: Cube_6
+    2300152: Cube_60
+    2300154: Cube_61
+    2300156: Cube_62
+    2300158: Cube_63
+    2300160: Cube_64
+    2300162: Cube_65
+    2300164: Cube_66
+    2300166: Cube_67
+    2300168: Cube_68
+    2300170: Cube_69
+    2300172: Cube_7
+    2300174: Cube_70
+    2300176: Cube_71
+    2300178: Cube_72
+    2300180: Cube_73
+    2300182: Cube_74
+    2300184: Cube_75
+    2300186: Cube_76
+    2300188: Cube_77
+    2300190: Cube_8
+    2300192: Cube_9
+    2300194: Disc
+    2300196: Disc_1
+    2300198: Disc_1_2
+    2300200: Disc_1_3
+    2300202: Sweep
+    2300204: Sweep_1
+    2300206: Sweep_2
+    2300208: Sweep_3
+    2300210: Sweep_4
+    2300212: Torus_2
+    2300214: Torus_2_2
+    2300216: Torus_3
+    2300218: Torus_4
+    2300220: Torus_5
+    2300222: Torus_6
+    2300224: Torus_6_2
+    2300226: Torus_7
+    2300228: Torus_7_2
+    2300230: Torus_8
+    2300232: Torus_8_2
+    2300234: Turtleneck
+    2300236: Upper_Collar
+    3300000: Cap_1
+    3300002: Cap_1_2
+    3300004: Cap_1_3
+    3300006: Cap_1_4
+    3300008: Cap_1_5
+    3300010: Cap_2
+    3300012: Cap_2_2
+    3300014: Cap_2_3
+    3300016: Cap_2_4
+    3300018: Cap_2_5
+    3300020: Collar
+    3300022: crest
+    3300024: Cube
+    3300026: Cube_1
+    3300028: Cube_10
+    3300030: Cube_11
+    3300032: Cube_12
+    3300034: Cube_13
+    3300036: Cube_14
+    3300038: Cube_15
+    3300040: Cube_16
+    3300042: Cube_17
+    3300044: Cube_18
+    3300046: Cube_19
+    3300048: Cube_1_2
+    3300050: Cube_1_3
+    3300052: Cube_1_4
+    3300054: Cube_1_5
+    3300056: Cube_1_6
+    3300058: Cube_20
+    3300060: Cube_21
+    3300062: Cube_22
+    3300064: Cube_23
+    3300066: Cube_24
+    3300068: Cube_25
+    3300070: Cube_26
+    3300072: Cube_27
+    3300074: Cube_28
+    3300076: Cube_29
+    3300078: Cube_2_2
+    3300080: Cube_2_3
+    3300082: Cube_2_4
+    3300084: Cube_3
+    3300086: Cube_30
+    3300088: Cube_31
+    3300090: Cube_32
+    3300092: Cube_33
+    3300094: Cube_34
+    3300096: Cube_35
+    3300098: Cube_36
+    3300100: Cube_37
+    3300102: Cube_38
+    3300104: Cube_39
+    3300106: Cube_4
+    3300108: Cube_40
+    3300110: Cube_41
+    3300112: Cube_42
+    3300114: Cube_43
+    3300116: Cube_44
+    3300118: Cube_45
+    3300120: Cube_46
+    3300122: Cube_47
+    3300124: Cube_48
+    3300126: Cube_49
+    3300128: Cube_5
+    3300130: Cube_50
+    3300132: Cube_51
+    3300134: Cube_52
+    3300136: Cube_53
+    3300138: Cube_54
+    3300140: Cube_55
+    3300142: Cube_56
+    3300144: Cube_57
+    3300146: Cube_58
+    3300148: Cube_59
+    3300150: Cube_6
+    3300152: Cube_60
+    3300154: Cube_61
+    3300156: Cube_62
+    3300158: Cube_63
+    3300160: Cube_64
+    3300162: Cube_65
+    3300164: Cube_66
+    3300166: Cube_67
+    3300168: Cube_68
+    3300170: Cube_69
+    3300172: Cube_7
+    3300174: Cube_70
+    3300176: Cube_71
+    3300178: Cube_72
+    3300180: Cube_73
+    3300182: Cube_74
+    3300184: Cube_75
+    3300186: Cube_76
+    3300188: Cube_77
+    3300190: Cube_8
+    3300192: Cube_9
+    3300194: Disc
+    3300196: Disc_1
+    3300198: Disc_1_2
+    3300200: Disc_1_3
+    3300202: Sweep
+    3300204: Sweep_1
+    3300206: Sweep_2
+    3300208: Sweep_3
+    3300210: Sweep_4
+    3300212: Torus_2
+    3300214: Torus_2_2
+    3300216: Torus_3
+    3300218: Torus_4
+    3300220: Torus_5
+    3300222: Torus_6
+    3300224: Torus_6_2
+    3300226: Torus_7
+    3300228: Torus_7_2
+    3300230: Torus_8
+    3300232: Torus_8_2
+    3300234: Turtleneck
+    3300236: Upper_Collar
+    4300000: Cube
+    4300002: crest
+    4300004: Cube_3
+    4300006: Collar
+    4300008: Cube_4
+    4300010: Cube_5
+    4300012: Upper_Collar
+    4300014: Turtleneck
+    4300016: Cube_6
+    4300018: Cube_7
+    4300020: Cube_8
+    4300022: Cube_9
+    4300024: Sweep_4
+    4300026: Cap_1
+    4300028: Cap_2
+    4300030: Sweep_3
+    4300032: Cap_1_2
+    4300034: Cap_2_2
+    4300036: Sweep_2
+    4300038: Cap_1_3
+    4300040: Cap_2_3
+    4300042: Sweep_1
+    4300044: Cap_1_4
+    4300046: Cap_2_4
+    4300048: Sweep
+    4300050: Cap_1_5
+    4300052: Cap_2_5
+    4300054: Cube_10
+    4300056: Cube_11
+    4300058: Cube_12
+    4300060: Cube_13
+    4300062: Cube_14
+    4300064: Cube_15
+    4300066: Cube_16
+    4300068: Disc_1
+    4300070: Disc_1_2
+    4300072: Torus_2
+    4300074: Cube_17
+    4300076: Disc_1_3
+    4300078: Disc
+    4300080: Torus_2_2
+    4300082: Cube_18
+    4300084: Cube_19
+    4300086: Cube_20
+    4300088: Cube_21
+    4300090: Cube_2_2
+    4300092: Cube_1
+    4300094: Cube_22
+    4300096: Cube_23
+    4300098: Cube_24
+    4300100: Cube_25
+    4300102: Cube_26
+    4300104: Cube_27
+    4300106: Cube_28
+    4300108: Cube_29
+    4300110: Cube_30
+    4300112: Cube_31
+    4300114: Cube_32
+    4300116: Cube_33
+    4300118: Cube_34
+    4300120: Cube_35
+    4300122: Cube_36
+    4300124: Cube_37
+    4300126: Cube_2_3
+    4300128: Cube_1_2
+    4300130: Cube_38
+    4300132: Cube_39
+    4300134: Cube_40
+    4300136: Cube_41
+    4300138: Cube_42
+    4300140: Cube_43
+    4300142: Cube_44
+    4300144: Cube_45
+    4300146: Cube_46
+    4300148: Cube_47
+    4300150: Cube_48
+    4300152: Cube_49
+    4300154: Cube_50
+    4300156: Cube_51
+    4300158: Cube_52
+    4300160: Cube_53
+    4300162: Cube_1_3
+    4300164: Cube_54
+    4300166: Torus_8
+    4300168: Torus_7
+    4300170: Torus_6
+    4300172: Cube_55
+    4300174: Cube_56
+    4300176: Cube_1_4
+    4300178: Cube_57
+    4300180: Cube_58
+    4300182: Cube_59
+    4300184: Cube_60
+    4300186: Cube_61
+    4300188: Cube_62
+    4300190: Torus_5
+    4300192: Torus_4
+    4300194: Cube_63
+    4300196: Cube_64
+    4300198: Cube_65
+    4300200: Cube_66
+    4300202: Torus_8_2
+    4300204: Torus_7_2
+    4300206: Torus_6_2
+    4300208: Cube_67
+    4300210: Cube_68
+    4300212: Cube_1_5
+    4300214: Cube_69
+    4300216: Cube_70
+    4300218: Cube_2_4
+    4300220: Cube_1_6
+    4300222: Cube_71
+    4300224: Torus_3
+    4300226: Cube_72
+    4300228: Cube_73
+    4300230: Cube_74
+    4300232: Cube_75
+    4300234: Cube_76
+    4300236: Cube_77
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CINEMA_4D_Main
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Midsection
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/buttons
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/buttons/Cube_1_6
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/buttons/Cube_2_4
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/buttons/Cube_71
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/knee_r_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/knee_r_2/Cube_75
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/Subdivision_Surface_6_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/Subdivision_Surface_6_2/Cube_73
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/Subdivision_Surface_8
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/Subdivision_Surface_8/Cube_72
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/Subdivision_Surface_9_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/Subdivision_Surface_9_2/Cube_74
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Detail_4/Torus_3
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Back_Foot_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Back_Foot_2/Cube_1_5
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Back_Foot_2/Subdivision_Surface_12_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Back_Foot_2/Subdivision_Surface_12_2/Cube_69
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Back_Foot_2/Toes_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Back_Foot_2/Toes_2/Cube_67
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Back_Foot_2/Toes_2/Subdivision_Surface_13_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Back_Foot_2/Toes_2/Subdivision_Surface_13_2/Cube_68
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Detail_3
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Detail_3/Cube_65
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Detail_3/Subdivision_Surface_11_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Detail_3/Subdivision_Surface_11_2/Cube_66
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Detail_3/Torus_6_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Detail_3/Torus_7_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/Boot_2/Detail_3/Torus_8_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/leg_r_2
+        weight: 1
+      - path: Midsection/L_Top_Leg_Connector/Knee_Down_2/leg_r_2/Cube_70
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/buttons_1
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/buttons_1/Cube_59
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/buttons_1/Cube_60
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/knee_r
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/knee_r/Cube_64
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/Subdivision_Surface_6
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/Subdivision_Surface_6/Cube_61
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/Subdivision_Surface_9
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/Subdivision_Surface_9/Cube_62
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/Subdivision_Surface_10
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/Subdivision_Surface_10/Cube_63
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/Torus_4
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Detail_2/Torus_5
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Back_Foot
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Back_Foot/Cube_1_4
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Back_Foot/Subdivision_Surface_12
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Back_Foot/Subdivision_Surface_12/Cube_57
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Back_Foot/Toes
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Back_Foot/Toes/Cube_55
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Back_Foot/Toes/Subdivision_Surface_13
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Back_Foot/Toes/Subdivision_Surface_13/Cube_56
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Detail
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Detail/Cube_1_3
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Detail/Subdivision_Surface_11
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Detail/Subdivision_Surface_11/Cube_54
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Detail/Torus_6
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Detail/Torus_7
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/Boot/Detail/Torus_8
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/leg_r
+        weight: 1
+      - path: Midsection/R_Top_Leg_Connector/Knee_Down/leg_r/Cube_58
+        weight: 1
+      - path: Midsection/tummy
+        weight: 1
+      - path: Midsection/tummy/crotch
+        weight: 1
+      - path: Midsection/tummy/crotch/Cube_76
+        weight: 1
+      - path: Midsection/tummy/Tummy
+        weight: 1
+      - path: Midsection/tummy/Tummy/Cube_77
+        weight: 1
+      - path: torso
+        weight: 1
+      - path: torso/L_Arm
+        weight: 1
+      - path: torso/L_Arm/bicep_n_shirt__NO__2
+        weight: 1
+      - path: torso/L_Arm/bicep_n_shirt__NO__2/Subdivision_Surface_4_3
+        weight: 1
+      - path: torso/L_Arm/bicep_n_shirt__NO__2/Subdivision_Surface_4_3/Cube_53
+        weight: 1
+      - path: torso/L_Arm/bicep_n_shirt__NO__2/Subdivision_Surface_5_3
+        weight: 1
+      - path: torso/L_Arm/bicep_n_shirt__NO__2/Subdivision_Surface_5_3/Cube_52
+        weight: 1
+      - path: torso/L_Arm/bicep_n_shirt__NO__2/upper_arm_2
+        weight: 1
+      - path: torso/L_Arm/bicep_n_shirt__NO__2/upper_arm_2/Cube_51
+        weight: 1
+      - path: torso/L_Arm/forearm_3
+        weight: 1
+      - path: torso/L_Arm/forearm_3/forearm_4
+        weight: 1
+      - path: torso/L_Arm/forearm_3/forearm_4/Cube_39
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger1_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger1_2/Finger1_Tip_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger1_2/Finger1_Tip_2/forefinger_1_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger1_2/Finger1_Tip_2/forefinger_1_2/Cube_41
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger1_2/midfinger1_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger1_2/midfinger1_2/Cube_40
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger2_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger2_2/Finger2_Tip_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger2_2/Finger2_Tip_2/forefinger2_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger2_2/Finger2_Tip_2/forefinger2_2/Cube_43
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger2_2/midfinger2_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger2_2/midfinger2_2/Cube_42
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger3_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger3_2/Finger3_Tip_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger3_2/Finger3_Tip_2/forefinger3_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger3_2/Finger3_Tip_2/forefinger3_2/Cube_45
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger3_2/midfinger3_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger3_2/midfinger3_2/Cube_44
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger4_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger4_2/Finger4_Tip_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger4_2/Finger4_Tip_2/forefinger4_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger4_2/Finger4_Tip_2/forefinger4_2/Cube_47
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger4_2/midfinger4_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Finger4_2/midfinger4_2/Cube_46
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/hand_base_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/hand_base_2/Cube_50
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Thumb_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Thumb_2/thumb_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Thumb_2/thumb_2/Cube_48
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Thumb_2/thumb_tip_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Thumb_2/thumb_tip_2/thumb_1_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/Full_Hand_R_1_2/Thumb_2/thumb_tip_2/thumb_1_2/Cube_49
+        weight: 1
+      - path: torso/L_Arm/forearm_3/wrist_band_L
+        weight: 1
+      - path: torso/L_Arm/forearm_3/wrist_band_L/Cube_1_2
+        weight: 1
+      - path: torso/L_Arm/forearm_3/wrist_band_L/Cube_2_3
+        weight: 1
+      - path: torso/L_Arm/forearm_3/wrist_band_L/Cube_38
+        weight: 1
+      - path: torso/Neck
+        weight: 1
+      - path: torso/Neck/head
+        weight: 1
+      - path: torso/Neck/head/eye_l_big
+        weight: 1
+      - path: torso/Neck/head/eye_l_big/Cube_8
+        weight: 1
+      - path: torso/Neck/head/eye_l_big_1
+        weight: 1
+      - path: torso/Neck/head/eye_l_big_1/Cube_7
+        weight: 1
+      - path: torso/Neck/head/eye_l_big_2
+        weight: 1
+      - path: torso/Neck/head/eye_l_big_2/Cube_6
+        weight: 1
+      - path: torso/Neck/head/eye_r_big
+        weight: 1
+      - path: torso/Neck/head/eye_r_big/Cube_9
+        weight: 1
+      - path: torso/Neck/head/glasses
+        weight: 1
+      - path: torso/Neck/head/glasses/Disc
+        weight: 1
+      - path: torso/Neck/head/glasses/Disc_1_3
+        weight: 1
+      - path: torso/Neck/head/glasses/Subdivision_Surface_2_3
+        weight: 1
+      - path: torso/Neck/head/glasses/Subdivision_Surface_2_3/Cube_18
+        weight: 1
+      - path: torso/Neck/head/glasses/Torus_2_2
+        weight: 1
+      - path: torso/Neck/head/glasses_1
+        weight: 1
+      - path: torso/Neck/head/glasses_1/Disc_1
+        weight: 1
+      - path: torso/Neck/head/glasses_1/Disc_1_2
+        weight: 1
+      - path: torso/Neck/head/glasses_1/Subdivision_Surface_2_2
+        weight: 1
+      - path: torso/Neck/head/glasses_1/Subdivision_Surface_2_2/Cube_17
+        weight: 1
+      - path: torso/Neck/head/glasses_1/Subdivision_Surface_3_2
+        weight: 1
+      - path: torso/Neck/head/glasses_1/Subdivision_Surface_3_2/Torus_2
+        weight: 1
+      - path: torso/Neck/head/head_2
+        weight: 1
+      - path: torso/Neck/head/head_2/Cube_20
+        weight: 1
+      - path: torso/Neck/head/mask
+        weight: 1
+      - path: torso/Neck/head/mask/Cube_19
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface/Cube_16
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_1
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_1/Cube_15
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_2
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_2/Cube_14
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_3
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_3/Cube_13
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_4
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_4/Cube_12
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_5
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_5/Cube_11
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_7
+        weight: 1
+      - path: torso/Neck/head/Subdivision_Surface_7/Cube_10
+        weight: 1
+      - path: torso/Neck/head/Sweep
+        weight: 1
+      - path: torso/Neck/head/Sweep/Cap_1_5
+        weight: 1
+      - path: torso/Neck/head/Sweep/Cap_2_5
+        weight: 1
+      - path: torso/Neck/head/Sweep_1
+        weight: 1
+      - path: torso/Neck/head/Sweep_1/Cap_1_4
+        weight: 1
+      - path: torso/Neck/head/Sweep_1/Cap_2_4
+        weight: 1
+      - path: torso/Neck/head/Sweep_2
+        weight: 1
+      - path: torso/Neck/head/Sweep_2/Cap_1_3
+        weight: 1
+      - path: torso/Neck/head/Sweep_2/Cap_2_3
+        weight: 1
+      - path: torso/Neck/head/Sweep_3
+        weight: 1
+      - path: torso/Neck/head/Sweep_3/Cap_1_2
+        weight: 1
+      - path: torso/Neck/head/Sweep_3/Cap_2_2
+        weight: 1
+      - path: torso/Neck/head/Sweep_4
+        weight: 1
+      - path: torso/Neck/head/Sweep_4/Cap_1
+        weight: 1
+      - path: torso/Neck/head/Sweep_4/Cap_2
+        weight: 1
+      - path: torso/Neck/Neck_2
+        weight: 1
+      - path: torso/Neck/Neck_2/Cube_21
+        weight: 1
+      - path: torso/R_Arm
+        weight: 1
+      - path: torso/R_Arm/bicep_n_shirt__NO_
+        weight: 1
+      - path: torso/R_Arm/bicep_n_shirt__NO_/Subdivision_Surface_4_2
+        weight: 1
+      - path: torso/R_Arm/bicep_n_shirt__NO_/Subdivision_Surface_4_2/Cube_37
+        weight: 1
+      - path: torso/R_Arm/bicep_n_shirt__NO_/Subdivision_Surface_5_2
+        weight: 1
+      - path: torso/R_Arm/bicep_n_shirt__NO_/Subdivision_Surface_5_2/Cube_36
+        weight: 1
+      - path: torso/R_Arm/bicep_n_shirt__NO_/upper_arm
+        weight: 1
+      - path: torso/R_Arm/bicep_n_shirt__NO_/upper_arm/Cube_35
+        weight: 1
+      - path: torso/R_Arm/forearm
+        weight: 1
+      - path: torso/R_Arm/forearm/forearm_2
+        weight: 1
+      - path: torso/R_Arm/forearm/forearm_2/Cube_23
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger1
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger1/Finger1_Tip
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger1/Finger1_Tip/forefinger_1
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger1/Finger1_Tip/forefinger_1/Cube_25
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger1/midfinger1
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger1/midfinger1/Cube_24
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger2
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger2/Finger2_Tip
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger2/Finger2_Tip/forefinger2
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger2/Finger2_Tip/forefinger2/Cube_27
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger2/midfinger2
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger2/midfinger2/Cube_26
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger3
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger3/Finger3_Tip
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger3/Finger3_Tip/forefinger3
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger3/Finger3_Tip/forefinger3/Cube_29
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger3/midfinger3
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger3/midfinger3/Cube_28
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger4
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger4/Finger4_Tip
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger4/Finger4_Tip/forefinger4
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger4/Finger4_Tip/forefinger4/Cube_31
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger4/midfinger4
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Finger4/midfinger4/Cube_30
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/hand_base
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/hand_base/Cube_34
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Thumb
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Thumb/thumb
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Thumb/thumb/Cube_32
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Thumb/thumb_tip
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Thumb/thumb_tip/thumb_1
+        weight: 1
+      - path: torso/R_Arm/forearm/Full_Hand_R_1/Thumb/thumb_tip/thumb_1/Cube_33
+        weight: 1
+      - path: torso/R_Arm/forearm/wrist_band_R
+        weight: 1
+      - path: torso/R_Arm/forearm/wrist_band_R/Cube_1
+        weight: 1
+      - path: torso/R_Arm/forearm/wrist_band_R/Cube_2_2
+        weight: 1
+      - path: torso/R_Arm/forearm/wrist_band_R/Cube_22
+        weight: 1
+      - path: torso/Torso_Details
+        weight: 1
+      - path: torso/Torso_Details/Collar
+        weight: 1
+      - path: torso/Torso_Details/Collar_1
+        weight: 1
+      - path: torso/Torso_Details/crest
+        weight: 1
+      - path: torso/Torso_Details/Lower_Shirt
+        weight: 1
+      - path: torso/Torso_Details/Lower_Shirt/Cube_4
+        weight: 1
+      - path: torso/Torso_Details/Lower_Shirt_1
+        weight: 1
+      - path: torso/Torso_Details/Lower_Shirt_1/Cube_2
+        weight: 1
+      - path: torso/Torso_Details/Red_Dot
+        weight: 1
+      - path: torso/Torso_Details/Red_Dot/Cube_3
+        weight: 1
+      - path: torso/Torso_Details/Turtleneck
+        weight: 1
+      - path: torso/Torso_Details/undershirt
+        weight: 1
+      - path: torso/Torso_Details/undershirt/Cube
+        weight: 1
+      - path: torso/Torso_Details/Upper_Collar
+        weight: 1
+      - path: torso/Torso_Details/Upper_Shirt
+        weight: 1
+      - path: torso/Torso_Details/Upper_Shirt/Cube_5
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

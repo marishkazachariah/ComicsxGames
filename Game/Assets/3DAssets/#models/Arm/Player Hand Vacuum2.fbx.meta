@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 20f004a4a38e0479cba0c005b3a0caab
+timeCreated: 1492209278
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_band_R
+    100002: Array
+    100004: Cube
+    100006: Cube_1
+    100008: Cube_10
+    100010: Cube_11
+    100012: Cube_12
+    100014: Cube_13
+    100016: Cube_14
+    100018: Cube_15
+    100020: Cube_16
+    100022: Cube_1_2
+    100024: Cube_1_3
+    100026: Cube_2
+    100028: Cube_2_2
+    100030: Cube_2_3
+    100032: Cube_3
+    100034: Cube_3_2
+    100036: Cube_4
+    100038: Cube_4_2
+    100040: Cube_5
+    100042: Cube_5_2
+    100044: Cube_6
+    100046: Cube_6_2
+    100048: Cube_7
+    100050: Cube_8
+    100052: Cube_9
+    100054: Cylinder
+    100056: Cylinder_1
+    100058: Cylinder_2
+    100060: Finger1
+    100062: Finger1_Tip
+    100064: Finger2
+    100066: Finger2_Tip
+    100068: Finger3
+    100070: Finger3_Tip
+    100072: Finger4
+    100074: Finger4_Tip
+    100076: forearm
+    100078: forefinger2
+    100080: forefinger3
+    100082: forefinger4
+    100084: forefinger_1
+    100086: Full_Hand_R
+    100088: hand_base
+    100090: midfinger1
+    100092: midfinger2
+    100094: midfinger3
+    100096: midfinger4
+    100098: Null
+    100100: Null_1
+    100102: //RootNode
+    100104: ring1
+    100106: ring2
+    100108: ring3
+    100110: ring4
+    100112: Sphere
+    100114: Subdivision_Surface_1
+    100116: Subdivision_Surface_1_2
+    100118: Thumb
+    100120: thumb
+    100122: thumb_1
+    100124: thumb_tip
+    100126: Torus
+    100128: Tube
+    100130: Tube_1
+    100132: Tube_2
+    400000: arm_band_R
+    400002: Array
+    400004: Cube
+    400006: Cube_1
+    400008: Cube_10
+    400010: Cube_11
+    400012: Cube_12
+    400014: Cube_13
+    400016: Cube_14
+    400018: Cube_15
+    400020: Cube_16
+    400022: Cube_1_2
+    400024: Cube_1_3
+    400026: Cube_2
+    400028: Cube_2_2
+    400030: Cube_2_3
+    400032: Cube_3
+    400034: Cube_3_2
+    400036: Cube_4
+    400038: Cube_4_2
+    400040: Cube_5
+    400042: Cube_5_2
+    400044: Cube_6
+    400046: Cube_6_2
+    400048: Cube_7
+    400050: Cube_8
+    400052: Cube_9
+    400054: Cylinder
+    400056: Cylinder_1
+    400058: Cylinder_2
+    400060: Finger1
+    400062: Finger1_Tip
+    400064: Finger2
+    400066: Finger2_Tip
+    400068: Finger3
+    400070: Finger3_Tip
+    400072: Finger4
+    400074: Finger4_Tip
+    400076: forearm
+    400078: forefinger2
+    400080: forefinger3
+    400082: forefinger4
+    400084: forefinger_1
+    400086: Full_Hand_R
+    400088: hand_base
+    400090: midfinger1
+    400092: midfinger2
+    400094: midfinger3
+    400096: midfinger4
+    400098: Null
+    400100: Null_1
+    400102: //RootNode
+    400104: ring1
+    400106: ring2
+    400108: ring3
+    400110: ring4
+    400112: Sphere
+    400114: Subdivision_Surface_1
+    400116: Subdivision_Surface_1_2
+    400118: Thumb
+    400120: thumb
+    400122: thumb_1
+    400124: thumb_tip
+    400126: Torus
+    400128: Tube
+    400130: Tube_1
+    400132: Tube_2
+    2300000: Cube
+    2300002: Cube_1
+    2300004: Cube_10
+    2300006: Cube_11
+    2300008: Cube_12
+    2300010: Cube_13
+    2300012: Cube_14
+    2300014: Cube_15
+    2300016: Cube_16
+    2300018: Cube_1_2
+    2300020: Cube_1_3
+    2300022: Cube_2
+    2300024: Cube_2_2
+    2300026: Cube_2_3
+    2300028: Cube_3
+    2300030: Cube_3_2
+    2300032: Cube_4
+    2300034: Cube_4_2
+    2300036: Cube_5
+    2300038: Cube_5_2
+    2300040: Cube_6
+    2300042: Cube_6_2
+    2300044: Cube_7
+    2300046: Cube_8
+    2300048: Cube_9
+    2300050: Cylinder
+    2300052: Cylinder_1
+    2300054: Cylinder_2
+    2300056: ring2
+    2300058: ring3
+    2300060: ring4
+    2300062: Sphere
+    2300064: Torus
+    2300066: Tube
+    2300068: Tube_1
+    2300070: Tube_2
+    3300000: Cube
+    3300002: Cube_1
+    3300004: Cube_10
+    3300006: Cube_11
+    3300008: Cube_12
+    3300010: Cube_13
+    3300012: Cube_14
+    3300014: Cube_15
+    3300016: Cube_16
+    3300018: Cube_1_2
+    3300020: Cube_1_3
+    3300022: Cube_2
+    3300024: Cube_2_2
+    3300026: Cube_2_3
+    3300028: Cube_3
+    3300030: Cube_3_2
+    3300032: Cube_4
+    3300034: Cube_4_2
+    3300036: Cube_5
+    3300038: Cube_5_2
+    3300040: Cube_6
+    3300042: Cube_6_2
+    3300044: Cube_7
+    3300046: Cube_8
+    3300048: Cube_9
+    3300050: Cylinder
+    3300052: Cylinder_1
+    3300054: Cylinder_2
+    3300056: ring2
+    3300058: ring3
+    3300060: ring4
+    3300062: Sphere
+    3300064: Torus
+    3300066: Tube
+    3300068: Tube_1
+    3300070: Tube_2
+    4300000: Cube_6
+    4300002: Cube_5
+    4300004: Cube_4
+    4300006: Cube_3
+    4300008: Cube_2
+    4300010: Cube_1
+    4300012: Cylinder_1
+    4300014: Cube
+    4300016: Cylinder
+    4300018: Cube_1_2
+    4300020: Cube_2_2
+    4300022: Cube_3_2
+    4300024: Cube_4_2
+    4300026: Cube_5_2
+    4300028: Cube_6_2
+    4300030: Cube_7
+    4300032: Cube_8
+    4300034: Cube_9
+    4300036: Cube_10
+    4300038: Cube_11
+    4300040: Cube_12
+    4300042: Cube_13
+    4300044: Cube_14
+    4300046: Cube_2_3
+    4300048: Cube_15
+    4300050: Sphere
+    4300052: Cylinder_2
+    4300054: Tube_2
+    4300056: Cube_16
+    4300058: Tube_1
+    4300060: Tube
+    4300062: ring4
+    4300064: ring3
+    4300066: ring2
+    4300068: Cube_1_3
+    4300070: Torus
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CINEMA_4D_Main
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Null
+        weight: 1
+      - path: Null/Array
+        weight: 1
+      - path: Null/Array/Cube_1
+        weight: 1
+      - path: Null/Array/Cube_2
+        weight: 1
+      - path: Null/Array/Cube_3
+        weight: 1
+      - path: Null/Array/Cube_4
+        weight: 1
+      - path: Null/Array/Cube_5
+        weight: 1
+      - path: Null/Array/Cube_6
+        weight: 1
+      - path: Null_1
+        weight: 1
+      - path: Null_1/arm_band_R
+        weight: 1
+      - path: Null_1/arm_band_R/Cube_1_2
+        weight: 1
+      - path: Null_1/arm_band_R/Cube_2_2
+        weight: 1
+      - path: Null_1/arm_band_R/Cylinder
+        weight: 1
+      - path: Null_1/arm_band_R/Subdivision_Surface_1
+        weight: 1
+      - path: Null_1/arm_band_R/Subdivision_Surface_1/Cube
+        weight: 1
+      - path: Null_1/Cube_2_3
+        weight: 1
+      - path: Null_1/Cube_15
+        weight: 1
+      - path: Null_1/Cylinder_1
+        weight: 1
+      - path: Null_1/Cylinder_2
+        weight: 1
+      - path: Null_1/forearm
+        weight: 1
+      - path: Null_1/forearm/Cube_3_2
+        weight: 1
+      - path: Null_1/Full_Hand_R
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger1
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger1/Finger1_Tip
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger1/Finger1_Tip/forefinger_1
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger1/Finger1_Tip/forefinger_1/Cube_5_2
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger1/midfinger1
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger1/midfinger1/Cube_4_2
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger2
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger2/Finger2_Tip
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger2/Finger2_Tip/forefinger2
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger2/Finger2_Tip/forefinger2/Cube_7
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger2/midfinger2
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger2/midfinger2/Cube_6_2
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger3
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger3/Finger3_Tip
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger3/Finger3_Tip/forefinger3
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger3/Finger3_Tip/forefinger3/Cube_9
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger3/midfinger3
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger3/midfinger3/Cube_8
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger4
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger4/Finger4_Tip
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger4/Finger4_Tip/forefinger4
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger4/Finger4_Tip/forefinger4/Cube_11
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger4/midfinger4
+        weight: 1
+      - path: Null_1/Full_Hand_R/Finger4/midfinger4/Cube_10
+        weight: 1
+      - path: Null_1/Full_Hand_R/hand_base
+        weight: 1
+      - path: Null_1/Full_Hand_R/hand_base/Cube_14
+        weight: 1
+      - path: Null_1/Full_Hand_R/Thumb
+        weight: 1
+      - path: Null_1/Full_Hand_R/Thumb/thumb
+        weight: 1
+      - path: Null_1/Full_Hand_R/Thumb/thumb/Cube_12
+        weight: 1
+      - path: Null_1/Full_Hand_R/Thumb/thumb_tip
+        weight: 1
+      - path: Null_1/Full_Hand_R/Thumb/thumb_tip/thumb_1
+        weight: 1
+      - path: Null_1/Full_Hand_R/Thumb/thumb_tip/thumb_1/Cube_13
+        weight: 1
+      - path: Null_1/Sphere
+        weight: 1
+      - path: Null_1/Subdivision_Surface_1_2
+        weight: 1
+      - path: Null_1/Subdivision_Surface_1_2/Cube_16
+        weight: 1
+      - path: Null_1/Tube
+        weight: 1
+      - path: Null_1/Tube_1
+        weight: 1
+      - path: Null_1/Tube_2
+        weight: 1
+      - path: ring1
+        weight: 1
+      - path: ring1/Cube_1_3
+        weight: 1
+      - path: ring1/Torus
+        weight: 1
+      - path: ring2
+        weight: 1
+      - path: ring3
+        weight: 1
+      - path: ring4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
