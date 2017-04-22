@@ -17,7 +17,11 @@ public class PlayerController : MonoBehaviour {
 
 	void Update () 
 	{
-	}
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            MoveOnPlatform();
+        }
+    }
 
 	public void OnCollisionEnter (Collision collision)
 	{
@@ -27,4 +31,10 @@ public class PlayerController : MonoBehaviour {
             _movePlatform.StartPlatform();
         }
 	}
+
+    public void MoveOnPlatform()
+    {
+        transform.position = platform.transform.position + offset;
+        _movePlatform.StartPlatform();
+    }
 }

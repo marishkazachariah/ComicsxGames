@@ -435,6 +435,7 @@
     <Compile Include="Assets\iTweenEditor\iTween.cs" />
     <Compile Include="Assets\iTweenEditor\iTweenEvent.cs" />
     <Compile Include="Assets\iTweenEditor\iTweenPath.cs" />
+    <Compile Include="Assets\startMovingPlatform.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
