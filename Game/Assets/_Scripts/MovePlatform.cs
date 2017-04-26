@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class MovePlatform : MonoBehaviour {
 
-	public GameObject player;
-	private Vector3 offset; 
+    [Header("Moving Platforms")]
+    public GameObject introPlatform;
+    public GameObject raft;
 
-	void Start ()
+    private Vector3 offset;
+  
+    void Start ()
     {
     }
 
@@ -16,13 +19,31 @@ public class MovePlatform : MonoBehaviour {
 
 	}
 
-	public void StartPlatform()
+    void OnTriggerEnter(Collider other)
+    {
+   
+        if (other.tag == "Player")
+        {
+            other.transform.parent = transform;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            other.transform.parent = null;
+        }
+    }
+
+    public void IntroPlatform()
     {
         iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("IntroPlatform"), "time", 15, "easetype", iTween.EaseType.linear));
     }
 
-    public void MoveIntoBody()
+    public void RaftToBody()
     {
-        iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("IntoBody"), "time", 15, "easetype", iTween.EaseType.linear));
+        iTween.MoveTo(raft, iTween.Hash("path", iTweenPath.GetPath("RaftPath"), "time", 5, "easetype", iTween.EaseType.linear));
     }
+
 }

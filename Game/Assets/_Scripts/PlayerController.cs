@@ -6,12 +6,16 @@ public class PlayerController : MonoBehaviour {
 
 	public GameObject platform;
     public GameObject raft;
+
     private Vector3 offset;
+    private Rigidbody _rb;
 
     private MovePlatform _movePlatform;
-
+   
 	void Start () {
 		offset = new Vector3 (0, 1, 0);
+        _rb = GetComponent<Rigidbody>();
+
         _movePlatform = FindObjectOfType<MovePlatform>();
 	}
 
@@ -32,31 +36,37 @@ public class PlayerController : MonoBehaviour {
         if (collision.gameObject.tag == "tool")
         {
             transform.position = platform.transform.position + offset;
-            _movePlatform.StartPlatform();
+            _movePlatform.IntroPlatform();
         }
-        if (collision.gameObject.tag == "raft")
-        {
-            MoveRaft();
-            Debug.Log("moving");
-        }
+        //if (collision.gameObject.tag == "raft")
+        //{
+        //    MoveRaft();
+        //    Debug.Log("moving");
+        //}
     }
 
-    //public void OnTriggerEnter(Collider collider)
-    //{
-    //    if (collider.gameObject.tag == "raft")
-    //    {
-    //        MoveRaft();
-    //    }
-    //}
+    public void OnTriggerEnter(Collider collider)
+    {
+        if (collider.gameObject.tag == "raft")
+        {
+            StartCoroutine(MoveRaft());
+        }
+    }
+    
 
     public void MoveOnPlatform()
     {
-        transform.position = platform.transform.position + offset;
-        _movePlatform.StartPlatform();
+        _movePlatform.IntroPlatform();
     }
 
-    public void MoveRaft()
+    public IEnumerator MoveRaft()
     {
+        yield return new WaitForSeconds(5);
         iTween.MoveTo(raft, iTween.Hash("path", iTweenPath.GetPath("RaftPath"), "time", 5, "easetype", iTween.EaseType.linear));
+        transform.position = raft.transform.position + offset;
+        _rb.MovePosition(transform.position + transform.forward * Time.deltaTime);
+
+        // iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("playerOnPlatform"), "time", 5, "easetype", iTween.EaseType.linear));
+
     }
 }
