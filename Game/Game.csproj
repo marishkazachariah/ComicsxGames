@@ -104,7 +104,6 @@
   <ItemGroup>
     <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
-    <Compile Include="Assets\RaftPlatformMovement.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\SoftNormalsToVertexColor.cs" />
@@ -426,9 +425,10 @@
     <Compile Include="Assets\_Scripts\Dialogue\DialogueImplementation.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\OptionButton.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\SimpleJSON.cs" />
-    <Compile Include="Assets\_Scripts\MovePlatform.cs" />
+    <Compile Include="Assets\_Scripts\PlatformManager.cs" />
     <Compile Include="Assets\_Scripts\PlayerController.cs" />
-    <Compile Include="Assets\_Scripts\startMovingPlatform.cs" />
+    <Compile Include="Assets\_Scripts\RaftPlatformMovement.cs" />
+    <Compile Include="Assets\_Scripts\StartMovingPlatform.cs" />
     <Compile Include="Assets\iTweenEditor\Examples\StartAndStopTween.cs" />
     <Compile Include="Assets\iTweenEditor\Helper Classes\EventParamMappings.cs" />
     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransform.cs" />

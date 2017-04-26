@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovePlatform : MonoBehaviour {
+public class PlatformManager : MonoBehaviour {
 
     [Header("Moving Platforms")]
     public GameObject introPlatform;
@@ -16,29 +16,20 @@ public class MovePlatform : MonoBehaviour {
 
     void Update ()
     {
-
-	}
-
-    void OnTriggerEnter(Collider other)
-    {
-   
-        if (other.tag == "Player")
+        if (Input.GetKeyDown(KeyCode.T))
         {
-            other.transform.parent = transform;
+            IntroPlatform();
         }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "Player")
+        if (Input.GetKeyDown(KeyCode.U))
         {
-            other.transform.parent = null;
+            RaftToBody();
         }
+
     }
 
     public void IntroPlatform()
     {
-        iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("IntroPlatform"), "time", 15, "easetype", iTween.EaseType.linear));
+        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("IntroPlatform"), "time", 15, "easetype", iTween.EaseType.linear));
     }
 
     public void RaftToBody()
