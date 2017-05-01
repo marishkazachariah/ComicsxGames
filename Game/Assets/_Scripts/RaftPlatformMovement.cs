@@ -4,40 +4,30 @@ using UnityEngine;
 
 public class RaftPlatformMovement : MonoBehaviour
 {
-    public float speed = 10;
-    private int direction = 1;
 
-    void Update()
+    [SerializeField]
+    private GameObject player;
+
+    public void OnTriggerEnter(Collider collider)
     {
-        //transform.Translate(Vector3.forward * speed * direction * Time.deltaTime);
-
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        //if (other.tag == "Target")
-        //{
-        //    if (direction == 1)
-        //        direction = -1;
-        //    else
-        //        direction = 1;
-        //}
-
-        if (other.tag == "Player")
+        if (collider.tag == "Player")
         {
-            other.transform.parent = transform;
-            //transform.Translate(Vector3.forward * speed * direction * Time.deltaTime);
-
-            iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("RaftPath"), "time", 5, "easetype", iTween.EaseType.linear));
-
+            StartCoroutine("MoveRaftToBody");
+            //collider.transform.parent = transform;
         }
     }
-
-    //private void OnTriggerExit(Collider other)
+    //public void OnTriggerExit(Collider collider)
     //{
-    //    if (other.tag == "Player")
+    //    if (collider.tag == "Player")
     //    {
-    //        other.transform.parent = null;
+    //        collider.transform.parent = transform;
     //    }
     //}
+
+    public IEnumerator MoveRaftToBody()
+    {
+        yield return new WaitForSeconds(3);
+        iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("RaftPath"), "time", 5, "easetype", iTween.EaseType.easeInOutSine));
+        iTween.MoveTo(player, iTween.Hash("path", iTweenPath.GetPath("RaftPath"), "time", 5, "easetype", iTween.EaseType.easeInOutSine));
+    }
 }
