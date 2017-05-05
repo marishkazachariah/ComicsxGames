@@ -7,11 +7,11 @@ public class PlayerController : MonoBehaviour {
 	public GameObject platform;
 
 
-    private PlatformManager _movePlatform;
+    private MovingObjectManager _moveObject;
    
 	void Start () {
 
-        _movePlatform = FindObjectOfType<PlatformManager>();
+        _moveObject = FindObjectOfType<MovingObjectManager>();
 	}
 
 	void Update () 
@@ -26,27 +26,26 @@ public class PlayerController : MonoBehaviour {
 	{
         if (collision.gameObject.tag == "tool")
         {
-            _movePlatform.IntroPlatform();
+            _moveObject.IntroPlatform();
         }
-        //if (collision.gameObject.tag == "raft")
-        //{
-        //    MoveRaft();
-        //    Debug.Log("moving");
-        //}
+       
     }
 
-    //public void OnTriggerEnter(Collider collider)
-    //{
-    //    if (collider.gameObject.tag == "raft")
-    //    {
-    //        StartCoroutine(MoveRaft());
-    //    }
-    //}
-    
-
-    public void MoveOnPlatform()
+    public void OnCollisionStay(Collision collision)
     {
-        _movePlatform.IntroPlatform();
+        if (collision.gameObject.tag == "raft")
+        {
+            transform.parent = collision.transform;
+        }
+        else
+        {
+            transform.parent = null;
+        }
+    }
+
+        public void MoveOnPlatform()
+    {
+        _moveObject.IntroPlatform();
     }
 
 }

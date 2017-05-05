@@ -425,7 +425,7 @@
     <Compile Include="Assets\_Scripts\Dialogue\DialogueImplementation.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\OptionButton.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\SimpleJSON.cs" />
-    <Compile Include="Assets\_Scripts\PlatformManager.cs" />
+    <Compile Include="Assets\_Scripts\MovingObjectManager.cs" />
     <Compile Include="Assets\_Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Scripts\RaftPlatformMovement.cs" />
     <Compile Include="Assets\_Scripts\StartMovingPlatform.cs" />
