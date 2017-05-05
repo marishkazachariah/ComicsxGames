@@ -1,0 +1,723 @@
+fileFormatVersion: 2
+guid: a4f260ecaf6ec4b5aa6ee7c9ea669cfc
+timeCreated: 1493680148
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cap_1
+    100002: Cap_2
+    100004: Capsule
+    100006: Capsule_1
+    100008: Capsule_1_2
+    100010: Capsule_2
+    100012: corner_blaset
+    100014: corner_blaset_1
+    100016: corner_blaset_2
+    100018: corner_blaset_3
+    100020: Cube
+    100022: Cube_1
+    100024: Cube_2
+    100026: Cube_2_10
+    100028: Cube_2_11
+    100030: Cube_2_12
+    100032: Cube_2_13
+    100034: Cube_2_2
+    100036: Cube_2_3
+    100038: Cube_2_4
+    100040: Cube_2_5
+    100042: Cube_2_6
+    100044: Cube_2_7
+    100046: Cube_2_8
+    100048: Cube_2_9
+    100050: Cube_3
+    100052: Cube_3_2
+    100054: Cube_3_3
+    100056: Cube_3_4
+    100058: Cube_3_5
+    100060: Cube_3_6
+    100062: Cube_3_7
+    100064: Cube_3_8
+    100066: Cylinder
+    100068: Cylinder_1
+    100070: Cylinder_10
+    100072: Cylinder_11
+    100074: Cylinder_11_2
+    100076: Cylinder_11_3
+    100078: Cylinder_11_4
+    100080: Cylinder_1_2
+    100082: Cylinder_2
+    100084: Cylinder_2_2
+    100086: Cylinder_2_3
+    100088: Cylinder_3
+    100090: Cylinder_3_2
+    100092: Cylinder_4
+    100094: Cylinder_5
+    100096: Cylinder_6
+    100098: Cylinder_7
+    100100: Cylinder_8
+    100102: Cylinder_9
+    100104: Null_1
+    100106: Null_2
+    100108: Null_3
+    100110: Null_3_2
+    100112: Null_3_3
+    100114: Null_4
+    100116: Null_4_2
+    100118: Null_4_3
+    100120: Null_4_4
+    100122: //RootNode
+    100124: or
+    100126: OUTERS
+    100128: outers
+    100130: Sphere
+    100132: Sphere_1
+    100134: Sphere_1_2
+    100136: Sphere_2
+    100138: Sphere_2_2
+    100140: Sphere_3
+    100142: Sweep
+    100144: Symmetry
+    100146: Symmetry_1
+    100148: Symmetry_2
+    100150: Torus
+    100152: Torus_1
+    100154: Torus_1_2
+    100156: Torus_2
+    100158: Torus_2_2
+    100160: Torus_3
+    100162: Torus_4
+    100164: Torus_5
+    100166: Torus_6
+    100168: Torus_7
+    100170: Torus_8
+    100172: Torus_8_2
+    100174: Tube
+    100176: Tube_2
+    100178: Tube_2_2
+    100180: Tube_2_3
+    100182: Tube_2_4
+    100184: Tube_5
+    100186: Tube_5_2
+    100188: Tube_5_3
+    100190: Tube_5_4
+    100192: WING
+    400000: Cap_1
+    400002: Cap_2
+    400004: Capsule
+    400006: Capsule_1
+    400008: Capsule_1_2
+    400010: Capsule_2
+    400012: corner_blaset
+    400014: corner_blaset_1
+    400016: corner_blaset_2
+    400018: corner_blaset_3
+    400020: Cube
+    400022: Cube_1
+    400024: Cube_2
+    400026: Cube_2_10
+    400028: Cube_2_11
+    400030: Cube_2_12
+    400032: Cube_2_13
+    400034: Cube_2_2
+    400036: Cube_2_3
+    400038: Cube_2_4
+    400040: Cube_2_5
+    400042: Cube_2_6
+    400044: Cube_2_7
+    400046: Cube_2_8
+    400048: Cube_2_9
+    400050: Cube_3
+    400052: Cube_3_2
+    400054: Cube_3_3
+    400056: Cube_3_4
+    400058: Cube_3_5
+    400060: Cube_3_6
+    400062: Cube_3_7
+    400064: Cube_3_8
+    400066: Cylinder
+    400068: Cylinder_1
+    400070: Cylinder_10
+    400072: Cylinder_11
+    400074: Cylinder_11_2
+    400076: Cylinder_11_3
+    400078: Cylinder_11_4
+    400080: Cylinder_1_2
+    400082: Cylinder_2
+    400084: Cylinder_2_2
+    400086: Cylinder_2_3
+    400088: Cylinder_3
+    400090: Cylinder_3_2
+    400092: Cylinder_4
+    400094: Cylinder_5
+    400096: Cylinder_6
+    400098: Cylinder_7
+    400100: Cylinder_8
+    400102: Cylinder_9
+    400104: Null_1
+    400106: Null_2
+    400108: Null_3
+    400110: Null_3_2
+    400112: Null_3_3
+    400114: Null_4
+    400116: Null_4_2
+    400118: Null_4_3
+    400120: Null_4_4
+    400122: //RootNode
+    400124: or
+    400126: OUTERS
+    400128: outers
+    400130: Sphere
+    400132: Sphere_1
+    400134: Sphere_1_2
+    400136: Sphere_2
+    400138: Sphere_2_2
+    400140: Sphere_3
+    400142: Sweep
+    400144: Symmetry
+    400146: Symmetry_1
+    400148: Symmetry_2
+    400150: Torus
+    400152: Torus_1
+    400154: Torus_1_2
+    400156: Torus_2
+    400158: Torus_2_2
+    400160: Torus_3
+    400162: Torus_4
+    400164: Torus_5
+    400166: Torus_6
+    400168: Torus_7
+    400170: Torus_8
+    400172: Torus_8_2
+    400174: Tube
+    400176: Tube_2
+    400178: Tube_2_2
+    400180: Tube_2_3
+    400182: Tube_2_4
+    400184: Tube_5
+    400186: Tube_5_2
+    400188: Tube_5_3
+    400190: Tube_5_4
+    400192: WING
+    2300000: Cap_1
+    2300002: Cap_2
+    2300004: Capsule
+    2300006: Capsule_1
+    2300008: Capsule_1_2
+    2300010: Capsule_2
+    2300012: Cube
+    2300014: Cube_1
+    2300016: Cube_2
+    2300018: Cube_2_10
+    2300020: Cube_2_11
+    2300022: Cube_2_12
+    2300024: Cube_2_13
+    2300026: Cube_2_2
+    2300028: Cube_2_3
+    2300030: Cube_2_4
+    2300032: Cube_2_5
+    2300034: Cube_2_6
+    2300036: Cube_2_7
+    2300038: Cube_2_8
+    2300040: Cube_2_9
+    2300042: Cube_3
+    2300044: Cube_3_2
+    2300046: Cube_3_3
+    2300048: Cube_3_4
+    2300050: Cube_3_5
+    2300052: Cube_3_6
+    2300054: Cube_3_7
+    2300056: Cube_3_8
+    2300058: Cylinder
+    2300060: Cylinder_1
+    2300062: Cylinder_10
+    2300064: Cylinder_11
+    2300066: Cylinder_11_2
+    2300068: Cylinder_11_3
+    2300070: Cylinder_11_4
+    2300072: Cylinder_1_2
+    2300074: Cylinder_2
+    2300076: Cylinder_2_2
+    2300078: Cylinder_2_3
+    2300080: Cylinder_3
+    2300082: Cylinder_3_2
+    2300084: Cylinder_4
+    2300086: Cylinder_5
+    2300088: Cylinder_6
+    2300090: Cylinder_7
+    2300092: Cylinder_8
+    2300094: Cylinder_9
+    2300096: Sphere
+    2300098: Sphere_1
+    2300100: Sphere_1_2
+    2300102: Sphere_2
+    2300104: Sphere_2_2
+    2300106: Sphere_3
+    2300108: Sweep
+    2300110: Torus
+    2300112: Torus_1
+    2300114: Torus_1_2
+    2300116: Torus_2
+    2300118: Torus_2_2
+    2300120: Torus_3
+    2300122: Torus_4
+    2300124: Torus_5
+    2300126: Torus_6
+    2300128: Torus_7
+    2300130: Torus_8
+    2300132: Torus_8_2
+    2300134: Tube
+    2300136: Tube_2
+    2300138: Tube_2_2
+    2300140: Tube_2_3
+    2300142: Tube_2_4
+    2300144: Tube_5
+    2300146: Tube_5_2
+    2300148: Tube_5_3
+    2300150: Tube_5_4
+    3300000: Cap_1
+    3300002: Cap_2
+    3300004: Capsule
+    3300006: Capsule_1
+    3300008: Capsule_1_2
+    3300010: Capsule_2
+    3300012: Cube
+    3300014: Cube_1
+    3300016: Cube_2
+    3300018: Cube_2_10
+    3300020: Cube_2_11
+    3300022: Cube_2_12
+    3300024: Cube_2_13
+    3300026: Cube_2_2
+    3300028: Cube_2_3
+    3300030: Cube_2_4
+    3300032: Cube_2_5
+    3300034: Cube_2_6
+    3300036: Cube_2_7
+    3300038: Cube_2_8
+    3300040: Cube_2_9
+    3300042: Cube_3
+    3300044: Cube_3_2
+    3300046: Cube_3_3
+    3300048: Cube_3_4
+    3300050: Cube_3_5
+    3300052: Cube_3_6
+    3300054: Cube_3_7
+    3300056: Cube_3_8
+    3300058: Cylinder
+    3300060: Cylinder_1
+    3300062: Cylinder_10
+    3300064: Cylinder_11
+    3300066: Cylinder_11_2
+    3300068: Cylinder_11_3
+    3300070: Cylinder_11_4
+    3300072: Cylinder_1_2
+    3300074: Cylinder_2
+    3300076: Cylinder_2_2
+    3300078: Cylinder_2_3
+    3300080: Cylinder_3
+    3300082: Cylinder_3_2
+    3300084: Cylinder_4
+    3300086: Cylinder_5
+    3300088: Cylinder_6
+    3300090: Cylinder_7
+    3300092: Cylinder_8
+    3300094: Cylinder_9
+    3300096: Sphere
+    3300098: Sphere_1
+    3300100: Sphere_1_2
+    3300102: Sphere_2
+    3300104: Sphere_2_2
+    3300106: Sphere_3
+    3300108: Sweep
+    3300110: Torus
+    3300112: Torus_1
+    3300114: Torus_1_2
+    3300116: Torus_2
+    3300118: Torus_2_2
+    3300120: Torus_3
+    3300122: Torus_4
+    3300124: Torus_5
+    3300126: Torus_6
+    3300128: Torus_7
+    3300130: Torus_8
+    3300132: Torus_8_2
+    3300134: Tube
+    3300136: Tube_2
+    3300138: Tube_2_2
+    3300140: Tube_2_3
+    3300142: Tube_2_4
+    3300144: Tube_5
+    3300146: Tube_5_2
+    3300148: Tube_5_3
+    3300150: Tube_5_4
+    4300000: Sweep
+    4300002: Cap_1
+    4300004: Cap_2
+    4300006: Sphere_3
+    4300008: Sphere_2
+    4300010: Sphere_1
+    4300012: Sphere
+    4300014: Cube_3
+    4300016: Cube_2
+    4300018: Torus_8
+    4300020: Cylinder_11
+    4300022: Cylinder_11_2
+    4300024: Cube_3_2
+    4300026: Cube_2_2
+    4300028: Torus_8_2
+    4300030: Torus_7
+    4300032: Torus_6
+    4300034: Cylinder_11_3
+    4300036: Cylinder_11_4
+    4300038: Capsule_1
+    4300040: Sphere_1_2
+    4300042: Sphere_2_2
+    4300044: Cube_2_3
+    4300046: Capsule_1_2
+    4300048: Capsule
+    4300050: Cube_2_4
+    4300052: Capsule_2
+    4300054: Cube_2_5
+    4300056: Cube_3_3
+    4300058: Cube_2_6
+    4300060: Cube_3_4
+    4300062: Cube_2_7
+    4300064: Cube_3_5
+    4300066: Cube_2_8
+    4300068: Cube_2_9
+    4300070: Cube_3_6
+    4300072: Cube_2_10
+    4300074: Cube_3_7
+    4300076: Cube_2_11
+    4300078: Cube_3_8
+    4300080: Cube_2_12
+    4300082: Cube_2_13
+    4300084: Cylinder_10
+    4300086: Cylinder_9
+    4300088: Cylinder_8
+    4300090: Cylinder_7
+    4300092: Cylinder_3
+    4300094: Cube_1
+    4300096: Cube
+    4300098: Torus_5
+    4300100: Torus_4
+    4300102: Torus_3
+    4300104: Cylinder_6
+    4300106: Cylinder_5
+    4300108: Cylinder_4
+    4300110: Cylinder_1
+    4300112: Cylinder_2
+    4300114: Torus_2
+    4300116: Torus_1
+    4300118: Torus
+    4300120: Cylinder
+    4300122: Cylinder_3_2
+    4300124: Cylinder_2_2
+    4300126: Cylinder_1_2
+    4300128: Cylinder_2_3
+    4300130: Tube_2
+    4300132: Tube_5
+    4300134: Tube_2_2
+    4300136: Tube_5_2
+    4300138: Tube_2_3
+    4300140: Tube_5_3
+    4300142: Tube_2_4
+    4300144: Tube_5_4
+    4300146: Torus_1_2
+    4300148: Torus_2_2
+    4300150: Tube
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CINEMA_4D_Main
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: or
+        weight: 1
+      - path: or/Cube
+        weight: 1
+      - path: or/Cube_1
+        weight: 1
+      - path: or/Cylinder
+        weight: 1
+      - path: or/Cylinder_1
+        weight: 1
+      - path: or/Cylinder_2
+        weight: 1
+      - path: or/Cylinder_3
+        weight: 1
+      - path: or/Cylinder_4
+        weight: 1
+      - path: or/Cylinder_5
+        weight: 1
+      - path: or/Cylinder_6
+        weight: 1
+      - path: or/Cylinder_7
+        weight: 1
+      - path: or/Cylinder_8
+        weight: 1
+      - path: or/Cylinder_9
+        weight: 1
+      - path: or/Cylinder_10
+        weight: 1
+      - path: or/Null_1
+        weight: 1
+      - path: or/Null_1/corner_blaset
+        weight: 1
+      - path: or/Null_1/corner_blaset/Tube_2_4
+        weight: 1
+      - path: or/Null_1/corner_blaset/Tube_5_4
+        weight: 1
+      - path: or/Null_1/corner_blaset_1
+        weight: 1
+      - path: or/Null_1/corner_blaset_1/Tube_2_3
+        weight: 1
+      - path: or/Null_1/corner_blaset_1/Tube_5_3
+        weight: 1
+      - path: or/Null_1/corner_blaset_2
+        weight: 1
+      - path: or/Null_1/corner_blaset_2/Tube_2_2
+        weight: 1
+      - path: or/Null_1/corner_blaset_2/Tube_5_2
+        weight: 1
+      - path: or/Null_1/corner_blaset_3
+        weight: 1
+      - path: or/Null_1/corner_blaset_3/Tube_2
+        weight: 1
+      - path: or/Null_1/corner_blaset_3/Tube_5
+        weight: 1
+      - path: or/Null_1/Cylinder_1_2
+        weight: 1
+      - path: or/Null_1/Cylinder_2_2
+        weight: 1
+      - path: or/Null_1/Cylinder_2_3
+        weight: 1
+      - path: or/Null_1/Cylinder_3_2
+        weight: 1
+      - path: or/Null_1/Torus_1_2
+        weight: 1
+      - path: or/Null_1/Torus_2_2
+        weight: 1
+      - path: or/Null_1/Tube
+        weight: 1
+      - path: or/Null_2
+        weight: 1
+      - path: or/Null_4
+        weight: 1
+      - path: or/Null_4/Cube_2
+        weight: 1
+      - path: or/Null_4/Cube_3
+        weight: 1
+      - path: or/Null_4/Cylinder_11
+        weight: 1
+      - path: or/Null_4/Cylinder_11_2
+        weight: 1
+      - path: or/Null_4/Torus_8
+        weight: 1
+      - path: or/outers
+        weight: 1
+      - path: or/outers/OUTERS
+        weight: 1
+      - path: or/outers/OUTERS/Null_3_2
+        weight: 1
+      - path: or/outers/OUTERS/Null_3_2/Cube_2_10
+        weight: 1
+      - path: or/outers/OUTERS/Null_3_2/Cube_3_6
+        weight: 1
+      - path: or/outers/OUTERS/Null_3_2/Symmetry_2
+        weight: 1
+      - path: or/outers/OUTERS/Null_3_2/Symmetry_2/Null_3_3
+        weight: 1
+      - path: or/outers/OUTERS/Null_3_2/Symmetry_2/Null_3_3/Cube_2_11
+        weight: 1
+      - path: or/outers/OUTERS/Null_3_2/Symmetry_2/Null_3_3/Cube_2_12
+        weight: 1
+      - path: or/outers/OUTERS/Null_3_2/Symmetry_2/Null_3_3/Cube_2_13
+        weight: 1
+      - path: or/outers/OUTERS/Null_3_2/Symmetry_2/Null_3_3/Cube_3_7
+        weight: 1
+      - path: or/outers/OUTERS/Null_3_2/Symmetry_2/Null_3_3/Cube_3_8
+        weight: 1
+      - path: or/outers/OUTERS/Null_4_4
+        weight: 1
+      - path: or/outers/OUTERS/Null_4_4/Cube_2_6
+        weight: 1
+      - path: or/outers/OUTERS/Null_4_4/Cube_3_3
+        weight: 1
+      - path: or/outers/OUTERS/Null_4_4/Symmetry
+        weight: 1
+      - path: or/outers/OUTERS/Null_4_4/Symmetry/Null_3
+        weight: 1
+      - path: or/outers/OUTERS/Null_4_4/Symmetry/Null_3/Cube_2_7
+        weight: 1
+      - path: or/outers/OUTERS/Null_4_4/Symmetry/Null_3/Cube_2_8
+        weight: 1
+      - path: or/outers/OUTERS/Null_4_4/Symmetry/Null_3/Cube_2_9
+        weight: 1
+      - path: or/outers/OUTERS/Null_4_4/Symmetry/Null_3/Cube_3_4
+        weight: 1
+      - path: or/outers/OUTERS/Null_4_4/Symmetry/Null_3/Cube_3_5
+        weight: 1
+      - path: or/Sphere
+        weight: 1
+      - path: or/Sphere_1
+        weight: 1
+      - path: or/Sphere_2
+        weight: 1
+      - path: or/Sphere_3
+        weight: 1
+      - path: or/Symmetry_1
+        weight: 1
+      - path: or/Symmetry_1/Null_4_2
+        weight: 1
+      - path: or/Symmetry_1/Null_4_2/Cube_2_2
+        weight: 1
+      - path: or/Symmetry_1/Null_4_2/Cube_3_2
+        weight: 1
+      - path: or/Symmetry_1/Null_4_2/Cylinder_11_3
+        weight: 1
+      - path: or/Symmetry_1/Null_4_2/Cylinder_11_4
+        weight: 1
+      - path: or/Symmetry_1/Null_4_2/Torus_6
+        weight: 1
+      - path: or/Symmetry_1/Null_4_2/Torus_7
+        weight: 1
+      - path: or/Symmetry_1/Null_4_2/Torus_8_2
+        weight: 1
+      - path: or/Torus
+        weight: 1
+      - path: or/Torus_1
+        weight: 1
+      - path: or/Torus_2
+        weight: 1
+      - path: or/Torus_3
+        weight: 1
+      - path: or/Torus_4
+        weight: 1
+      - path: or/Torus_5
+        weight: 1
+      - path: or/WING
+        weight: 1
+      - path: or/WING/Null_4_3
+        weight: 1
+      - path: or/WING/Null_4_3/Capsule
+        weight: 1
+      - path: or/WING/Null_4_3/Capsule_1
+        weight: 1
+      - path: or/WING/Null_4_3/Capsule_1_2
+        weight: 1
+      - path: or/WING/Null_4_3/Capsule_2
+        weight: 1
+      - path: or/WING/Null_4_3/Cube_2_3
+        weight: 1
+      - path: or/WING/Null_4_3/Cube_2_4
+        weight: 1
+      - path: or/WING/Null_4_3/Cube_2_5
+        weight: 1
+      - path: or/WING/Null_4_3/Sphere_1_2
+        weight: 1
+      - path: or/WING/Null_4_3/Sphere_2_2
+        weight: 1
+      - path: Sweep
+        weight: 1
+      - path: Sweep/Cap_1
+        weight: 1
+      - path: Sweep/Cap_2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

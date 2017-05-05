@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: ade9d4a68fed1453d8701127c768cf3b
+timeCreated: 1493677698
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Array
+    100002: Array_1
+    100004: Cube
+    100006: Cube_1
+    100008: Cube_10
+    100010: Cube_11
+    100012: Cube_12
+    100014: Cube_13
+    100016: Cube_14
+    100018: Cube_15
+    100020: Cube_16
+    100022: Cube_1_2
+    100024: Cube_2
+    100026: Cube_2_2
+    100028: Cube_2_3
+    100030: Cube_3
+    100032: Cube_3_2
+    100034: Cube_3_3
+    100036: Cube_4
+    100038: Cube_5
+    100040: Cube_6
+    100042: Cube_7
+    100044: Cube_8
+    100046: Cube_9
+    100048: Cylinder
+    100050: front
+    100052: light
+    100054: light_1
+    100056: light_2
+    100058: light_3
+    100060: light_4
+    100062: light_5
+    100064: light_6
+    100066: light_main
+    100068: Subdivision_Surface_1
+    100070: //RootNode
+    100072: Torus
+    100074: Torus_2
+    100076: Torus_3
+    100078: Torus_4
+    100080: Torus_5
+    100082: Torus_6
+    100084: Torus_7
+    100086: Torus_8
+    400000: Array
+    400002: Array_1
+    400004: Cube
+    400006: Cube_1
+    400008: Cube_10
+    400010: Cube_11
+    400012: Cube_12
+    400014: Cube_13
+    400016: Cube_14
+    400018: Cube_15
+    400020: Cube_16
+    400022: Cube_1_2
+    400024: Cube_2
+    400026: Cube_2_2
+    400028: Cube_2_3
+    400030: Cube_3
+    400032: Cube_3_2
+    400034: Cube_3_3
+    400036: Cube_4
+    400038: Cube_5
+    400040: Cube_6
+    400042: Cube_7
+    400044: Cube_8
+    400046: Cube_9
+    400048: Cylinder
+    400050: front
+    400052: light
+    400054: light_1
+    400056: light_2
+    400058: light_3
+    400060: light_4
+    400062: light_5
+    400064: light_6
+    400066: light_main
+    400068: Subdivision_Surface_1
+    400070: //RootNode
+    400072: Torus
+    400074: Torus_2
+    400076: Torus_3
+    400078: Torus_4
+    400080: Torus_5
+    400082: Torus_6
+    400084: Torus_7
+    400086: Torus_8
+    2300000: Cube
+    2300002: Cube_1
+    2300004: Cube_10
+    2300006: Cube_11
+    2300008: Cube_12
+    2300010: Cube_13
+    2300012: Cube_14
+    2300014: Cube_15
+    2300016: Cube_16
+    2300018: Cube_1_2
+    2300020: Cube_2
+    2300022: Cube_2_2
+    2300024: Cube_2_3
+    2300026: Cube_3
+    2300028: Cube_3_2
+    2300030: Cube_3_3
+    2300032: Cube_4
+    2300034: Cube_5
+    2300036: Cube_6
+    2300038: Cube_7
+    2300040: Cube_8
+    2300042: Cube_9
+    2300044: Cylinder
+    2300046: Torus
+    2300048: Torus_2
+    2300050: Torus_3
+    2300052: Torus_4
+    2300054: Torus_5
+    2300056: Torus_6
+    2300058: Torus_7
+    2300060: Torus_8
+    3300000: Cube
+    3300002: Cube_1
+    3300004: Cube_10
+    3300006: Cube_11
+    3300008: Cube_12
+    3300010: Cube_13
+    3300012: Cube_14
+    3300014: Cube_15
+    3300016: Cube_16
+    3300018: Cube_1_2
+    3300020: Cube_2
+    3300022: Cube_2_2
+    3300024: Cube_2_3
+    3300026: Cube_3
+    3300028: Cube_3_2
+    3300030: Cube_3_3
+    3300032: Cube_4
+    3300034: Cube_5
+    3300036: Cube_6
+    3300038: Cube_7
+    3300040: Cube_8
+    3300042: Cube_9
+    3300044: Cylinder
+    3300046: Torus
+    3300048: Torus_2
+    3300050: Torus_3
+    3300052: Torus_4
+    3300054: Torus_5
+    3300056: Torus_6
+    3300058: Torus_7
+    3300060: Torus_8
+    4300000: Cylinder
+    4300002: Torus
+    4300004: Cube
+    4300006: Cube_2
+    4300008: Torus_2
+    4300010: Cube_3
+    4300012: Cube_4
+    4300014: Torus_3
+    4300016: Cube_5
+    4300018: Cube_6
+    4300020: Torus_4
+    4300022: Cube_7
+    4300024: Cube_8
+    4300026: Torus_5
+    4300028: Cube_9
+    4300030: Cube_10
+    4300032: Torus_6
+    4300034: Cube_11
+    4300036: Cube_12
+    4300038: Cube_3_2
+    4300040: Cube_2_2
+    4300042: Cube_1
+    4300044: Torus_7
+    4300046: Torus_8
+    4300048: Cube_13
+    4300050: Cube_14
+    4300052: Cube_15
+    4300054: Cube_16
+    4300056: Cube_2_3
+    4300058: Cube_3_3
+    4300060: Cube_1_2
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CINEMA_4D_Main
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube_1_2
+        weight: 1
+      - path: Cube_3_3
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: front
+        weight: 1
+      - path: front/Cube_2_3
+        weight: 1
+      - path: front/Cube_16
+        weight: 1
+      - path: front/light_main
+        weight: 1
+      - path: front/light_main/Array
+        weight: 1
+      - path: front/light_main/Array/Cube_1
+        weight: 1
+      - path: front/light_main/Array/Cube_2_2
+        weight: 1
+      - path: front/light_main/Array/Cube_3_2
+        weight: 1
+      - path: front/light_main/Array_1
+        weight: 1
+      - path: front/light_main/Array_1/light_1
+        weight: 1
+      - path: front/light_main/Array_1/light_1/Cube_11
+        weight: 1
+      - path: front/light_main/Array_1/light_1/Cube_12
+        weight: 1
+      - path: front/light_main/Array_1/light_1/Torus_6
+        weight: 1
+      - path: front/light_main/Array_1/light_2
+        weight: 1
+      - path: front/light_main/Array_1/light_2/Cube_9
+        weight: 1
+      - path: front/light_main/Array_1/light_2/Cube_10
+        weight: 1
+      - path: front/light_main/Array_1/light_2/Torus_5
+        weight: 1
+      - path: front/light_main/Array_1/light_3
+        weight: 1
+      - path: front/light_main/Array_1/light_3/Cube_7
+        weight: 1
+      - path: front/light_main/Array_1/light_3/Cube_8
+        weight: 1
+      - path: front/light_main/Array_1/light_3/Torus_4
+        weight: 1
+      - path: front/light_main/Array_1/light_4
+        weight: 1
+      - path: front/light_main/Array_1/light_4/Cube_5
+        weight: 1
+      - path: front/light_main/Array_1/light_4/Cube_6
+        weight: 1
+      - path: front/light_main/Array_1/light_4/Torus_3
+        weight: 1
+      - path: front/light_main/Array_1/light_5
+        weight: 1
+      - path: front/light_main/Array_1/light_5/Cube_3
+        weight: 1
+      - path: front/light_main/Array_1/light_5/Cube_4
+        weight: 1
+      - path: front/light_main/Array_1/light_5/Torus_2
+        weight: 1
+      - path: front/light_main/Array_1/light_6
+        weight: 1
+      - path: front/light_main/Array_1/light_6/Cube
+        weight: 1
+      - path: front/light_main/Array_1/light_6/Cube_2
+        weight: 1
+      - path: front/light_main/Array_1/light_6/Torus
+        weight: 1
+      - path: front/light_main/light
+        weight: 1
+      - path: front/light_main/light/Cube_13
+        weight: 1
+      - path: front/light_main/light/Cube_14
+        weight: 1
+      - path: front/light_main/light/Torus_8
+        weight: 1
+      - path: front/light_main/Subdivision_Surface_1
+        weight: 1
+      - path: front/light_main/Subdivision_Surface_1/Cube_15
+        weight: 1
+      - path: front/light_main/Torus_7
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
