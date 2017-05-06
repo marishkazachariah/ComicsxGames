@@ -12,23 +12,29 @@ public class DialogueImplementation : MonoBehaviour
 	public GameObject[] optionButtons;
 	public TextAsset defaultDialogue;
 	bool scrolling;
+    bool isStart = true; 
 
-	void Awake()
-	{
-		dialogue = GetComponent<Dialogue>();
+    void Awake()
+    {
+        dialogue = GetComponent<Dialogue>();
 
-		foreach (var gameObject in optionButtons)
-		{
-			gameObject.SetActive(false);
-		}
+        foreach (var gameObject in optionButtons)
+        {
+            gameObject.SetActive(false);
+        }
 
-		if (defaultDialogue != null)
-		{
-			textToRun = defaultDialogue.text;
-		}
-	}
+        if (defaultDialogue != null)
+        {
+            textToRun = defaultDialogue.text;
+            //dialogue.Run(defaultDialogue.text);
+        }
+    }
+    public void Start()
+    {
+        dialogue.Run(defaultDialogue);
 
-	public string Parse(string characterName, string line)
+    }
+    public string Parse(string characterName, string line)
 	{
 		return line;
 	}
@@ -42,9 +48,11 @@ public class DialogueImplementation : MonoBehaviour
 		const float timePerChar = .05f;
 		float accumTime = 0f;
 		int c = 0;
-		while (!InputNext() && c < textToScroll.Length)
-		{
-			yield return null;
+		//while (!InputNext() && c < textToScroll.Length)
+        while (c < textToScroll.Length)
+
+            {
+                yield return null;
 			accumTime += Time.deltaTime;
 			while (accumTime > timePerChar)
 			{
@@ -56,9 +64,9 @@ public class DialogueImplementation : MonoBehaviour
 		}
 		uiText.text = textToScroll;
 
-		while (InputNext()) yield return null;
+		//while (InputNext()) yield return null;
 
-		while (!InputNext()) yield return null;
+		//while (!InputNext()) yield return null;
 	}
 
 	public bool InputNext()
@@ -222,19 +230,24 @@ public class DialogueImplementation : MonoBehaviour
 	}
 
 	string textToRun = "";
-	void OnGUI()
-	{
-		if (!dialogue.running)
-		{
-			textToRun = GUI.TextArea(new Rect(0, 0, 600, 350), textToRun);
-			if (GUI.Button(new Rect(610, 0, 100, 50), "Test Run"))
-			{
-				dialogue.Run(textToRun);
-			}
-			if (GUI.Button(new Rect(610, 60, 100, 50), "Clear"))
-			{
-				textToRun = "";
-			}
-		}
-	}
+
+
+    void OnGUI()
+    {
+        if (!dialogue.running)
+        {
+            textToRun = GUI.TextArea(new Rect(0, 0, 600, 350), textToRun);
+            //if (GUI.Button(new Rect(610, 0, 100, 50), "Test Run"))
+            //{
+            //    dialogue.Run(textToRun);
+            //}
+            if (isStart)
+                dialogue.Run(textToRun);
+
+            if (GUI.Button(new Rect(610, 60, 100, 50), "Clear"))
+            {
+                textToRun = "";
+            }
+        }
+    }
 }

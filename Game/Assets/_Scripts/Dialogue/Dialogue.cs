@@ -903,6 +903,7 @@ public class Dialogue : MonoBehaviour
 					{
 						//Debug.LogWarning("lineObject.index: " + lineObject.index + " startLineIndex: " + startLineIndex);
 						yield return StartCoroutine(implementation.Say(characterName, line));
+                        yield return new WaitForSeconds(1);
 					}
 				
 					if (lastCharacterName != characterName)
