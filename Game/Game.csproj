@@ -27,7 +27,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;VRTK_SDK_STEAMVR</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;VRTK_SDK_STEAMVR;TMP_PRESENT</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -37,7 +37,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;VRTK_SDK_STEAMVR</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;VRTK_SDK_STEAMVR;TMP_PRESENT</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -94,6 +94,9 @@
     <Reference Include="DOTween50">
       <HintPath>Assets\Demigiant\DOTween\DOTween50.dll</HintPath>
     </Reference>
+    <Reference Include="TextMeshPro">
+      <HintPath>Assets\TextMesh Pro\Plugins\TextMeshPro.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Game.Plugins.csproj">
@@ -102,8 +105,59 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_AnimateCurvedFillOnStart.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_CameraController.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_CameraRotationOnButtonHeld.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ChangeValueOnHold.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_DragBetweenCanvases.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_GunController.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_GunMovement.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_MoveAlong.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_MoveHeartbeat.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_OrientOnCurvedSpace.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_PerlinNoisePosition.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_PerlinNoiseRotation.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_RaycastToCanvas.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_RiseChildrenOverTime.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ShowParentCoordinates.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_TMPChecker.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ViveButtonState.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ViveHapticPulse.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ViveLaserBeam.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_WorldSpaceCursorFollow.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_WorldSpaceMouseMultipleCanvases.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_ZChangeOnHover.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_draggable.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_guntarget.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_inventory_paralax.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_rotation_anim.cs" />
+    <Compile Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\CUI_touchpad.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIInputFieldCaret.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIInputModule.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIPointerEventData.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIRaycaster.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUISettings.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIVertexEffect.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\CurvedUIViveController.cs" />
+    <Compile Include="Assets\CurvedUI\Scripts\Experimental\CurvedUITMP.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Runtime\DrawCallMinimizer.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\CommonShaderProperties.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\DrawCallMinimizerInfo.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\MatrixExtension.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\MeshCombineUtility.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\MeshExporter.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\MeshInstance.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\ShaderProperties.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\TextureCombineOutput.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\TextureCombineUtility.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\NEW\Utility\TexturePosition.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Misc\ShaderProperties.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Misc\TextureAtlasInfo.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Runtime\MeshCombineUtility.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Runtime\OptimizedCombineChildren.cs" />
+    <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Runtime\TextureCombineUtility.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\SoftNormalsToVertexColor.cs" />
@@ -209,6 +263,37 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\CameraController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ChatController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\VRArcTeleporter\Scripts\ArcTeleporter.cs" />
     <Compile Include="Assets\VRInteraction\Scripts\VRInput.cs" />
     <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Archery\Arrow.cs" />
@@ -438,12 +523,15 @@
     <Compile Include="Assets\iTweenEditor\iTweenPath.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\CurvedUI\Demo Scenes\Demo Scenes Content\OverlayBlend.shader" />
+    <None Include="Assets\CurvedUI\Shaders and Materials\UIAlwaysOnTop.shader" />
     <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Draw Call Minimizer\Example\ReadMe.txt" />
     <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\Common\ExtractChannel.shader" />
     <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\Common\FillColor.shader" />
     <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\Common\ReadPackedData.shader" />
@@ -654,6 +742,25 @@
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\VRArcTeleporter\Materials\ArcShader.shader" />
     <None Include="Assets\VRArcTeleporter\readme.txt" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />

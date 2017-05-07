@@ -34,6 +34,7 @@ public class DialogueImplementation : MonoBehaviour
         dialogue.Run(defaultDialogue);
 
     }
+
     public string Parse(string characterName, string line)
 	{
 		return line;

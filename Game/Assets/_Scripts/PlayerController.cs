@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour {
 	{
         if (collision.gameObject.tag == "tool")
         {
-            _moveObject.IntroPlatform();
+            MoveOnPlatform();
         }
        
     }
