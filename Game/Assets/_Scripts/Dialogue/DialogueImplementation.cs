@@ -11,13 +11,14 @@ public class DialogueImplementation : MonoBehaviour
 	public UnityEngine.UI.Text uiText;
 	public GameObject[] optionButtons;
 	public TextAsset defaultDialogue;
+    public GameObject panel;
 	bool scrolling;
     bool isStart = true; 
 
     void Awake()
     {
         dialogue = GetComponent<Dialogue>();
-
+        panel.SetActive(false);
         foreach (var gameObject in optionButtons)
         {
             gameObject.SetActive(false);
@@ -25,14 +26,20 @@ public class DialogueImplementation : MonoBehaviour
 
         if (defaultDialogue != null)
         {
-            textToRun = defaultDialogue.text;
+            //textToRun = defaultDialogue.text;
             //dialogue.Run(defaultDialogue.text);
         }
     }
     public void Start()
     {
-        dialogue.Run(defaultDialogue);
 
+    }
+
+    //starting Dispirited first node "Start" node
+    public void StartFirstNode()
+    {
+        dialogue.Run(defaultDialogue);
+        panel.SetActive(true);
     }
 
     public string Parse(string characterName, string line)
@@ -46,7 +53,7 @@ public class DialogueImplementation : MonoBehaviour
 		string textToScroll = characterName + ": " + text;
 		//CharacterData characterData = Global.constants.GetCharacterData(characterName);
 		//Global.textbox.Say(characterData, text);
-		const float timePerChar = .05f;
+		const float timePerChar = .017f;
 		float accumTime = 0f;
 		int c = 0;
 		//while (!InputNext() && c < textToScroll.Length)
@@ -65,9 +72,9 @@ public class DialogueImplementation : MonoBehaviour
 		}
 		uiText.text = textToScroll;
 
-		//while (InputNext()) yield return null;
+        //while (InputNext()) yield return null;
 
-		//while (!InputNext()) yield return null;
+        //while (!InputNext()) yield return null;
 	}
 
 	public bool InputNext()
@@ -77,8 +84,9 @@ public class DialogueImplementation : MonoBehaviour
 
 	public IEnumerator EndText()
 	{
-		//Global.textbox.Hide();
-		uiText.text = "";
+        //Global.textbox.Hide();
+        uiText.text = "";
+        panel.SetActive(false);
 		yield break;
 	}
 
@@ -233,22 +241,22 @@ public class DialogueImplementation : MonoBehaviour
 	string textToRun = "";
 
 
-    void OnGUI()
-    {
-        if (!dialogue.running)
-        {
-            textToRun = GUI.TextArea(new Rect(0, 0, 600, 350), textToRun);
-            //if (GUI.Button(new Rect(610, 0, 100, 50), "Test Run"))
-            //{
-            //    dialogue.Run(textToRun);
-            //}
-            if (isStart)
-                dialogue.Run(textToRun);
+    //void OnGUI()
+    //{
+    //    if (!dialogue.running)
+    //    {
+    //        //textToRun = GUI.TextArea(new Rect(0, 0, 600, 350), textToRun);
+    //        //if (GUI.Button(new Rect(610, 0, 100, 50), "Test Run"))
+    //        //{
+    //        //    dialogue.Run(textToRun);
+    //        //}
+    //        if (isStart)
+    //            dialogue.Run(textToRun);
 
-            if (GUI.Button(new Rect(610, 60, 100, 50), "Clear"))
-            {
-                textToRun = "";
-            }
-        }
-    }
+    //        //if (GUI.Button(new Rect(610, 60, 100, 50), "Clear"))
+    //        //{
+    //        //    textToRun = "";
+    //        //}
+    //    }
+    //}
 }

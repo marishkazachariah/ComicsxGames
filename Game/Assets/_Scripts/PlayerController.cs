@@ -6,13 +6,11 @@ public class PlayerController : MonoBehaviour {
 
 	public GameObject platform;
 
-
     private MovingObjectManager _moveObject;
    
-	void Start () {
-
-        _moveObject = FindObjectOfType<MovingObjectManager>();
-	}
+	void Start ()
+    {
+        _moveObject = FindObjectOfType<MovingObjectManager>();	}
 
 	void Update () 
 	{
@@ -41,9 +39,33 @@ public class PlayerController : MonoBehaviour {
         {
             transform.parent = null;
         }
+       
     }
 
-        public void MoveOnPlatform()
+    public void OnTriggerStay(Collider col)
+    {
+        if (col.gameObject.tag == "platform")
+        {
+            transform.parent = col.transform;
+        }
+    }
+
+    public void OnTriggerExit(Collider col)
+    {
+        if (col.gameObject.tag == "platform")
+        {
+            transform.parent = null;
+        }
+    }
+
+
+    //    else
+    //    {
+    //        transform.parent = null;
+    //    }
+    //}
+
+    public void MoveOnPlatform()
     {
         _moveObject.IntroPlatform();
     }
