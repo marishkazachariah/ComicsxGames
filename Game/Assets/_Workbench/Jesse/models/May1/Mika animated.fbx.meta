@@ -1,0 +1,3199 @@
+fileFormatVersion: 2
+guid: 6d4ae423cb64948d2a8d64a075497466
+timeCreated: 1494120814
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ARM_L
+    100002: ARM_R
+    100004: Array
+    100006: Base
+    100008: Base_2
+    100010: boot
+    100012: boot_2
+    100014: boot_3
+    100016: boot_4
+    100018: border
+    100020: Both_Passages__0_to_return_
+    100022: Both_Passages__0_to_return__1
+    100024: Both_Passages__0_to_return__10
+    100026: Both_Passages__0_to_return__11
+    100028: Both_Passages__0_to_return__12
+    100030: Both_Passages__0_to_return__13
+    100032: Both_Passages__0_to_return__1_10
+    100034: Both_Passages__0_to_return__1_11
+    100036: Both_Passages__0_to_return__1_12
+    100038: Both_Passages__0_to_return__1_13
+    100040: Both_Passages__0_to_return__1_2
+    100042: Both_Passages__0_to_return__1_3
+    100044: Both_Passages__0_to_return__1_4
+    100046: Both_Passages__0_to_return__1_5
+    100048: Both_Passages__0_to_return__1_6
+    100050: Both_Passages__0_to_return__1_7
+    100052: Both_Passages__0_to_return__1_8
+    100054: Both_Passages__0_to_return__1_9
+    100056: Both_Passages__0_to_return__2
+    100058: Both_Passages__0_to_return__3
+    100060: Both_Passages__0_to_return__4
+    100062: Both_Passages__0_to_return__5
+    100064: Both_Passages__0_to_return__6
+    100066: Both_Passages__0_to_return__7
+    100068: Both_Passages__0_to_return__8
+    100070: Both_Passages__0_to_return__9
+    100072: bubbles
+    100074: Ceiling
+    100076: ceiling_fan
+    100078: crown
+    100080: Cube
+    100082: Cube_1
+    100084: Cube_10
+    100086: Cube_10_2
+    100088: Cube_11
+    100090: Cube_11_2
+    100092: Cube_12
+    100094: Cube_12_2
+    100096: Cube_13
+    100098: Cube_13_2
+    100100: Cube_14
+    100102: Cube_14_2
+    100104: Cube_15
+    100106: Cube_15_2
+    100108: Cube_16
+    100110: Cube_16_2
+    100112: Cube_16_3
+    100114: Cube_17
+    100116: Cube_17_10
+    100118: Cube_17_11
+    100120: Cube_17_12
+    100122: Cube_17_13
+    100124: Cube_17_14
+    100126: Cube_17_15
+    100128: Cube_17_2
+    100130: Cube_17_3
+    100132: Cube_17_4
+    100134: Cube_17_5
+    100136: Cube_17_6
+    100138: Cube_17_7
+    100140: Cube_17_8
+    100142: Cube_17_9
+    100144: Cube_18
+    100146: Cube_18_10
+    100148: Cube_18_11
+    100150: Cube_18_12
+    100152: Cube_18_13
+    100154: Cube_18_14
+    100156: Cube_18_15
+    100158: Cube_18_2
+    100160: Cube_18_3
+    100162: Cube_18_4
+    100164: Cube_18_5
+    100166: Cube_18_6
+    100168: Cube_18_7
+    100170: Cube_18_8
+    100172: Cube_18_9
+    100174: Cube_19
+    100176: Cube_19_10
+    100178: Cube_19_11
+    100180: Cube_19_12
+    100182: Cube_19_13
+    100184: Cube_19_14
+    100186: Cube_19_2
+    100188: Cube_19_3
+    100190: Cube_19_4
+    100192: Cube_19_5
+    100194: Cube_19_6
+    100196: Cube_19_7
+    100198: Cube_19_8
+    100200: Cube_19_9
+    100202: Cube_1_2
+    100204: Cube_1_3
+    100206: Cube_2
+    100208: Cube_20
+    100210: Cube_20_10
+    100212: Cube_20_11
+    100214: Cube_20_12
+    100216: Cube_20_13
+    100218: Cube_20_14
+    100220: Cube_20_2
+    100222: Cube_20_3
+    100224: Cube_20_4
+    100226: Cube_20_5
+    100228: Cube_20_6
+    100230: Cube_20_7
+    100232: Cube_20_8
+    100234: Cube_20_9
+    100236: Cube_21
+    100238: Cube_21_2
+    100240: Cube_22
+    100242: Cube_23
+    100244: Cube_24
+    100246: Cube_25
+    100248: Cube_26
+    100250: Cube_27
+    100252: Cube_28
+    100254: Cube_29
+    100256: Cube_2_2
+    100258: Cube_2_3
+    100260: Cube_2_4
+    100262: Cube_2_5
+    100264: Cube_2_6
+    100266: Cube_3
+    100268: Cube_30
+    100270: Cube_30_10
+    100272: Cube_30_11
+    100274: Cube_30_12
+    100276: Cube_30_13
+    100278: Cube_30_2
+    100280: Cube_30_3
+    100282: Cube_30_4
+    100284: Cube_30_5
+    100286: Cube_30_6
+    100288: Cube_30_7
+    100290: Cube_30_8
+    100292: Cube_30_9
+    100294: Cube_31
+    100296: Cube_31_10
+    100298: Cube_31_11
+    100300: Cube_31_12
+    100302: Cube_31_13
+    100304: Cube_31_2
+    100306: Cube_31_3
+    100308: Cube_31_4
+    100310: Cube_31_5
+    100312: Cube_31_6
+    100314: Cube_31_7
+    100316: Cube_31_8
+    100318: Cube_31_9
+    100320: Cube_32
+    100322: Cube_32_10
+    100324: Cube_32_11
+    100326: Cube_32_12
+    100328: Cube_32_13
+    100330: Cube_32_2
+    100332: Cube_32_3
+    100334: Cube_32_4
+    100336: Cube_32_5
+    100338: Cube_32_6
+    100340: Cube_32_7
+    100342: Cube_32_8
+    100344: Cube_32_9
+    100346: Cube_33
+    100348: Cube_33_10
+    100350: Cube_33_11
+    100352: Cube_33_12
+    100354: Cube_33_13
+    100356: Cube_33_2
+    100358: Cube_33_3
+    100360: Cube_33_4
+    100362: Cube_33_5
+    100364: Cube_33_6
+    100366: Cube_33_7
+    100368: Cube_33_8
+    100370: Cube_33_9
+    100372: Cube_3_2
+    100374: Cube_3_3
+    100376: Cube_3_4
+    100378: Cube_4
+    100380: Cube_4_2
+    100382: Cube_4_3
+    100384: Cube_4_4
+    100386: Cube_5
+    100388: Cube_5_2
+    100390: Cube_6
+    100392: Cube_6_2
+    100394: Cube_7
+    100396: Cube_7_2
+    100398: Cube_8
+    100400: Cube_8_2
+    100402: Cube_9
+    100404: Cube_9_2
+    100406: cube_passage
+    100408: cube_passage_10
+    100410: cube_passage_11
+    100412: cube_passage_12
+    100414: cube_passage_13
+    100416: cube_passage_2
+    100418: cube_passage_3
+    100420: cube_passage_4
+    100422: cube_passage_5
+    100424: cube_passage_6
+    100426: cube_passage_7
+    100428: cube_passage_8
+    100430: cube_passage_9
+    100432: Cylinder
+    100434: Cylinder_1
+    100436: Cylinder_1_2
+    100438: Cylinder_1_3
+    100440: Cylinder_1_4
+    100442: Cylinder_1_5
+    100444: Cylinder_1_6
+    100446: Cylinder_1_7
+    100448: Cylinder_1_8
+    100450: Cylinder_1_9
+    100452: Cylinder_2
+    100454: Cylinder_2_2
+    100456: Cylinder_3
+    100458: Cylinder_4
+    100460: Cylinder_5
+    100462: Cylinder_6
+    100464: Cylinder_7
+    100466: Cylinder_8
+    100468: Cylinder_9
+    100470: dangle
+    100472: dangle_1
+    100474: detail
+    100476: detail_2
+    100478: Disc
+    100480: Disc_1
+    100482: Enviro
+    100484: Extrude
+    100486: Extrude_2
+    100488: fan_blade_1
+    100490: fan_blade_2
+    100492: fan_blade_3
+    100494: fan_blades
+    100496: fan_blades_2
+    100498: fan_centre
+    100500: forearm
+    100502: forearm_2
+    100504: glow_ball
+    100506: glow_ball_1
+    100508: head
+    100510: head_base
+    100512: hipbone
+    100514: L_Brow
+    100516: Leg_Bottom
+    100518: Leg_Bottom_2
+    100520: LEG_L
+    100522: LEG_R
+    100524: Mid_Room
+    100526: midsection
+    100528: Mika
+    100530: //RootNode
+    100532: Mika_Null
+    100534: mouth
+    100536: Neck
+    100538: Null
+    100540: Null_1
+    100542: Null_10
+    100544: Null_14
+    100546: Null_15
+    100548: Null_1_2
+    100550: Null_1_3
+    100552: Null_2
+    100554: Null_2_2
+    100556: Null_2_3
+    100558: Null_3
+    100560: Null_3_10
+    100562: Null_3_11
+    100564: Null_3_12
+    100566: Null_3_13
+    100568: Null_3_2
+    100570: Null_3_3
+    100572: Null_3_4
+    100574: Null_3_5
+    100576: Null_3_6
+    100578: Null_3_7
+    100580: Null_3_8
+    100582: Null_3_9
+    100584: Null_4
+    100586: Null_4_2
+    100588: Null_5
+    100590: Null_5_2
+    100592: Null_6
+    100594: Null_6_2
+    100596: Null_7
+    100598: Null_7_2
+    100600: Null_8
+    100602: Null_8_2
+    100604: Null_9
+    100606: Null_9_2
+    100608: oval_gem
+    100610: oval_gem_1
+    100612: oval_gem_2
+    100614: oval_gem_3
+    100616: pink_wings
+    100618: purple_wings
+    100620: R_Brow
+    100622: rib1
+    100624: rib2
+    100626: rib3
+    100628: Sphere
+    100630: Sphere_1
+    100632: Sphere_2
+    100634: Sphere_2_2
+    100636: Sphere_3
+    100638: Sphere_3_10
+    100640: Sphere_3_11
+    100642: Sphere_3_12
+    100644: Sphere_3_13
+    100646: Sphere_3_14
+    100648: Sphere_3_2
+    100650: Sphere_3_3
+    100652: Sphere_3_4
+    100654: Sphere_3_5
+    100656: Sphere_3_6
+    100658: Sphere_3_7
+    100660: Sphere_3_8
+    100662: Sphere_3_9
+    100664: Sphere_4
+    100666: Sphere_4_2
+    100668: Sphere_4_3
+    100670: Sphere_4_4
+    100672: Sphere_4_5
+    100674: Sphere_4_6
+    100676: Sphere_5
+    100678: Sphere_5_2
+    100680: Sphere_6
+    100682: Sphere_7
+    100684: spiral_passage
+    100686: spiral_passage_10
+    100688: spiral_passage_11
+    100690: spiral_passage_12
+    100692: spiral_passage_13
+    100694: spiral_passage_2
+    100696: spiral_passage_3
+    100698: spiral_passage_4
+    100700: spiral_passage_5
+    100702: spiral_passage_6
+    100704: spiral_passage_7
+    100706: spiral_passage_8
+    100708: spiral_passage_9
+    100710: Subdivision_Surface_1
+    100712: Subdivision_Surface_1_2
+    100714: Subdivision_Surface_1_3
+    100716: Subdivision_Surface_2
+    100718: Subdivision_Surface_2_2
+    100720: Subdivision_Surface_2_3
+    100722: Subdivision_Surface_4
+    100724: Subdivision_Surface_4_2
+    100726: Subdivision_Surface_5
+    100728: Subdivision_Surface_5_2
+    100730: Subdivision_Surface_5_3
+    100732: Torso_top
+    100734: Torus
+    100736: Torus_1
+    100738: Torus_2
+    100740: Torus_3
+    100742: Torus_3_1
+    100744: Torus_3_2
+    100746: Torus_3_3
+    100748: Torus_3_4
+    100750: Torus_3_5
+    100752: Torus_4
+    100754: Torus_4_2
+    100756: Torus_5
+    100758: Torus_5_2
+    100760: Torus_5_3
+    100762: Tube
+    100764: Tube_2
+    100766: Tube_3
+    100768: tube_spinner
+    100770: wing_rotator
+    100772: wing_rotator_2
+    100774: wings
+    400000: ARM_L
+    400002: ARM_R
+    400004: Array
+    400006: Base
+    400008: Base_2
+    400010: boot
+    400012: boot_2
+    400014: boot_3
+    400016: boot_4
+    400018: border
+    400020: Both_Passages__0_to_return_
+    400022: Both_Passages__0_to_return__1
+    400024: Both_Passages__0_to_return__10
+    400026: Both_Passages__0_to_return__11
+    400028: Both_Passages__0_to_return__12
+    400030: Both_Passages__0_to_return__13
+    400032: Both_Passages__0_to_return__1_10
+    400034: Both_Passages__0_to_return__1_11
+    400036: Both_Passages__0_to_return__1_12
+    400038: Both_Passages__0_to_return__1_13
+    400040: Both_Passages__0_to_return__1_2
+    400042: Both_Passages__0_to_return__1_3
+    400044: Both_Passages__0_to_return__1_4
+    400046: Both_Passages__0_to_return__1_5
+    400048: Both_Passages__0_to_return__1_6
+    400050: Both_Passages__0_to_return__1_7
+    400052: Both_Passages__0_to_return__1_8
+    400054: Both_Passages__0_to_return__1_9
+    400056: Both_Passages__0_to_return__2
+    400058: Both_Passages__0_to_return__3
+    400060: Both_Passages__0_to_return__4
+    400062: Both_Passages__0_to_return__5
+    400064: Both_Passages__0_to_return__6
+    400066: Both_Passages__0_to_return__7
+    400068: Both_Passages__0_to_return__8
+    400070: Both_Passages__0_to_return__9
+    400072: bubbles
+    400074: Ceiling
+    400076: ceiling_fan
+    400078: crown
+    400080: Cube
+    400082: Cube_1
+    400084: Cube_10
+    400086: Cube_10_2
+    400088: Cube_11
+    400090: Cube_11_2
+    400092: Cube_12
+    400094: Cube_12_2
+    400096: Cube_13
+    400098: Cube_13_2
+    400100: Cube_14
+    400102: Cube_14_2
+    400104: Cube_15
+    400106: Cube_15_2
+    400108: Cube_16
+    400110: Cube_16_2
+    400112: Cube_16_3
+    400114: Cube_17
+    400116: Cube_17_10
+    400118: Cube_17_11
+    400120: Cube_17_12
+    400122: Cube_17_13
+    400124: Cube_17_14
+    400126: Cube_17_15
+    400128: Cube_17_2
+    400130: Cube_17_3
+    400132: Cube_17_4
+    400134: Cube_17_5
+    400136: Cube_17_6
+    400138: Cube_17_7
+    400140: Cube_17_8
+    400142: Cube_17_9
+    400144: Cube_18
+    400146: Cube_18_10
+    400148: Cube_18_11
+    400150: Cube_18_12
+    400152: Cube_18_13
+    400154: Cube_18_14
+    400156: Cube_18_15
+    400158: Cube_18_2
+    400160: Cube_18_3
+    400162: Cube_18_4
+    400164: Cube_18_5
+    400166: Cube_18_6
+    400168: Cube_18_7
+    400170: Cube_18_8
+    400172: Cube_18_9
+    400174: Cube_19
+    400176: Cube_19_10
+    400178: Cube_19_11
+    400180: Cube_19_12
+    400182: Cube_19_13
+    400184: Cube_19_14
+    400186: Cube_19_2
+    400188: Cube_19_3
+    400190: Cube_19_4
+    400192: Cube_19_5
+    400194: Cube_19_6
+    400196: Cube_19_7
+    400198: Cube_19_8
+    400200: Cube_19_9
+    400202: Cube_1_2
+    400204: Cube_1_3
+    400206: Cube_2
+    400208: Cube_20
+    400210: Cube_20_10
+    400212: Cube_20_11
+    400214: Cube_20_12
+    400216: Cube_20_13
+    400218: Cube_20_14
+    400220: Cube_20_2
+    400222: Cube_20_3
+    400224: Cube_20_4
+    400226: Cube_20_5
+    400228: Cube_20_6
+    400230: Cube_20_7
+    400232: Cube_20_8
+    400234: Cube_20_9
+    400236: Cube_21
+    400238: Cube_21_2
+    400240: Cube_22
+    400242: Cube_23
+    400244: Cube_24
+    400246: Cube_25
+    400248: Cube_26
+    400250: Cube_27
+    400252: Cube_28
+    400254: Cube_29
+    400256: Cube_2_2
+    400258: Cube_2_3
+    400260: Cube_2_4
+    400262: Cube_2_5
+    400264: Cube_2_6
+    400266: Cube_3
+    400268: Cube_30
+    400270: Cube_30_10
+    400272: Cube_30_11
+    400274: Cube_30_12
+    400276: Cube_30_13
+    400278: Cube_30_2
+    400280: Cube_30_3
+    400282: Cube_30_4
+    400284: Cube_30_5
+    400286: Cube_30_6
+    400288: Cube_30_7
+    400290: Cube_30_8
+    400292: Cube_30_9
+    400294: Cube_31
+    400296: Cube_31_10
+    400298: Cube_31_11
+    400300: Cube_31_12
+    400302: Cube_31_13
+    400304: Cube_31_2
+    400306: Cube_31_3
+    400308: Cube_31_4
+    400310: Cube_31_5
+    400312: Cube_31_6
+    400314: Cube_31_7
+    400316: Cube_31_8
+    400318: Cube_31_9
+    400320: Cube_32
+    400322: Cube_32_10
+    400324: Cube_32_11
+    400326: Cube_32_12
+    400328: Cube_32_13
+    400330: Cube_32_2
+    400332: Cube_32_3
+    400334: Cube_32_4
+    400336: Cube_32_5
+    400338: Cube_32_6
+    400340: Cube_32_7
+    400342: Cube_32_8
+    400344: Cube_32_9
+    400346: Cube_33
+    400348: Cube_33_10
+    400350: Cube_33_11
+    400352: Cube_33_12
+    400354: Cube_33_13
+    400356: Cube_33_2
+    400358: Cube_33_3
+    400360: Cube_33_4
+    400362: Cube_33_5
+    400364: Cube_33_6
+    400366: Cube_33_7
+    400368: Cube_33_8
+    400370: Cube_33_9
+    400372: Cube_3_2
+    400374: Cube_3_3
+    400376: Cube_3_4
+    400378: Cube_4
+    400380: Cube_4_2
+    400382: Cube_4_3
+    400384: Cube_4_4
+    400386: Cube_5
+    400388: Cube_5_2
+    400390: Cube_6
+    400392: Cube_6_2
+    400394: Cube_7
+    400396: Cube_7_2
+    400398: Cube_8
+    400400: Cube_8_2
+    400402: Cube_9
+    400404: Cube_9_2
+    400406: cube_passage
+    400408: cube_passage_10
+    400410: cube_passage_11
+    400412: cube_passage_12
+    400414: cube_passage_13
+    400416: cube_passage_2
+    400418: cube_passage_3
+    400420: cube_passage_4
+    400422: cube_passage_5
+    400424: cube_passage_6
+    400426: cube_passage_7
+    400428: cube_passage_8
+    400430: cube_passage_9
+    400432: Cylinder
+    400434: Cylinder_1
+    400436: Cylinder_1_2
+    400438: Cylinder_1_3
+    400440: Cylinder_1_4
+    400442: Cylinder_1_5
+    400444: Cylinder_1_6
+    400446: Cylinder_1_7
+    400448: Cylinder_1_8
+    400450: Cylinder_1_9
+    400452: Cylinder_2
+    400454: Cylinder_2_2
+    400456: Cylinder_3
+    400458: Cylinder_4
+    400460: Cylinder_5
+    400462: Cylinder_6
+    400464: Cylinder_7
+    400466: Cylinder_8
+    400468: Cylinder_9
+    400470: dangle
+    400472: dangle_1
+    400474: detail
+    400476: detail_2
+    400478: Disc
+    400480: Disc_1
+    400482: Enviro
+    400484: Extrude
+    400486: Extrude_2
+    400488: fan_blade_1
+    400490: fan_blade_2
+    400492: fan_blade_3
+    400494: fan_blades
+    400496: fan_blades_2
+    400498: fan_centre
+    400500: forearm
+    400502: forearm_2
+    400504: glow_ball
+    400506: glow_ball_1
+    400508: head
+    400510: head_base
+    400512: hipbone
+    400514: L_Brow
+    400516: Leg_Bottom
+    400518: Leg_Bottom_2
+    400520: LEG_L
+    400522: LEG_R
+    400524: Mid_Room
+    400526: midsection
+    400528: Mika
+    400530: //RootNode
+    400532: Mika_Null
+    400534: mouth
+    400536: Neck
+    400538: Null
+    400540: Null_1
+    400542: Null_10
+    400544: Null_14
+    400546: Null_15
+    400548: Null_1_2
+    400550: Null_1_3
+    400552: Null_2
+    400554: Null_2_2
+    400556: Null_2_3
+    400558: Null_3
+    400560: Null_3_10
+    400562: Null_3_11
+    400564: Null_3_12
+    400566: Null_3_13
+    400568: Null_3_2
+    400570: Null_3_3
+    400572: Null_3_4
+    400574: Null_3_5
+    400576: Null_3_6
+    400578: Null_3_7
+    400580: Null_3_8
+    400582: Null_3_9
+    400584: Null_4
+    400586: Null_4_2
+    400588: Null_5
+    400590: Null_5_2
+    400592: Null_6
+    400594: Null_6_2
+    400596: Null_7
+    400598: Null_7_2
+    400600: Null_8
+    400602: Null_8_2
+    400604: Null_9
+    400606: Null_9_2
+    400608: oval_gem
+    400610: oval_gem_1
+    400612: oval_gem_2
+    400614: oval_gem_3
+    400616: pink_wings
+    400618: purple_wings
+    400620: R_Brow
+    400622: rib1
+    400624: rib2
+    400626: rib3
+    400628: Sphere
+    400630: Sphere_1
+    400632: Sphere_2
+    400634: Sphere_2_2
+    400636: Sphere_3
+    400638: Sphere_3_10
+    400640: Sphere_3_11
+    400642: Sphere_3_12
+    400644: Sphere_3_13
+    400646: Sphere_3_14
+    400648: Sphere_3_2
+    400650: Sphere_3_3
+    400652: Sphere_3_4
+    400654: Sphere_3_5
+    400656: Sphere_3_6
+    400658: Sphere_3_7
+    400660: Sphere_3_8
+    400662: Sphere_3_9
+    400664: Sphere_4
+    400666: Sphere_4_2
+    400668: Sphere_4_3
+    400670: Sphere_4_4
+    400672: Sphere_4_5
+    400674: Sphere_4_6
+    400676: Sphere_5
+    400678: Sphere_5_2
+    400680: Sphere_6
+    400682: Sphere_7
+    400684: spiral_passage
+    400686: spiral_passage_10
+    400688: spiral_passage_11
+    400690: spiral_passage_12
+    400692: spiral_passage_13
+    400694: spiral_passage_2
+    400696: spiral_passage_3
+    400698: spiral_passage_4
+    400700: spiral_passage_5
+    400702: spiral_passage_6
+    400704: spiral_passage_7
+    400706: spiral_passage_8
+    400708: spiral_passage_9
+    400710: Subdivision_Surface_1
+    400712: Subdivision_Surface_1_2
+    400714: Subdivision_Surface_1_3
+    400716: Subdivision_Surface_2
+    400718: Subdivision_Surface_2_2
+    400720: Subdivision_Surface_2_3
+    400722: Subdivision_Surface_4
+    400724: Subdivision_Surface_4_2
+    400726: Subdivision_Surface_5
+    400728: Subdivision_Surface_5_2
+    400730: Subdivision_Surface_5_3
+    400732: Torso_top
+    400734: Torus
+    400736: Torus_1
+    400738: Torus_2
+    400740: Torus_3
+    400742: Torus_3_1
+    400744: Torus_3_2
+    400746: Torus_3_3
+    400748: Torus_3_4
+    400750: Torus_3_5
+    400752: Torus_4
+    400754: Torus_4_2
+    400756: Torus_5
+    400758: Torus_5_2
+    400760: Torus_5_3
+    400762: Tube
+    400764: Tube_2
+    400766: Tube_3
+    400768: tube_spinner
+    400770: wing_rotator
+    400772: wing_rotator_2
+    400774: wings
+    2300000: Base
+    2300002: Base_2
+    2300004: boot
+    2300006: boot_2
+    2300008: boot_3
+    2300010: boot_4
+    2300012: border
+    2300014: Cube
+    2300016: Cube_1
+    2300018: Cube_10
+    2300020: Cube_10_2
+    2300022: Cube_11
+    2300024: Cube_11_2
+    2300026: Cube_12
+    2300028: Cube_12_2
+    2300030: Cube_13
+    2300032: Cube_13_2
+    2300034: Cube_14_2
+    2300036: Cube_15
+    2300038: Cube_15_2
+    2300040: Cube_16
+    2300042: Cube_16_2
+    2300044: Cube_16_3
+    2300046: Cube_17
+    2300048: Cube_17_10
+    2300050: Cube_17_11
+    2300052: Cube_17_12
+    2300054: Cube_17_13
+    2300056: Cube_17_14
+    2300058: Cube_17_15
+    2300060: Cube_17_2
+    2300062: Cube_17_3
+    2300064: Cube_17_4
+    2300066: Cube_17_5
+    2300068: Cube_17_6
+    2300070: Cube_17_7
+    2300072: Cube_17_8
+    2300074: Cube_17_9
+    2300076: Cube_18
+    2300078: Cube_18_10
+    2300080: Cube_18_11
+    2300082: Cube_18_12
+    2300084: Cube_18_13
+    2300086: Cube_18_14
+    2300088: Cube_18_15
+    2300090: Cube_18_2
+    2300092: Cube_18_3
+    2300094: Cube_18_4
+    2300096: Cube_18_5
+    2300098: Cube_18_6
+    2300100: Cube_18_7
+    2300102: Cube_18_8
+    2300104: Cube_18_9
+    2300106: Cube_19
+    2300108: Cube_19_10
+    2300110: Cube_19_11
+    2300112: Cube_19_12
+    2300114: Cube_19_13
+    2300116: Cube_19_14
+    2300118: Cube_19_2
+    2300120: Cube_19_3
+    2300122: Cube_19_4
+    2300124: Cube_19_5
+    2300126: Cube_19_6
+    2300128: Cube_19_7
+    2300130: Cube_19_8
+    2300132: Cube_19_9
+    2300134: Cube_1_2
+    2300136: Cube_1_3
+    2300138: Cube_2
+    2300140: Cube_20
+    2300142: Cube_20_10
+    2300144: Cube_20_11
+    2300146: Cube_20_12
+    2300148: Cube_20_13
+    2300150: Cube_20_14
+    2300152: Cube_20_2
+    2300154: Cube_20_3
+    2300156: Cube_20_4
+    2300158: Cube_20_5
+    2300160: Cube_20_6
+    2300162: Cube_20_7
+    2300164: Cube_20_8
+    2300166: Cube_20_9
+    2300168: Cube_21
+    2300170: Cube_21_2
+    2300172: Cube_22
+    2300174: Cube_23
+    2300176: Cube_24
+    2300178: Cube_25
+    2300180: Cube_26
+    2300182: Cube_27
+    2300184: Cube_28
+    2300186: Cube_29
+    2300188: Cube_2_2
+    2300190: Cube_2_3
+    2300192: Cube_2_4
+    2300194: Cube_2_5
+    2300196: Cube_2_6
+    2300198: Cube_3
+    2300200: Cube_30
+    2300202: Cube_30_10
+    2300204: Cube_30_11
+    2300206: Cube_30_12
+    2300208: Cube_30_13
+    2300210: Cube_30_2
+    2300212: Cube_30_3
+    2300214: Cube_30_4
+    2300216: Cube_30_5
+    2300218: Cube_30_6
+    2300220: Cube_30_7
+    2300222: Cube_30_8
+    2300224: Cube_30_9
+    2300226: Cube_31
+    2300228: Cube_31_10
+    2300230: Cube_31_11
+    2300232: Cube_31_12
+    2300234: Cube_31_13
+    2300236: Cube_31_2
+    2300238: Cube_31_3
+    2300240: Cube_31_4
+    2300242: Cube_31_5
+    2300244: Cube_31_6
+    2300246: Cube_31_7
+    2300248: Cube_31_8
+    2300250: Cube_31_9
+    2300252: Cube_32
+    2300254: Cube_32_10
+    2300256: Cube_32_11
+    2300258: Cube_32_12
+    2300260: Cube_32_13
+    2300262: Cube_32_2
+    2300264: Cube_32_3
+    2300266: Cube_32_4
+    2300268: Cube_32_5
+    2300270: Cube_32_6
+    2300272: Cube_32_7
+    2300274: Cube_32_8
+    2300276: Cube_32_9
+    2300278: Cube_33
+    2300280: Cube_33_10
+    2300282: Cube_33_11
+    2300284: Cube_33_12
+    2300286: Cube_33_13
+    2300288: Cube_33_2
+    2300290: Cube_33_3
+    2300292: Cube_33_4
+    2300294: Cube_33_5
+    2300296: Cube_33_6
+    2300298: Cube_33_7
+    2300300: Cube_33_8
+    2300302: Cube_33_9
+    2300304: Cube_3_2
+    2300306: Cube_3_3
+    2300308: Cube_3_4
+    2300310: Cube_4
+    2300312: Cube_4_2
+    2300314: Cube_4_3
+    2300316: Cube_4_4
+    2300318: Cube_5
+    2300320: Cube_5_2
+    2300322: Cube_6
+    2300324: Cube_6_2
+    2300326: Cube_7
+    2300328: Cube_7_2
+    2300330: Cube_8
+    2300332: Cube_8_2
+    2300334: Cube_9
+    2300336: Cube_9_2
+    2300338: Cylinder
+    2300340: Cylinder_1
+    2300342: Cylinder_1_2
+    2300344: Cylinder_1_3
+    2300346: Cylinder_1_4
+    2300348: Cylinder_1_5
+    2300350: Cylinder_1_6
+    2300352: Cylinder_1_7
+    2300354: Cylinder_1_8
+    2300356: Cylinder_1_9
+    2300358: Cylinder_2
+    2300360: Cylinder_2_2
+    2300362: Cylinder_3
+    2300364: Cylinder_4
+    2300366: Cylinder_5
+    2300368: Cylinder_6
+    2300370: Cylinder_7
+    2300372: Cylinder_8
+    2300374: Cylinder_9
+    2300376: Disc
+    2300378: Disc_1
+    2300380: Extrude
+    2300382: Extrude_2
+    2300384: head_base
+    2300386: L_Brow
+    2300388: mouth
+    2300390: R_Brow
+    2300392: Sphere
+    2300394: Sphere_1
+    2300396: Sphere_2
+    2300398: Sphere_2_2
+    2300400: Sphere_3
+    2300402: Sphere_3_10
+    2300404: Sphere_3_11
+    2300406: Sphere_3_12
+    2300408: Sphere_3_13
+    2300410: Sphere_3_14
+    2300412: Sphere_3_2
+    2300414: Sphere_3_3
+    2300416: Sphere_3_4
+    2300418: Sphere_3_5
+    2300420: Sphere_3_6
+    2300422: Sphere_3_7
+    2300424: Sphere_3_8
+    2300426: Sphere_3_9
+    2300428: Sphere_4
+    2300430: Sphere_4_2
+    2300432: Sphere_4_3
+    2300434: Sphere_4_4
+    2300436: Sphere_4_5
+    2300438: Sphere_4_6
+    2300440: Sphere_5
+    2300442: Sphere_5_2
+    2300444: Sphere_6
+    2300446: Sphere_7
+    2300448: Subdivision_Surface_4
+    2300450: Subdivision_Surface_4_2
+    2300452: Subdivision_Surface_5
+    2300454: Subdivision_Surface_5_2
+    2300456: Subdivision_Surface_5_3
+    2300458: Torus
+    2300460: Torus_1
+    2300462: Torus_2
+    2300464: Torus_3
+    2300466: Torus_3_1
+    2300468: Torus_3_2
+    2300470: Torus_3_3
+    2300472: Torus_3_4
+    2300474: Torus_3_5
+    2300476: Torus_4
+    2300478: Torus_4_2
+    2300480: Torus_5
+    2300482: Torus_5_2
+    2300484: Torus_5_3
+    2300486: Tube
+    2300488: Tube_3
+    3300000: Base
+    3300002: Base_2
+    3300004: boot
+    3300006: boot_2
+    3300008: boot_3
+    3300010: boot_4
+    3300012: border
+    3300014: Cube
+    3300016: Cube_1
+    3300018: Cube_10
+    3300020: Cube_10_2
+    3300022: Cube_11
+    3300024: Cube_11_2
+    3300026: Cube_12
+    3300028: Cube_12_2
+    3300030: Cube_13
+    3300032: Cube_13_2
+    3300034: Cube_14_2
+    3300036: Cube_15
+    3300038: Cube_15_2
+    3300040: Cube_16
+    3300042: Cube_16_2
+    3300044: Cube_16_3
+    3300046: Cube_17
+    3300048: Cube_17_10
+    3300050: Cube_17_11
+    3300052: Cube_17_12
+    3300054: Cube_17_13
+    3300056: Cube_17_14
+    3300058: Cube_17_15
+    3300060: Cube_17_2
+    3300062: Cube_17_3
+    3300064: Cube_17_4
+    3300066: Cube_17_5
+    3300068: Cube_17_6
+    3300070: Cube_17_7
+    3300072: Cube_17_8
+    3300074: Cube_17_9
+    3300076: Cube_18
+    3300078: Cube_18_10
+    3300080: Cube_18_11
+    3300082: Cube_18_12
+    3300084: Cube_18_13
+    3300086: Cube_18_14
+    3300088: Cube_18_15
+    3300090: Cube_18_2
+    3300092: Cube_18_3
+    3300094: Cube_18_4
+    3300096: Cube_18_5
+    3300098: Cube_18_6
+    3300100: Cube_18_7
+    3300102: Cube_18_8
+    3300104: Cube_18_9
+    3300106: Cube_19
+    3300108: Cube_19_10
+    3300110: Cube_19_11
+    3300112: Cube_19_12
+    3300114: Cube_19_13
+    3300116: Cube_19_14
+    3300118: Cube_19_2
+    3300120: Cube_19_3
+    3300122: Cube_19_4
+    3300124: Cube_19_5
+    3300126: Cube_19_6
+    3300128: Cube_19_7
+    3300130: Cube_19_8
+    3300132: Cube_19_9
+    3300134: Cube_1_2
+    3300136: Cube_1_3
+    3300138: Cube_2
+    3300140: Cube_20
+    3300142: Cube_20_10
+    3300144: Cube_20_11
+    3300146: Cube_20_12
+    3300148: Cube_20_13
+    3300150: Cube_20_14
+    3300152: Cube_20_2
+    3300154: Cube_20_3
+    3300156: Cube_20_4
+    3300158: Cube_20_5
+    3300160: Cube_20_6
+    3300162: Cube_20_7
+    3300164: Cube_20_8
+    3300166: Cube_20_9
+    3300168: Cube_21
+    3300170: Cube_21_2
+    3300172: Cube_22
+    3300174: Cube_23
+    3300176: Cube_24
+    3300178: Cube_25
+    3300180: Cube_26
+    3300182: Cube_27
+    3300184: Cube_28
+    3300186: Cube_29
+    3300188: Cube_2_2
+    3300190: Cube_2_3
+    3300192: Cube_2_4
+    3300194: Cube_2_5
+    3300196: Cube_2_6
+    3300198: Cube_3
+    3300200: Cube_30
+    3300202: Cube_30_10
+    3300204: Cube_30_11
+    3300206: Cube_30_12
+    3300208: Cube_30_13
+    3300210: Cube_30_2
+    3300212: Cube_30_3
+    3300214: Cube_30_4
+    3300216: Cube_30_5
+    3300218: Cube_30_6
+    3300220: Cube_30_7
+    3300222: Cube_30_8
+    3300224: Cube_30_9
+    3300226: Cube_31
+    3300228: Cube_31_10
+    3300230: Cube_31_11
+    3300232: Cube_31_12
+    3300234: Cube_31_13
+    3300236: Cube_31_2
+    3300238: Cube_31_3
+    3300240: Cube_31_4
+    3300242: Cube_31_5
+    3300244: Cube_31_6
+    3300246: Cube_31_7
+    3300248: Cube_31_8
+    3300250: Cube_31_9
+    3300252: Cube_32
+    3300254: Cube_32_10
+    3300256: Cube_32_11
+    3300258: Cube_32_12
+    3300260: Cube_32_13
+    3300262: Cube_32_2
+    3300264: Cube_32_3
+    3300266: Cube_32_4
+    3300268: Cube_32_5
+    3300270: Cube_32_6
+    3300272: Cube_32_7
+    3300274: Cube_32_8
+    3300276: Cube_32_9
+    3300278: Cube_33
+    3300280: Cube_33_10
+    3300282: Cube_33_11
+    3300284: Cube_33_12
+    3300286: Cube_33_13
+    3300288: Cube_33_2
+    3300290: Cube_33_3
+    3300292: Cube_33_4
+    3300294: Cube_33_5
+    3300296: Cube_33_6
+    3300298: Cube_33_7
+    3300300: Cube_33_8
+    3300302: Cube_33_9
+    3300304: Cube_3_2
+    3300306: Cube_3_3
+    3300308: Cube_3_4
+    3300310: Cube_4
+    3300312: Cube_4_2
+    3300314: Cube_4_3
+    3300316: Cube_4_4
+    3300318: Cube_5
+    3300320: Cube_5_2
+    3300322: Cube_6
+    3300324: Cube_6_2
+    3300326: Cube_7
+    3300328: Cube_7_2
+    3300330: Cube_8
+    3300332: Cube_8_2
+    3300334: Cube_9
+    3300336: Cube_9_2
+    3300338: Cylinder
+    3300340: Cylinder_1
+    3300342: Cylinder_1_2
+    3300344: Cylinder_1_3
+    3300346: Cylinder_1_4
+    3300348: Cylinder_1_5
+    3300350: Cylinder_1_6
+    3300352: Cylinder_1_7
+    3300354: Cylinder_1_8
+    3300356: Cylinder_1_9
+    3300358: Cylinder_2
+    3300360: Cylinder_2_2
+    3300362: Cylinder_3
+    3300364: Cylinder_4
+    3300366: Cylinder_5
+    3300368: Cylinder_6
+    3300370: Cylinder_7
+    3300372: Cylinder_8
+    3300374: Cylinder_9
+    3300376: Disc
+    3300378: Disc_1
+    3300380: Extrude
+    3300382: Extrude_2
+    3300384: head_base
+    3300386: L_Brow
+    3300388: mouth
+    3300390: R_Brow
+    3300392: Sphere
+    3300394: Sphere_1
+    3300396: Sphere_2
+    3300398: Sphere_2_2
+    3300400: Sphere_3
+    3300402: Sphere_3_10
+    3300404: Sphere_3_11
+    3300406: Sphere_3_12
+    3300408: Sphere_3_13
+    3300410: Sphere_3_14
+    3300412: Sphere_3_2
+    3300414: Sphere_3_3
+    3300416: Sphere_3_4
+    3300418: Sphere_3_5
+    3300420: Sphere_3_6
+    3300422: Sphere_3_7
+    3300424: Sphere_3_8
+    3300426: Sphere_3_9
+    3300428: Sphere_4
+    3300430: Sphere_4_2
+    3300432: Sphere_4_3
+    3300434: Sphere_4_4
+    3300436: Sphere_4_5
+    3300438: Sphere_4_6
+    3300440: Sphere_5
+    3300442: Sphere_5_2
+    3300444: Sphere_6
+    3300446: Sphere_7
+    3300448: Subdivision_Surface_4
+    3300450: Subdivision_Surface_4_2
+    3300452: Subdivision_Surface_5
+    3300454: Subdivision_Surface_5_2
+    3300456: Subdivision_Surface_5_3
+    3300458: Torus
+    3300460: Torus_1
+    3300462: Torus_2
+    3300464: Torus_3
+    3300466: Torus_3_1
+    3300468: Torus_3_2
+    3300470: Torus_3_3
+    3300472: Torus_3_4
+    3300474: Torus_3_5
+    3300476: Torus_4
+    3300478: Torus_4_2
+    3300480: Torus_5
+    3300482: Torus_5_2
+    3300484: Torus_5_3
+    3300486: Tube
+    3300488: Tube_3
+    4300000: Cube_1
+    4300002: Tube
+    4300004: Cube_20
+    4300006: Cube_19
+    4300008: Cube_18
+    4300010: Cube_17
+    4300012: Cube_33
+    4300014: Cube_32
+    4300016: Cube_31
+    4300018: Cube_30
+    4300020: Cube_20_2
+    4300022: Cube_19_2
+    4300024: Cube_18_2
+    4300026: Cube_17_2
+    4300028: Cube_33_2
+    4300030: Cube_32_2
+    4300032: Cube_31_2
+    4300034: Cube_30_2
+    4300036: Cube_20_3
+    4300038: Cube_19_3
+    4300040: Cube_18_3
+    4300042: Cube_17_3
+    4300044: Cube_33_3
+    4300046: Cube_32_3
+    4300048: Cube_31_3
+    4300050: Cube_30_3
+    4300052: Cube_20_4
+    4300054: Cube_19_4
+    4300056: Cube_18_4
+    4300058: Cube_17_4
+    4300060: Cube_33_4
+    4300062: Cube_32_4
+    4300064: Cube_31_4
+    4300066: Cube_30_4
+    4300068: Cube_20_5
+    4300070: Cube_19_5
+    4300072: Cube_18_5
+    4300074: Cube_17_5
+    4300076: Cube_33_5
+    4300078: Cube_32_5
+    4300080: Cube_31_5
+    4300082: Cube_30_5
+    4300084: Cube_20_6
+    4300086: Cube_19_6
+    4300088: Cube_18_6
+    4300090: Cube_17_6
+    4300092: Cube_33_6
+    4300094: Cube_32_6
+    4300096: Cube_31_6
+    4300098: Cube_30_6
+    4300100: Cube_20_7
+    4300102: Cube_19_7
+    4300104: Cube_18_7
+    4300106: Cube_17_7
+    4300108: Cube_33_7
+    4300110: Cube_32_7
+    4300112: Cube_31_7
+    4300114: Cube_30_7
+    4300116: Cube_20_8
+    4300118: Cube_19_8
+    4300120: Cube_18_8
+    4300122: Cube_17_8
+    4300124: Cube_33_8
+    4300126: Cube_32_8
+    4300128: Cube_31_8
+    4300130: Cube_30_8
+    4300132: Cube_20_9
+    4300134: Cube_19_9
+    4300136: Cube_18_9
+    4300138: Cube_17_9
+    4300140: Cube_33_9
+    4300142: Cube_32_9
+    4300144: Cube_31_9
+    4300146: Cube_30_9
+    4300148: Cube_20_10
+    4300150: Cube_19_10
+    4300152: Cube_18_10
+    4300154: Cube_17_10
+    4300156: Cube_33_10
+    4300158: Cube_32_10
+    4300160: Cube_31_10
+    4300162: Cube_30_10
+    4300164: Cube_13
+    4300166: Cube_12
+    4300168: Cube_11
+    4300170: Cube_10
+    4300172: Cube_9
+    4300174: Cube_8
+    4300176: Cube_7
+    4300178: Cube_6
+    4300180: Cube_5
+    4300182: Cube_3
+    4300184: Cube_2
+    4300186: Cube_4
+    4300188: Cube_21
+    4300190: Cube_20_11
+    4300192: Cube_19_11
+    4300194: Cube_18_11
+    4300196: Cube_17_11
+    4300198: Cube_16
+    4300200: Cube_15
+    4300202: Cube_33_11
+    4300204: Cube_32_11
+    4300206: Cube_31_11
+    4300208: Cube_30_11
+    4300210: Cube_29
+    4300212: Cube_28
+    4300214: Cube_27
+    4300216: Cube_26
+    4300218: Cube_25
+    4300220: Cube_24
+    4300222: Cube_23
+    4300224: Cube_22
+    4300226: Cube_21_2
+    4300228: Cube_20_12
+    4300230: Cube_19_12
+    4300232: Cube_18_12
+    4300234: Cube_17_12
+    4300236: Cube_16_2
+    4300238: Cube_20_13
+    4300240: Cube_19_13
+    4300242: Cube_18_13
+    4300244: Cube_17_13
+    4300246: Cube_33_12
+    4300248: Cube_32_12
+    4300250: Cube_31_12
+    4300252: Cube_30_12
+    4300254: Cube_20_14
+    4300256: Cube_19_14
+    4300258: Cube_18_14
+    4300260: Cube_17_14
+    4300262: Cube_33_13
+    4300264: Cube_32_13
+    4300266: Cube_31_13
+    4300268: Cube_30_13
+    4300270: Cube
+    4300272: Subdivision_Surface_4
+    4300274: Torus_2
+    4300276: Sphere_6
+    4300278: Torus_1
+    4300280: Subdivision_Surface_4_2
+    4300282: Torus_3_5
+    4300284: Torus_3_4
+    4300286: Torus_3_3
+    4300288: Torus_3_2
+    4300290: Torus_3_1
+    4300292: Sphere_7
+    4300294: Sphere_4
+    4300296: Sphere_3
+    4300298: Subdivision_Surface_5
+    4300300: Extrude_2
+    4300302: Extrude
+    4300304: Disc_1
+    4300306: Disc
+    4300308: L_Brow
+    4300310: R_Brow
+    4300312: mouth
+    4300314: head_base
+    4300316: Subdivision_Surface_5_2
+    4300318: Torus_5
+    4300320: Sphere_3_2
+    4300322: Subdivision_Surface_5_3
+    4300324: Torus_5_2
+    4300326: Sphere_3_3
+    4300328: Torus_5_3
+    4300330: Torus
+    4300332: Sphere_5
+    4300334: Sphere_4_2
+    4300336: Sphere_3_4
+    4300338: Cylinder_1
+    4300340: Cylinder_1_2
+    4300342: Cylinder
+    4300344: Cylinder_2
+    4300346: Sphere_5_2
+    4300348: Sphere_4_3
+    4300350: Sphere_3_5
+    4300352: Cylinder_1_3
+    4300354: Cylinder_1_4
+    4300356: Cylinder_3
+    4300358: Cylinder_4
+    4300360: Sphere_3_6
+    4300362: Sphere_3_7
+    4300364: Sphere_3_8
+    4300366: Cube_2_2
+    4300368: Sphere_3_9
+    4300370: Sphere_3_10
+    4300372: Cube_2_3
+    4300374: Sphere_3_11
+    4300376: Cylinder_2_2
+    4300378: Cylinder_1_5
+    4300380: Cube_2_4
+    4300382: Cube_3_2
+    4300384: Torus_4
+    4300386: Torus_4_2
+    4300388: Torus_3
+    4300390: Cylinder_5
+    4300392: Cube_1_2
+    4300394: Sphere
+    4300396: Sphere_4_4
+    4300398: Sphere_3_12
+    4300400: Sphere_1
+    4300402: Sphere_4_5
+    4300404: Sphere_3_13
+    4300406: Sphere_2
+    4300408: Sphere_4_6
+    4300410: Sphere_3_14
+    4300412: Cylinder_1_6
+    4300414: Cylinder_6
+    4300416: Cylinder_7
+    4300418: Cube_4_2
+    4300420: Cube_3_3
+    4300422: Cube_2_5
+    4300424: boot
+    4300426: boot_2
+    4300428: Cylinder_1_7
+    4300430: Cylinder_1_8
+    4300432: Cylinder_8
+    4300434: Cylinder_9
+    4300436: Cube_4_3
+    4300438: Cube_3_4
+    4300440: Cube_2_6
+    4300442: boot_3
+    4300444: boot_4
+    4300446: Cylinder_1_9
+    4300448: Cube_4_4
+    4300450: Cube_5_2
+    4300452: Base
+    4300454: Base_2
+    4300456: Cube_6_2
+    4300458: Cube_7_2
+    4300460: Cube_8_2
+    4300462: Cube_9_2
+    4300464: Sphere_2_2
+    4300466: Cube_10_2
+    4300468: Cube_11_2
+    4300470: Cube_12_2
+    4300472: Cube_13_2
+    4300474: Cube_14_2
+    4300476: Cube_15_2
+    4300478: Cube_16_3
+    4300480: Cube_17_15
+    4300482: Cube_18_15
+    4300484: Cube_1_3
+    4300486: Tube_3
+    4300488: border
+    7400000: Idle
+    7400002: Event
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ceiling
+        weight: 1
+      - path: Ceiling/Base
+        weight: 1
+      - path: Ceiling/Base_2
+        weight: 1
+      - path: Ceiling/ceiling_fan
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle/Cube_8_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle/Cube_9_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle_1
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle_1/Cube_6_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle_1/Cube_7_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_1
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_1/Subdivision_Surface_1_3
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_1/Subdivision_Surface_1_3/Cube_17_15
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_1/Subdivision_Surface_2_3
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_1/Subdivision_Surface_2_3/Cube_16_3
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_2/Subdivision_Surface_1_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_2/Subdivision_Surface_1_2/Cube_15_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_2/Subdivision_Surface_2_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_2/Subdivision_Surface_2_2/Cube_14_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_3
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_3/Subdivision_Surface_1
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_3/Subdivision_Surface_1/Cube_13_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_3/Subdivision_Surface_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_3/Subdivision_Surface_2/Cube_12_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_centre
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_centre/Cube_10_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_centre/Cube_11_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_centre/Sphere_2_2
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_1
+        weight: 1
+      - path: Enviro
+        weight: 1
+      - path: Enviro/Mid_Room
+        weight: 1
+      - path: Enviro/Mid_Room/border
+        weight: 1
+      - path: Enviro/Mid_Room/Cube_1_3
+        weight: 1
+      - path: Enviro/Mid_Room/Cube_18_15
+        weight: 1
+      - path: Enviro/Mid_Room/Tube_3
+        weight: 1
+      - path: Mika_Null
+        weight: 1
+      - path: Mika_Null/Null_4_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/hipbone
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/hipbone/Cube_4_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/hipbone/Cube_5_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Cylinder_1_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Cylinder_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Cylinder_7
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/boot
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/boot_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/Cube_2_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/Cube_3_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/Cube_4_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/Cylinder_1_7
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Cylinder_1_8
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Cylinder_8
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Cylinder_9
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/boot_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/boot_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/Cube_2_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/Cube_3_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/Cube_4_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/Cylinder_1_9
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/oval_gem_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/oval_gem_2/Sphere_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/oval_gem_2/Sphere_3_14
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/oval_gem_2/Sphere_4_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/oval_gem_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/oval_gem_1/Sphere_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/oval_gem_1/Sphere_3_13
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/oval_gem_1/Sphere_4_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/detail_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/detail_2/oval_gem_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/detail_2/Sphere
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/detail_2/Sphere_3_12
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/detail_2/Sphere_4_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/Cylinder
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/Cylinder_1_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/Cylinder_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/forearm
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/forearm/Cylinder_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/forearm/Sphere_3_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/forearm/Sphere_4_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/forearm/Sphere_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/Cylinder_1_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/Cylinder_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/Cylinder_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/forearm_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/forearm_2/Cylinder_1_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/forearm_2/Sphere_3_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/forearm_2/Sphere_4_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/forearm_2/Sphere_5_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Cube_1_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Cube_2_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Cube_3_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Cylinder_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Torus_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Torus_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Torus_4_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball/Sphere_3_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball/Subdivision_Surface_5_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball/Torus_5_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball_1/Sphere_3_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball_1/Subdivision_Surface_5_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball_1/Torus_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array/Torus_3_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array/Torus_3_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array/Torus_3_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array/Torus_3_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array/Torus_3_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/oval_gem
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/oval_gem/Sphere_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/oval_gem/Sphere_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Sphere_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Sphere_7
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Subdivision_Surface_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Subdivision_Surface_4_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Subdivision_Surface_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Torus_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Torus_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/Disc
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/Disc_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/Extrude
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/Extrude_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/head_base
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/L_Brow
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/mouth
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/R_Brow
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/Torus
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/Torus_5_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/Cylinder_1_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/Cylinder_2_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2/Cube_2_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2/Null_9_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2/Null_9_2/Sphere_3_9
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2/Null_9_2/Sphere_3_10
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2/Sphere_3_11
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Cube_2_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Null_6_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Null_6_2/Sphere_3_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Null_6_2/Sphere_3_7
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Null_7_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Null_7_2/Sphere_3_8
+        weight: 1
+      - path: Null_1
+        weight: 1
+      - path: Null_1/Tube
+        weight: 1
+      - path: Null_2
+        weight: 1
+      - path: Null_2/Null
+        weight: 1
+      - path: Null_2/tube_spinner
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_15
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_16
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_17_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_18_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_19_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_20_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_21
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_16_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_17_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_18_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_19_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_20_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_21_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_22
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_23
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_24
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_25
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_26
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_27
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_28
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_29
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_30_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_31_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_32_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_33_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_/spiral_passage
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_/spiral_passage/Cube_30
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_/spiral_passage/Cube_31
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_/spiral_passage/Cube_32
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_/spiral_passage/Cube_33
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1/cube_passage
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1/cube_passage/Cube_17
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1/cube_passage/Cube_18
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1/cube_passage/Cube_19
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1/cube_passage/Cube_20
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10/cube_passage_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10/cube_passage_10/Cube_17_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10/cube_passage_10/Cube_18_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10/cube_passage_10/Cube_19_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10/cube_passage_10/Cube_20_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10/spiral_passage_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10/spiral_passage_10/Cube_30_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10/spiral_passage_10/Cube_31_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10/spiral_passage_10/Cube_32_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10/spiral_passage_10/Cube_33_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8/cube_passage_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8/cube_passage_8/Cube_17_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8/cube_passage_8/Cube_18_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8/cube_passage_8/Cube_19_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8/cube_passage_8/Cube_20_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8/spiral_passage_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8/spiral_passage_8/Cube_30_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8/spiral_passage_8/Cube_31_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8/spiral_passage_8/Cube_32_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8/spiral_passage_8/Cube_33_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9/cube_passage_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9/cube_passage_9/Cube_17_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9/cube_passage_9/Cube_18_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9/cube_passage_9/Cube_19_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9/cube_passage_9/Cube_20_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9/spiral_passage_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9/spiral_passage_9/Cube_30_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9/spiral_passage_9/Cube_31_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9/spiral_passage_9/Cube_32_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9/spiral_passage_9/Cube_33_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7/cube_passage_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7/cube_passage_7/Cube_17_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7/cube_passage_7/Cube_18_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7/cube_passage_7/Cube_19_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7/cube_passage_7/Cube_20_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7/spiral_passage_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7/spiral_passage_7/Cube_30_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7/spiral_passage_7/Cube_31_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7/spiral_passage_7/Cube_32_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7/spiral_passage_7/Cube_33_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6/cube_passage_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6/cube_passage_6/Cube_17_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6/cube_passage_6/Cube_18_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6/cube_passage_6/Cube_19_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6/cube_passage_6/Cube_20_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6/spiral_passage_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6/spiral_passage_6/Cube_30_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6/spiral_passage_6/Cube_31_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6/spiral_passage_6/Cube_32_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6/spiral_passage_6/Cube_33_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5/cube_passage_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5/cube_passage_5/Cube_17_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5/cube_passage_5/Cube_18_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5/cube_passage_5/Cube_19_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5/cube_passage_5/Cube_20_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5/spiral_passage_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5/spiral_passage_5/Cube_30_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5/spiral_passage_5/Cube_31_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5/spiral_passage_5/Cube_32_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5/spiral_passage_5/Cube_33_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4/cube_passage_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4/cube_passage_4/Cube_17_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4/cube_passage_4/Cube_18_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4/cube_passage_4/Cube_19_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4/cube_passage_4/Cube_20_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4/spiral_passage_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4/spiral_passage_4/Cube_30_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4/spiral_passage_4/Cube_31_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4/spiral_passage_4/Cube_32_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4/spiral_passage_4/Cube_33_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3/cube_passage_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3/cube_passage_3/Cube_17_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3/cube_passage_3/Cube_18_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3/cube_passage_3/Cube_19_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3/cube_passage_3/Cube_20_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3/spiral_passage_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3/spiral_passage_3/Cube_30_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3/spiral_passage_3/Cube_31_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3/spiral_passage_3/Cube_32_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3/spiral_passage_3/Cube_33_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2/cube_passage_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2/cube_passage_2/Cube_17_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2/cube_passage_2/Cube_18_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2/cube_passage_2/Cube_19_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2/cube_passage_2/Cube_20_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2/spiral_passage_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2/spiral_passage_2/Cube_30_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2/spiral_passage_2/Cube_31_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2/spiral_passage_2/Cube_32_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2/spiral_passage_2/Cube_33_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13/cube_passage_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13/cube_passage_13/Cube_17_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13/cube_passage_13/Cube_18_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13/cube_passage_13/Cube_19_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13/cube_passage_13/Cube_20_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13/spiral_passage_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13/spiral_passage_13/Cube_30_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13/spiral_passage_13/Cube_31_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13/spiral_passage_13/Cube_32_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13/spiral_passage_13/Cube_33_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12/cube_passage_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12/cube_passage_12/Cube_17_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12/cube_passage_12/Cube_18_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12/cube_passage_12/Cube_19_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12/cube_passage_12/Cube_20_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12/spiral_passage_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12/spiral_passage_12/Cube_30_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12/spiral_passage_12/Cube_31_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12/spiral_passage_12/Cube_32_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12/spiral_passage_12/Cube_33_12
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Event
+      takeName: CINEMA_4D_Main
+      firstFrame: 95
+      lastFrame: 2350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ceiling
+        weight: 1
+      - path: Ceiling/Base
+        weight: 1
+      - path: Ceiling/Base_2
+        weight: 1
+      - path: Ceiling/ceiling_fan
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle/Cube_8_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle/Cube_9_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle_1
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle_1/Cube_6_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/dangle_1/Cube_7_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_1
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_1/Subdivision_Surface_1_3
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_1/Subdivision_Surface_1_3/Cube_17_15
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_1/Subdivision_Surface_2_3
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_1/Subdivision_Surface_2_3/Cube_16_3
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_2/Subdivision_Surface_1_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_2/Subdivision_Surface_1_2/Cube_15_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_2/Subdivision_Surface_2_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_2/Subdivision_Surface_2_2/Cube_14_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_3
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_3/Subdivision_Surface_1
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_3/Subdivision_Surface_1/Cube_13_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_3/Subdivision_Surface_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_blades/fan_blades_2/fan_blade_3/Subdivision_Surface_2/Cube_12_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_centre
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_centre/Cube_10_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_centre/Cube_11_2
+        weight: 1
+      - path: Ceiling/ceiling_fan/fan_centre/Sphere_2_2
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_1
+        weight: 1
+      - path: Enviro
+        weight: 1
+      - path: Enviro/Mid_Room
+        weight: 1
+      - path: Enviro/Mid_Room/border
+        weight: 1
+      - path: Enviro/Mid_Room/Cube_1_3
+        weight: 1
+      - path: Enviro/Mid_Room/Cube_18_15
+        weight: 1
+      - path: Enviro/Mid_Room/Tube_3
+        weight: 1
+      - path: Mika_Null
+        weight: 1
+      - path: Mika_Null/Null_4_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/hipbone
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/hipbone/Cube_4_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/hipbone/Cube_5_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Cylinder_1_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Cylinder_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Cylinder_7
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/boot
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/boot_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/Cube_2_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/Cube_3_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/Cube_4_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_L/Leg_Bottom/Cylinder_1_7
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Cylinder_1_8
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Cylinder_8
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Cylinder_9
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/boot_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/boot_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/Cube_2_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/Cube_3_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/Cube_4_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/LEG_R/Leg_Bottom_2/Cylinder_1_9
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/oval_gem_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/oval_gem_2/Sphere_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/oval_gem_2/Sphere_3_14
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/oval_gem_2/Sphere_4_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/oval_gem_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/oval_gem_1/Sphere_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/oval_gem_1/Sphere_3_13
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/oval_gem_1/Sphere_4_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/detail_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/detail_2/oval_gem_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/detail_2/Sphere
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/detail_2/Sphere_3_12
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/detail_2/Sphere_4_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/Cylinder
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/Cylinder_1_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/Cylinder_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/forearm
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/forearm/Cylinder_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/forearm/Sphere_3_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/forearm/Sphere_4_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_L/forearm/Sphere_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/Cylinder_1_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/Cylinder_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/Cylinder_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/forearm_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/forearm_2/Cylinder_1_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/forearm_2/Sphere_3_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/forearm_2/Sphere_4_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/ARM_R/forearm_2/Sphere_5_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Cube_1_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Cube_2_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Cube_3_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Cylinder_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Torus_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Torus_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/detail/Torus_4_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball/Sphere_3_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball/Subdivision_Surface_5_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball/Torus_5_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball_1/Sphere_3_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball_1/Subdivision_Surface_5_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/bubbles/Null_5_2/glow_ball_1/Torus_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array/Torus_3_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array/Torus_3_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array/Torus_3_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array/Torus_3_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Array/Torus_3_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/oval_gem
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/oval_gem/Sphere_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/oval_gem/Sphere_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Sphere_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Sphere_7
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Subdivision_Surface_4
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Subdivision_Surface_4_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Subdivision_Surface_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Torus_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/crown/Torus_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/Disc
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/Disc_1
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/Extrude
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/Extrude_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/head_base
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/L_Brow
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/mouth
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/head/R_Brow
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/Torus
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/Neck/Torus_5_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/Cylinder_1_5
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/Cylinder_2_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2/Cube_2_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2/Null_9_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2/Null_9_2/Sphere_3_9
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2/Null_9_2/Sphere_3_10
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/pink_wings/wing_rotator_2/Null_8_2/Sphere_3_11
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Cube_2_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Null_6_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Null_6_2/Sphere_3_6
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Null_6_2/Sphere_3_7
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Null_7_2
+        weight: 1
+      - path: Mika_Null/Null_4_2/Mika/midsection/rib3/rib2/rib1/Torso_top/wings/purple_wings/wing_rotator/Null_1_3/Null_7_2/Sphere_3_8
+        weight: 1
+      - path: Null_1
+        weight: 1
+      - path: Null_1/Tube
+        weight: 1
+      - path: Null_2
+        weight: 1
+      - path: Null_2/Null
+        weight: 1
+      - path: Null_2/tube_spinner
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_15
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_16
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_17_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_18_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_19_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_20_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__1_11/cube_passage_11/Cube_21
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_16_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_17_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_18_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_19_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_20_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_21_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_22
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_23
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_24
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_25
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_26
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_27
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_28
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_29
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_30_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_31_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_32_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_1_2/Null_3_11/Both_Passages__0_to_return__11/spiral_passage_11/Cube_33_11
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_/spiral_passage
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_/spiral_passage/Cube_30
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_/spiral_passage/Cube_31
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_/spiral_passage/Cube_32
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return_/spiral_passage/Cube_33
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1/cube_passage
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1/cube_passage/Cube_17
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1/cube_passage/Cube_18
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1/cube_passage/Cube_19
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_2/Null_3/Both_Passages__0_to_return__1/cube_passage/Cube_20
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10/cube_passage_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10/cube_passage_10/Cube_17_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10/cube_passage_10/Cube_18_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10/cube_passage_10/Cube_19_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__1_10/cube_passage_10/Cube_20_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10/spiral_passage_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10/spiral_passage_10/Cube_30_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10/spiral_passage_10/Cube_31_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10/spiral_passage_10/Cube_32_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_2_3/Both_Passages__0_to_return__10/spiral_passage_10/Cube_33_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8/cube_passage_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8/cube_passage_8/Cube_17_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8/cube_passage_8/Cube_18_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8/cube_passage_8/Cube_19_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__1_8/cube_passage_8/Cube_20_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8/spiral_passage_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8/spiral_passage_8/Cube_30_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8/spiral_passage_8/Cube_31_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8/spiral_passage_8/Cube_32_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_3_8/Null_3_9/Both_Passages__0_to_return__8/spiral_passage_8/Cube_33_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9/cube_passage_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9/cube_passage_9/Cube_17_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9/cube_passage_9/Cube_18_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9/cube_passage_9/Cube_19_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__1_9/cube_passage_9/Cube_20_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9/spiral_passage_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9/spiral_passage_9/Cube_30_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9/spiral_passage_9/Cube_31_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9/spiral_passage_9/Cube_32_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_4/Null_3_10/Both_Passages__0_to_return__9/spiral_passage_9/Cube_33_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7/cube_passage_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7/cube_passage_7/Cube_17_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7/cube_passage_7/Cube_18_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7/cube_passage_7/Cube_19_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__1_7/cube_passage_7/Cube_20_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7/spiral_passage_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7/spiral_passage_7/Cube_30_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7/spiral_passage_7/Cube_31_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7/spiral_passage_7/Cube_32_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_5/Null_3_7/Both_Passages__0_to_return__7/spiral_passage_7/Cube_33_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6/cube_passage_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6/cube_passage_6/Cube_17_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6/cube_passage_6/Cube_18_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6/cube_passage_6/Cube_19_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__1_6/cube_passage_6/Cube_20_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6/spiral_passage_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6/spiral_passage_6/Cube_30_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6/spiral_passage_6/Cube_31_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6/spiral_passage_6/Cube_32_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_6/Null_3_6/Both_Passages__0_to_return__6/spiral_passage_6/Cube_33_6
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5/cube_passage_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5/cube_passage_5/Cube_17_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5/cube_passage_5/Cube_18_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5/cube_passage_5/Cube_19_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__1_5/cube_passage_5/Cube_20_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5/spiral_passage_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5/spiral_passage_5/Cube_30_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5/spiral_passage_5/Cube_31_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5/spiral_passage_5/Cube_32_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_7/Null_3_5/Both_Passages__0_to_return__5/spiral_passage_5/Cube_33_5
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4/cube_passage_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4/cube_passage_4/Cube_17_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4/cube_passage_4/Cube_18_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4/cube_passage_4/Cube_19_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__1_4/cube_passage_4/Cube_20_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4/spiral_passage_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4/spiral_passage_4/Cube_30_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4/spiral_passage_4/Cube_31_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4/spiral_passage_4/Cube_32_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_8/Null_3_4/Both_Passages__0_to_return__4/spiral_passage_4/Cube_33_4
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3/cube_passage_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3/cube_passage_3/Cube_17_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3/cube_passage_3/Cube_18_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3/cube_passage_3/Cube_19_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__1_3/cube_passage_3/Cube_20_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3/spiral_passage_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3/spiral_passage_3/Cube_30_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3/spiral_passage_3/Cube_31_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3/spiral_passage_3/Cube_32_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_9/Null_3_3/Both_Passages__0_to_return__3/spiral_passage_3/Cube_33_3
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2/cube_passage_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2/cube_passage_2/Cube_17_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2/cube_passage_2/Cube_18_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2/cube_passage_2/Cube_19_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__1_2/cube_passage_2/Cube_20_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2/spiral_passage_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2/spiral_passage_2/Cube_30_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2/spiral_passage_2/Cube_31_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2/spiral_passage_2/Cube_32_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_10/Null_3_2/Both_Passages__0_to_return__2/spiral_passage_2/Cube_33_2
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13/cube_passage_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13/cube_passage_13/Cube_17_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13/cube_passage_13/Cube_18_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13/cube_passage_13/Cube_19_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__1_13/cube_passage_13/Cube_20_14
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13/spiral_passage_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13/spiral_passage_13/Cube_30_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13/spiral_passage_13/Cube_31_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13/spiral_passage_13/Cube_32_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_14/Null_3_13/Both_Passages__0_to_return__13/spiral_passage_13/Cube_33_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12/cube_passage_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12/cube_passage_12/Cube_17_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12/cube_passage_12/Cube_18_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12/cube_passage_12/Cube_19_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__1_12/cube_passage_12/Cube_20_13
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12/spiral_passage_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12/spiral_passage_12/Cube_30_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12/spiral_passage_12/Cube_31_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12/spiral_passage_12/Cube_32_12
+        weight: 1
+      - path: Null_2/tube_spinner/Tube_2/Null_15/Null_3_12/Both_Passages__0_to_return__12/spiral_passage_12/Cube_33_12
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
