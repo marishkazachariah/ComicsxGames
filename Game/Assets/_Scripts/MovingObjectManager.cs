@@ -59,7 +59,7 @@ public class MovingObjectManager : MonoBehaviour {
 
         iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("FirstIntro"), "time", 30, "easetype", iTween.EaseType.easeInExpo));
         yield return new WaitForSeconds(15f);
-        MovePlatformPtTwo();
+        //MovePlatformPtTwo();
     }
 
     public void MovePlatformPtTwo()
