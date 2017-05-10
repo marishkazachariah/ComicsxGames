@@ -7,16 +7,19 @@ public class PlayerController : MonoBehaviour {
 	public GameObject platform;
 
     private MovingObjectManager _moveObject;
-   
-	void Start ()
-    {
-        _moveObject = FindObjectOfType<MovingObjectManager>();	}
 
-	void Update () 
+
+    void Start ()
+    {
+        _moveObject = FindObjectOfType<MovingObjectManager>();
+        MoveOnPlatform();
+
+    }
+
+    void Update () 
 	{
         if (Input.GetKeyDown(KeyCode.T))
         {
-            MoveOnPlatform();
         }
     }
 
@@ -57,13 +60,6 @@ public class PlayerController : MonoBehaviour {
             transform.parent = null;
         }
     }
-
-
-    //    else
-    //    {
-    //        transform.parent = null;
-    //    }
-    //}
 
     public void MoveOnPlatform()
     {

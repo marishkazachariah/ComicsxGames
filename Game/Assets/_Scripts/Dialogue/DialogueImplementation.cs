@@ -42,6 +42,7 @@ public class DialogueImplementation : MonoBehaviour
         panel.SetActive(true);
     }
 
+
     public string Parse(string characterName, string line)
 	{
 		return line;
@@ -53,7 +54,7 @@ public class DialogueImplementation : MonoBehaviour
 		string textToScroll = characterName + ": " + text;
 		//CharacterData characterData = Global.constants.GetCharacterData(characterName);
 		//Global.textbox.Say(characterData, text);
-		const float timePerChar = .017f;
+		const float timePerChar = .021f;
 		float accumTime = 0f;
 		int c = 0;
 		//while (!InputNext() && c < textToScroll.Length)
