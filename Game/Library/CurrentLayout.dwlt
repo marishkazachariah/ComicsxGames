@@ -108,7 +108,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 613}
   m_MaxSize: {x: 18008, y: 18063}
   vertical: 1
-  controlID: 120
+  controlID: 113
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 613}
   m_MaxSize: {x: 18008, y: 18063}
   vertical: 0
-  controlID: 121
+  controlID: 114
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 98
+  controlID: 183
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 613}
   m_MaxSize: {x: 10004, y: 18063}
   vertical: 1
-  controlID: 122
+  controlID: 115
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -489,14 +489,14 @@ MonoBehaviour:
     width: 737
     height: 317
   m_SceneLighting: 1
-  lastFramingTime: 12278.54601458326
+  lastFramingTime: 84.93391260333449
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -31.629967, y: -696.41156, z: 143.51395}
+    m_Target: {x: -239.6665, y: 395.3021, z: 456.50107}
     speed: 2
-    m_Value: {x: -31.629967, y: -696.41156, z: 143.51395}
+    m_Value: {x: -239.6665, y: 395.3021, z: 456.50107}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -523,9 +523,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.28027186, y: 0.28387573, z: -0.08715994, w: -0.9128338}
   m_Size:
-    m_Target: 182.05748
+    m_Target: 550.00946
     speed: 2
-    m_Value: 182.05748
+    m_Value: 550.00946
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -590,9 +590,9 @@ MonoBehaviour:
     height: 200
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b2800000
-    m_LastClickedID: 32946
-    m_ExpandedIDs: d8fbffff000000006a6d0000b2800000
+    m_SelectedIDs: 20450000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 744fffff8e68ffffac91ffff56b4ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -652,19 +652,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Scripts
+    - Assets/_Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Scripts
+  - Assets/_Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Marishka\Documents\ComicsxGames\Game
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 319}
-    m_SelectedIDs: 804a0000
-    m_LastClickedID: 19072
-    m_ExpandedIDs: 000000007c2c0000f02c0000022d00002c2e0000302f00006230000092300000343300000c38000016380000683d00002e3f000098400000064300007e450000c2450000384700003e470000c4470000dc4700005a480000804a0000c64d0000125300001c5900002a590000605a0000b65a0000125c00000c5d0000205d0000f85e00004860000018cf00001acf00001ccf00001ecf000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 71}
+    m_SelectedIDs: de5d0000
+    m_LastClickedID: 24030
+    m_ExpandedIDs: 00000000ce2e0000422f0000542f00007c30000080310000b2320000e632000088350000603a00006a3a0000bc3f000082410000ec4200005a450000d2470000164800008c49000092490000184a0000304a0000ae4a0000d44c00001a500000645500009c5c0000aa5c0000de5d0000345e0000905f00008a6000009e60000076620000c463000092d2000094d2000096d2000098d2000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -692,7 +692,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c2c0000f02c0000022d00002c2e0000302f00006230000092300000343300000c38000016380000683d00002e3f000098400000064300007e450000c2450000384700003e470000c4470000dc4700005a480000804a0000c64d0000125300001c5900002a590000605a0000b65a0000125c00000c5d0000205d0000f85e00004860000018cf00001acf00001ccf00001ecf0000
+    m_ExpandedIDs: 00000000ce2e0000422f0000542f00007c30000080310000b2320000e632000088350000603a00006a3a0000bc3f000082410000ec4200005a450000d2470000164800008c49000092490000184a0000304a0000ae4a0000d44c00001a500000645500009c5c0000aa5c0000de5d0000345e0000905f00008a6000009e60000076620000c463000092d2000094d2000096d2000098d20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -799,7 +799,7 @@ MonoBehaviour:
     y: 92
     width: 275
     height: 669
-  m_ScrollPosition: {x: 0, y: 516.9551}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160

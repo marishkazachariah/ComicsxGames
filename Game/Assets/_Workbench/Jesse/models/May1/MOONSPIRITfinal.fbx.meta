@@ -205,6 +205,8 @@ ModelImporter:
     100394: Tube_2
     100396: Tube_3
     100398: Tube_4
+    100400: back_of_mouth_8
+    100402: wide_open
     400000: Array
     400002: Array_2
     400004: back_of_mouth
@@ -405,6 +407,8 @@ ModelImporter:
     400394: Tube_2
     400396: Tube_3
     400398: Tube_4
+    400400: back_of_mouth_8
+    400402: wide_open
     2300000: back_of_mouth
     2300002: back_of_mouth_2
     2300004: back_of_mouth_4
@@ -531,6 +535,9 @@ ModelImporter:
     2300246: Tube_2
     2300248: Tube_3
     2300250: Tube_4
+    2300252: back_of_mouth_3
+    2300254: back_of_mouth_6
+    2300256: back_of_mouth_8
     3300000: back_of_mouth
     3300002: back_of_mouth_2
     3300004: back_of_mouth_4
@@ -657,6 +664,9 @@ ModelImporter:
     3300246: Tube_2
     3300248: Tube_3
     3300250: Tube_4
+    3300252: back_of_mouth_3
+    3300254: back_of_mouth_6
+    3300256: back_of_mouth_8
     4300000: Sweep
     4300002: Cap_1
     4300004: Cap_2
@@ -783,6 +793,9 @@ ModelImporter:
     4300246: Cheek_L_2
     4300248: Face_Border_2
     4300250: Cube_29
+    4300252: back_of_mouth_3
+    4300254: back_of_mouth_6
+    4300256: back_of_mouth_8
     7400000: Idle
     7400002: Pill Catching
     7400004: Transition Out
