@@ -295,6 +295,8 @@ ModelImporter:
     100574: Torus_3
     100576: Torus_4
     100578: whitelightsprite
+    100580: all
+    100582: Null
     400000: ARM_L
     400002: ARM_L_2
     400004: ARM_L_3
@@ -585,6 +587,8 @@ ModelImporter:
     400574: Torus_3
     400576: Torus_4
     400578: whitelightsprite
+    400580: all
+    400582: Null
     2300000: boot
     2300002: boot_2
     2300004: boot_2_2
