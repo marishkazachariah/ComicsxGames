@@ -30,15 +30,17 @@ public class DialogueImplementation : MonoBehaviour
             //dialogue.Run(defaultDialogue.text);
         }
     }
-    public void Start()
-    {
-
-    }
 
     //starting Dispirited first node "Start" node
     public void StartFirstNode()
     {
         dialogue.Run(defaultDialogue);
+        panel.SetActive(true);
+    }
+
+    public void StartSecondNode()
+    {
+        dialogue.Run(defaultDialogue,"IntroPt2",0);
         panel.SetActive(true);
     }
 

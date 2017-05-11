@@ -39,16 +39,22 @@ public class MovingObjectManager : MonoBehaviour {
         //_dialogueimp.StartFirstNode();
         IntroPlatform();
         _offset = new Vector3(0, 5, 0);
-        _isOn = true;
+        _isOn = false;
     }
     private void LateUpdate()
     {
-        
+        if (_isOn == true)
+            _player.transform.position = introPlatform.transform.position + _offset;
+
     }
     void Update ()
     {
         satellite.transform.RotateAround(Vector3.zero, Vector3.up, 20 * Time.deltaTime);
         satellite.transform.rotation = Quaternion.identity;
+        planet1.transform.Rotate(0, 1f, 0);
+        planet2.transform.Rotate(0, 1f, 0, Space.World);
+        planet3.transform.Rotate(0, 1f, 0, Space.World);
+        planet4.transform.Rotate(0, 1f, 0, Space.World);
 
         //if (Input.GetKeyDown(KeyCode.O))
         //    platformAnim.SetTrigger("MovePlat1");
@@ -72,31 +78,30 @@ public class MovingObjectManager : MonoBehaviour {
         charDialogue.clip = introDialogue[0];
         charDialogue.Play();
         yield return new WaitForSecondsRealtime(35);
+        _isOn = true;
         MovePlatformPtOne();
         yield return new WaitForSeconds(35);
-        _isOn = true;
         charDialogue.clip = introDialogue[1];
         charDialogue.Play();
+        _dialogueimp.StartSecondNode();
+        yield return new WaitForSeconds(10);
+        _isOn = false;
     }
     public void MovePlatformPtOne()
     {
-        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("FirstIntro"), "time", 30, "movetopath", false, "easetype", iTween.EaseType.easeInQuad, "oncomplete", "MovePlatformPtTwo", "oncompletetarget", this.gameObject));
+        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("FirstIntro"), "time", 20, "easetype", iTween.EaseType.easeInCubic, "oncomplete", "MovePlatformPtTwo", "oncompletetarget", this.gameObject));
     }
     public void MovePlatformPtTwo()
     {
 
-        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("SecondIntro"), "time", 10, "easetype", "movetopath", false, iTween.EaseType.easeInCubic, "oncomplete", "MovePlatformPtThree", "oncompletetarget", this.gameObject));
+        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("SecondIntro"), "time", 15, "movetopath", false, "easetype", iTween.EaseType.linear, "oncomplete", "MovePlatformPtThree", "oncompletetarget", this.gameObject));
     }
 
     public void MovePlatformPtThree()
     {
-        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("IntroPlatform"), "time", 40, "easetype", iTween.EaseType.linear));
+        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("IntroPlatform"), "time", 30, "movetopath", false, "easetype", iTween.EaseType.linear));
         iTween.MoveTo(ufo, iTween.Hash("path", iTweenPath.GetPath("UfoPath"), "time", 15, "easetype", iTween.EaseType.easeInOutSine));
+        iTween.MoveTo(comet, iTween.Hash("path", iTweenPath.GetPath("CometPath"), "time", 15, "easetype", iTween.EaseType.easeInOutSine));
     }
 
-    public void PlayerTransform()
-    {
-        if(_isOn == true)
-            _player.transform.position = introPlatform.transform.position + _offset;
-    }
 }

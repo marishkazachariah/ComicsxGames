@@ -66,4 +66,10 @@ public class PlayerController : MonoBehaviour {
         _moveObject.IntroPlatform();
     }
 
+    
+    public void Move(string destination)
+    {
+        Debug.Log("hey this worked!");
+    }
+
 }

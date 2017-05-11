@@ -20,29 +20,7 @@ public class RaftPlatformMovement : MonoBehaviour
 
     void Update()
     {
-        //transform.Translate(Vector3.forward * speed * direction * Time.deltaTime);
-
         raftPos = new Vector3(0.0f, 35.0f, -20.0f);
-    }
-
-
-    public void OnTriggerEnter(Collider collider)
-    {
-
-        //if (collider.tag == "Target")
-        //{
-        //    if (direction == 1)
-        //    {
-        //        direction = -1;
-        //    }
-        //    else
-        //        direction = 1;
-        //}
-        if (collider.tag == "Player")
-        {
-            //raftStart.SetActive(true);
-            //collider.transform.parent = transform;
-        }
     }
 
     public void OnTriggerStay(Collider other)
