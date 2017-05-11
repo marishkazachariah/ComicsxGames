@@ -1,0 +1,3067 @@
+fileFormatVersion: 2
+guid: ba732e2abed7545a380cfe1df2282e6f
+timeCreated: 1494528598
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ARM_L
+    100002: ARM_L_2
+    100004: ARM_L_3
+    100006: ARM_R
+    100008: ARM_R_2
+    100010: ARM_R_3
+    100012: Array
+    100014: bell_sprite
+    100016: big_cave_basic
+    100018: big_cave_basic_1
+    100020: big_cave_basic_2
+    100022: big_cave_basic_3
+    100024: boot
+    100026: boot_2
+    100028: boot_2_2
+    100030: boot_2_3
+    100032: boot_2_4
+    100034: boot_2_5
+    100036: boot_2_6
+    100038: boot_2_7
+    100040: boot_3
+    100042: boot_4
+    100044: boot_5
+    100046: boot_6
+    100048: Cap_2
+    100050: Cap_2_1
+    100052: Cap_2_2
+    100054: Cap_2_3
+    100056: Cap_2_4
+    100058: CAVES
+    100060: //RootNode
+    100062: corner_1
+    100064: corner_1_1
+    100066: corner_1_10
+    100068: corner_1_11
+    100070: corner_1_2
+    100072: corner_1_2_2
+    100074: corner_1_3
+    100076: corner_1_3_2
+    100078: corner_1_4
+    100080: corner_1_4_2
+    100082: corner_1_5
+    100084: corner_1_5_2
+    100086: corner_1_6
+    100088: corner_1_6_2
+    100090: corner_1_7
+    100092: corner_1_7_2
+    100094: corner_1_8
+    100096: corner_1_8_2
+    100098: corner_1_9
+    100100: corner_2
+    100102: corner_2_10
+    100104: corner_2_2
+    100106: corner_2_3
+    100108: corner_2_4
+    100110: corner_2_5
+    100112: corner_2_6
+    100114: corner_2_7
+    100116: corner_2_8
+    100118: corner_2_9
+    100120: corner_going_left
+    100122: corner_going_left_1
+    100124: corner_going_left_2
+    100126: corner_going_left_3
+    100128: corner_going_left_4
+    100130: corner_going_left_5
+    100132: corner_going_left_6
+    100134: corner_going_left_7
+    100136: Cube
+    100138: Cube_1
+    100140: Cube_10
+    100142: Cube_11
+    100144: Cube_12
+    100146: Cube_13
+    100148: Cube_14
+    100150: Cube_15
+    100152: Cube_16
+    100154: Cube_17
+    100156: Cube_18
+    100158: Cube_19
+    100160: Cube_1_2
+    100162: Cube_1_3
+    100164: Cube_1_4
+    100166: Cube_1_5
+    100168: Cube_2
+    100170: Cube_20
+    100172: Cube_21
+    100174: Cube_22
+    100176: Cube_23
+    100178: Cube_2_2
+    100180: Cube_2_3
+    100182: Cube_2_4
+    100184: Cube_2_5
+    100186: Cube_2_5_2
+    100188: Cube_2_5_3
+    100190: Cube_2_5_4
+    100192: Cube_2_5_5
+    100194: Cube_2_5_6
+    100196: Cube_2_5_7
+    100198: Cube_2_6
+    100200: Cube_2_7
+    100202: Cube_2_8
+    100204: Cube_2_9
+    100206: Cube_3
+    100208: Cube_3_1
+    100210: Cube_3_2
+    100212: Cube_3_2_2
+    100214: Cube_3_3
+    100216: Cube_3_3_2
+    100218: Cube_3_3_3
+    100220: Cube_3_3_4
+    100222: Cube_3_3_5
+    100224: Cube_3_3_6
+    100226: Cube_3_3_7
+    100228: Cube_3_3_8
+    100230: Cube_3_4
+    100232: Cube_3_4_2
+    100234: Cube_3_5
+    100236: Cube_3_5_2
+    100238: Cube_4
+    100240: Cube_4_2
+    100242: Cube_4_2_2
+    100244: Cube_4_2_3
+    100246: Cube_4_2_4
+    100248: Cube_4_2_5
+    100250: Cube_4_2_6
+    100252: Cube_4_2_7
+    100254: Cube_4_3
+    100256: Cube_4_4
+    100258: Cube_4_5
+    100260: Cube_5
+    100262: Cube_5_10
+    100264: Cube_5_11
+    100266: Cube_5_12
+    100268: Cube_5_2
+    100270: Cube_5_3
+    100272: Cube_5_4
+    100274: Cube_5_5
+    100276: Cube_5_6
+    100278: Cube_5_7
+    100280: Cube_5_8
+    100282: Cube_5_9
+    100284: Cube_6
+    100286: Cube_6_2
+    100288: Cube_6_3
+    100290: Cube_7
+    100292: Cube_7_2
+    100294: Cube_8
+    100296: Cube_8_2
+    100298: Cube_9
+    100300: Cylinder
+    100302: Cylinder_1
+    100304: Cylinder_1_2
+    100306: Cylinder_1_3
+    100308: Cylinder_1_4
+    100310: Cylinder_1_5
+    100312: Cylinder_1_7
+    100314: Cylinder_1_7_2
+    100316: Cylinder_1_7_3
+    100318: Cylinder_1_7_4
+    100320: Cylinder_1_7_5
+    100322: Cylinder_1_7_6
+    100324: Cylinder_2
+    100326: Cylinder_2_10
+    100328: Cylinder_2_11
+    100330: Cylinder_2_12
+    100332: Cylinder_2_13
+    100334: Cylinder_2_14
+    100336: Cylinder_2_15
+    100338: Cylinder_2_16
+    100340: Cylinder_2_17
+    100342: Cylinder_2_18
+    100344: Cylinder_2_19
+    100346: Cylinder_2_2
+    100348: Cylinder_2_20
+    100350: Cylinder_2_21
+    100352: Cylinder_2_22
+    100354: Cylinder_2_23
+    100356: Cylinder_2_24
+    100358: Cylinder_2_3
+    100360: Cylinder_2_4
+    100362: Cylinder_2_5
+    100364: Cylinder_2_6
+    100366: Cylinder_2_7
+    100368: Cylinder_2_8
+    100370: Cylinder_2_9
+    100372: Cylinder_3
+    100374: Cylinder_3_2
+    100376: Cylinder_4
+    100378: Cylinder_4_10
+    100380: Cylinder_4_11
+    100382: Cylinder_4_12
+    100384: Cylinder_4_13
+    100386: Cylinder_4_14
+    100388: Cylinder_4_2
+    100390: Cylinder_4_3
+    100392: Cylinder_4_4
+    100394: Cylinder_4_5
+    100396: Cylinder_4_6
+    100398: Cylinder_4_7
+    100400: Cylinder_4_8
+    100402: Cylinder_4_9
+    100404: Cylinder_5
+    100406: Cylinder_5_2
+    100408: Cylinder_5_3
+    100410: Cylinder_6
+    100412: Cylinder_6_2
+    100414: Cylinder_7
+    100416: Cylinder_7_2
+    100418: Cylinder_8
+    100420: Cylinder_9
+    100422: detail
+    100424: DONE2
+    100426: done_stuff
+    100428: Extrude_1
+    100430: Extrude_1_2
+    100432: Extrude_1_3
+    100434: EYE
+    100436: EYE_1
+    100438: EYE_1_2
+    100440: EYE_2
+    100442: head
+    100444: head_2
+    100446: head_3
+    100448: inner_tube
+    100450: inner_tube_1
+    100452: inner_tube_2
+    100454: inner_tube_3
+    100456: inner_tube_4
+    100458: inner_tube_5
+    100460: inner_tube_6
+    100462: inner_tube_7
+    100464: inner_tube_8
+    100466: island
+    100468: island_1
+    100470: island_2
+    100472: jumble_sprite
+    100474: Leg_Bottom
+    100476: Leg_Bottom_2
+    100478: Leg_Bottom_3
+    100480: Leg_Bottom_4
+    100482: Leg_Bottom_5
+    100484: Leg_Bottom_6
+    100486: LEG_L
+    100488: LEG_L_2
+    100490: LEG_L_3
+    100492: LEG_R
+    100494: LEG_R_2
+    100496: LEG_R_3
+    100498: Null_1
+    100500: Null_2
+    100502: pillar
+    100504: pillar_medium
+    100506: Plane
+    100508: Plane_1
+    100510: second_opening
+    100512: small_pillar
+    100514: Sphere
+    100516: Sphere_1
+    100518: Sphere_1_2
+    100520: Sphere_2
+    100522: Sphere_2_2
+    100524: Sphere_2_3
+    100526: Sphere_2_4
+    100528: Sphere_2_5
+    100530: Sphere_2_6
+    100532: Sphere_2_7
+    100534: straight_1
+    100536: straight_1_2
+    100538: straight_1_3
+    100540: straight_2
+    100542: straight_2_2
+    100544: Subdivision_Surface
+    100546: Subdivision_Surface_1
+    100548: Subdivision_Surface_2
+    100550: Subdivision_Surface_2_2
+    100552: Subdivision_Surface_3
+    100554: Subdivision_Surface_4
+    100556: Sweep
+    100558: Sweep_2
+    100560: torso
+    100562: torso_1
+    100564: torso_1_2
+    100566: torso_1_3
+    100568: Torus
+    100570: Torus_1
+    100572: Torus_2
+    100574: Torus_3
+    100576: Torus_4
+    100578: whitelightsprite
+    400000: ARM_L
+    400002: ARM_L_2
+    400004: ARM_L_3
+    400006: ARM_R
+    400008: ARM_R_2
+    400010: ARM_R_3
+    400012: Array
+    400014: bell_sprite
+    400016: big_cave_basic
+    400018: big_cave_basic_1
+    400020: big_cave_basic_2
+    400022: big_cave_basic_3
+    400024: boot
+    400026: boot_2
+    400028: boot_2_2
+    400030: boot_2_3
+    400032: boot_2_4
+    400034: boot_2_5
+    400036: boot_2_6
+    400038: boot_2_7
+    400040: boot_3
+    400042: boot_4
+    400044: boot_5
+    400046: boot_6
+    400048: Cap_2
+    400050: Cap_2_1
+    400052: Cap_2_2
+    400054: Cap_2_3
+    400056: Cap_2_4
+    400058: CAVES
+    400060: //RootNode
+    400062: corner_1
+    400064: corner_1_1
+    400066: corner_1_10
+    400068: corner_1_11
+    400070: corner_1_2
+    400072: corner_1_2_2
+    400074: corner_1_3
+    400076: corner_1_3_2
+    400078: corner_1_4
+    400080: corner_1_4_2
+    400082: corner_1_5
+    400084: corner_1_5_2
+    400086: corner_1_6
+    400088: corner_1_6_2
+    400090: corner_1_7
+    400092: corner_1_7_2
+    400094: corner_1_8
+    400096: corner_1_8_2
+    400098: corner_1_9
+    400100: corner_2
+    400102: corner_2_10
+    400104: corner_2_2
+    400106: corner_2_3
+    400108: corner_2_4
+    400110: corner_2_5
+    400112: corner_2_6
+    400114: corner_2_7
+    400116: corner_2_8
+    400118: corner_2_9
+    400120: corner_going_left
+    400122: corner_going_left_1
+    400124: corner_going_left_2
+    400126: corner_going_left_3
+    400128: corner_going_left_4
+    400130: corner_going_left_5
+    400132: corner_going_left_6
+    400134: corner_going_left_7
+    400136: Cube
+    400138: Cube_1
+    400140: Cube_10
+    400142: Cube_11
+    400144: Cube_12
+    400146: Cube_13
+    400148: Cube_14
+    400150: Cube_15
+    400152: Cube_16
+    400154: Cube_17
+    400156: Cube_18
+    400158: Cube_19
+    400160: Cube_1_2
+    400162: Cube_1_3
+    400164: Cube_1_4
+    400166: Cube_1_5
+    400168: Cube_2
+    400170: Cube_20
+    400172: Cube_21
+    400174: Cube_22
+    400176: Cube_23
+    400178: Cube_2_2
+    400180: Cube_2_3
+    400182: Cube_2_4
+    400184: Cube_2_5
+    400186: Cube_2_5_2
+    400188: Cube_2_5_3
+    400190: Cube_2_5_4
+    400192: Cube_2_5_5
+    400194: Cube_2_5_6
+    400196: Cube_2_5_7
+    400198: Cube_2_6
+    400200: Cube_2_7
+    400202: Cube_2_8
+    400204: Cube_2_9
+    400206: Cube_3
+    400208: Cube_3_1
+    400210: Cube_3_2
+    400212: Cube_3_2_2
+    400214: Cube_3_3
+    400216: Cube_3_3_2
+    400218: Cube_3_3_3
+    400220: Cube_3_3_4
+    400222: Cube_3_3_5
+    400224: Cube_3_3_6
+    400226: Cube_3_3_7
+    400228: Cube_3_3_8
+    400230: Cube_3_4
+    400232: Cube_3_4_2
+    400234: Cube_3_5
+    400236: Cube_3_5_2
+    400238: Cube_4
+    400240: Cube_4_2
+    400242: Cube_4_2_2
+    400244: Cube_4_2_3
+    400246: Cube_4_2_4
+    400248: Cube_4_2_5
+    400250: Cube_4_2_6
+    400252: Cube_4_2_7
+    400254: Cube_4_3
+    400256: Cube_4_4
+    400258: Cube_4_5
+    400260: Cube_5
+    400262: Cube_5_10
+    400264: Cube_5_11
+    400266: Cube_5_12
+    400268: Cube_5_2
+    400270: Cube_5_3
+    400272: Cube_5_4
+    400274: Cube_5_5
+    400276: Cube_5_6
+    400278: Cube_5_7
+    400280: Cube_5_8
+    400282: Cube_5_9
+    400284: Cube_6
+    400286: Cube_6_2
+    400288: Cube_6_3
+    400290: Cube_7
+    400292: Cube_7_2
+    400294: Cube_8
+    400296: Cube_8_2
+    400298: Cube_9
+    400300: Cylinder
+    400302: Cylinder_1
+    400304: Cylinder_1_2
+    400306: Cylinder_1_3
+    400308: Cylinder_1_4
+    400310: Cylinder_1_5
+    400312: Cylinder_1_7
+    400314: Cylinder_1_7_2
+    400316: Cylinder_1_7_3
+    400318: Cylinder_1_7_4
+    400320: Cylinder_1_7_5
+    400322: Cylinder_1_7_6
+    400324: Cylinder_2
+    400326: Cylinder_2_10
+    400328: Cylinder_2_11
+    400330: Cylinder_2_12
+    400332: Cylinder_2_13
+    400334: Cylinder_2_14
+    400336: Cylinder_2_15
+    400338: Cylinder_2_16
+    400340: Cylinder_2_17
+    400342: Cylinder_2_18
+    400344: Cylinder_2_19
+    400346: Cylinder_2_2
+    400348: Cylinder_2_20
+    400350: Cylinder_2_21
+    400352: Cylinder_2_22
+    400354: Cylinder_2_23
+    400356: Cylinder_2_24
+    400358: Cylinder_2_3
+    400360: Cylinder_2_4
+    400362: Cylinder_2_5
+    400364: Cylinder_2_6
+    400366: Cylinder_2_7
+    400368: Cylinder_2_8
+    400370: Cylinder_2_9
+    400372: Cylinder_3
+    400374: Cylinder_3_2
+    400376: Cylinder_4
+    400378: Cylinder_4_10
+    400380: Cylinder_4_11
+    400382: Cylinder_4_12
+    400384: Cylinder_4_13
+    400386: Cylinder_4_14
+    400388: Cylinder_4_2
+    400390: Cylinder_4_3
+    400392: Cylinder_4_4
+    400394: Cylinder_4_5
+    400396: Cylinder_4_6
+    400398: Cylinder_4_7
+    400400: Cylinder_4_8
+    400402: Cylinder_4_9
+    400404: Cylinder_5
+    400406: Cylinder_5_2
+    400408: Cylinder_5_3
+    400410: Cylinder_6
+    400412: Cylinder_6_2
+    400414: Cylinder_7
+    400416: Cylinder_7_2
+    400418: Cylinder_8
+    400420: Cylinder_9
+    400422: detail
+    400424: DONE2
+    400426: done_stuff
+    400428: Extrude_1
+    400430: Extrude_1_2
+    400432: Extrude_1_3
+    400434: EYE
+    400436: EYE_1
+    400438: EYE_1_2
+    400440: EYE_2
+    400442: head
+    400444: head_2
+    400446: head_3
+    400448: inner_tube
+    400450: inner_tube_1
+    400452: inner_tube_2
+    400454: inner_tube_3
+    400456: inner_tube_4
+    400458: inner_tube_5
+    400460: inner_tube_6
+    400462: inner_tube_7
+    400464: inner_tube_8
+    400466: island
+    400468: island_1
+    400470: island_2
+    400472: jumble_sprite
+    400474: Leg_Bottom
+    400476: Leg_Bottom_2
+    400478: Leg_Bottom_3
+    400480: Leg_Bottom_4
+    400482: Leg_Bottom_5
+    400484: Leg_Bottom_6
+    400486: LEG_L
+    400488: LEG_L_2
+    400490: LEG_L_3
+    400492: LEG_R
+    400494: LEG_R_2
+    400496: LEG_R_3
+    400498: Null_1
+    400500: Null_2
+    400502: pillar
+    400504: pillar_medium
+    400506: Plane
+    400508: Plane_1
+    400510: second_opening
+    400512: small_pillar
+    400514: Sphere
+    400516: Sphere_1
+    400518: Sphere_1_2
+    400520: Sphere_2
+    400522: Sphere_2_2
+    400524: Sphere_2_3
+    400526: Sphere_2_4
+    400528: Sphere_2_5
+    400530: Sphere_2_6
+    400532: Sphere_2_7
+    400534: straight_1
+    400536: straight_1_2
+    400538: straight_1_3
+    400540: straight_2
+    400542: straight_2_2
+    400544: Subdivision_Surface
+    400546: Subdivision_Surface_1
+    400548: Subdivision_Surface_2
+    400550: Subdivision_Surface_2_2
+    400552: Subdivision_Surface_3
+    400554: Subdivision_Surface_4
+    400556: Sweep
+    400558: Sweep_2
+    400560: torso
+    400562: torso_1
+    400564: torso_1_2
+    400566: torso_1_3
+    400568: Torus
+    400570: Torus_1
+    400572: Torus_2
+    400574: Torus_3
+    400576: Torus_4
+    400578: whitelightsprite
+    2300000: boot
+    2300002: boot_2
+    2300004: boot_2_2
+    2300006: boot_2_3
+    2300008: boot_2_4
+    2300010: boot_2_5
+    2300012: boot_2_6
+    2300014: boot_2_7
+    2300016: boot_3
+    2300018: boot_4
+    2300020: boot_5
+    2300022: boot_6
+    2300024: Cap_2
+    2300026: Cap_2_1
+    2300028: Cap_2_2
+    2300030: Cap_2_3
+    2300032: Cap_2_4
+    2300034: Cube
+    2300036: Cube_1
+    2300038: Cube_10
+    2300040: Cube_11
+    2300042: Cube_12
+    2300044: Cube_13
+    2300046: Cube_14
+    2300048: Cube_15
+    2300050: Cube_16
+    2300052: Cube_17
+    2300054: Cube_18
+    2300056: Cube_19
+    2300058: Cube_1_2
+    2300060: Cube_1_3
+    2300062: Cube_1_4
+    2300064: Cube_1_5
+    2300066: Cube_2
+    2300068: Cube_20
+    2300070: Cube_21
+    2300072: Cube_22
+    2300074: Cube_23
+    2300076: Cube_2_2
+    2300078: Cube_2_3
+    2300080: Cube_2_4
+    2300082: Cube_2_5
+    2300084: Cube_2_5_2
+    2300086: Cube_2_5_3
+    2300088: Cube_2_5_4
+    2300090: Cube_2_5_5
+    2300092: Cube_2_5_6
+    2300094: Cube_2_5_7
+    2300096: Cube_2_6
+    2300098: Cube_2_7
+    2300100: Cube_2_8
+    2300102: Cube_2_9
+    2300104: Cube_3
+    2300106: Cube_3_1
+    2300108: Cube_3_2
+    2300110: Cube_3_2_2
+    2300112: Cube_3_3
+    2300114: Cube_3_3_2
+    2300116: Cube_3_3_3
+    2300118: Cube_3_3_4
+    2300120: Cube_3_3_5
+    2300122: Cube_3_3_6
+    2300124: Cube_3_3_7
+    2300126: Cube_3_3_8
+    2300128: Cube_3_4
+    2300130: Cube_3_4_2
+    2300132: Cube_3_5
+    2300134: Cube_3_5_2
+    2300136: Cube_4
+    2300138: Cube_4_2
+    2300140: Cube_4_2_2
+    2300142: Cube_4_2_3
+    2300144: Cube_4_2_4
+    2300146: Cube_4_2_5
+    2300148: Cube_4_2_6
+    2300150: Cube_4_2_7
+    2300152: Cube_4_3
+    2300154: Cube_4_4
+    2300156: Cube_4_5
+    2300158: Cube_5
+    2300160: Cube_5_10
+    2300162: Cube_5_11
+    2300164: Cube_5_12
+    2300166: Cube_5_2
+    2300168: Cube_5_3
+    2300170: Cube_5_4
+    2300172: Cube_5_5
+    2300174: Cube_5_6
+    2300176: Cube_5_7
+    2300178: Cube_5_8
+    2300180: Cube_5_9
+    2300182: Cube_6
+    2300184: Cube_6_2
+    2300186: Cube_6_3
+    2300188: Cube_7
+    2300190: Cube_7_2
+    2300192: Cube_8
+    2300194: Cube_8_2
+    2300196: Cube_9
+    2300198: Cylinder
+    2300200: Cylinder_1
+    2300202: Cylinder_1_2
+    2300204: Cylinder_1_3
+    2300206: Cylinder_1_4
+    2300208: Cylinder_1_5
+    2300210: Cylinder_1_7
+    2300212: Cylinder_1_7_2
+    2300214: Cylinder_1_7_3
+    2300216: Cylinder_1_7_4
+    2300218: Cylinder_1_7_5
+    2300220: Cylinder_1_7_6
+    2300222: Cylinder_2
+    2300224: Cylinder_2_10
+    2300226: Cylinder_2_11
+    2300228: Cylinder_2_12
+    2300230: Cylinder_2_13
+    2300232: Cylinder_2_14
+    2300234: Cylinder_2_15
+    2300236: Cylinder_2_16
+    2300238: Cylinder_2_17
+    2300240: Cylinder_2_18
+    2300242: Cylinder_2_19
+    2300244: Cylinder_2_2
+    2300246: Cylinder_2_20
+    2300248: Cylinder_2_21
+    2300250: Cylinder_2_22
+    2300252: Cylinder_2_23
+    2300254: Cylinder_2_24
+    2300256: Cylinder_2_3
+    2300258: Cylinder_2_4
+    2300260: Cylinder_2_5
+    2300262: Cylinder_2_6
+    2300264: Cylinder_2_7
+    2300266: Cylinder_2_8
+    2300268: Cylinder_2_9
+    2300270: Cylinder_3
+    2300272: Cylinder_3_2
+    2300274: Cylinder_4
+    2300276: Cylinder_4_10
+    2300278: Cylinder_4_11
+    2300280: Cylinder_4_12
+    2300282: Cylinder_4_13
+    2300284: Cylinder_4_14
+    2300286: Cylinder_4_2
+    2300288: Cylinder_4_3
+    2300290: Cylinder_4_4
+    2300292: Cylinder_4_5
+    2300294: Cylinder_4_6
+    2300296: Cylinder_4_7
+    2300298: Cylinder_4_8
+    2300300: Cylinder_4_9
+    2300302: Cylinder_5
+    2300304: Cylinder_5_2
+    2300306: Cylinder_5_3
+    2300308: Cylinder_6
+    2300310: Cylinder_6_2
+    2300312: Cylinder_7
+    2300314: Cylinder_7_2
+    2300316: Cylinder_8
+    2300318: Cylinder_9
+    2300320: Extrude_1
+    2300322: Extrude_1_2
+    2300324: Extrude_1_3
+    2300326: EYE
+    2300328: EYE_1
+    2300330: EYE_1_2
+    2300332: EYE_2
+    2300334: inner_tube
+    2300336: inner_tube_1
+    2300338: inner_tube_2
+    2300340: inner_tube_3
+    2300342: inner_tube_4
+    2300344: inner_tube_5
+    2300346: inner_tube_6
+    2300348: inner_tube_7
+    2300350: inner_tube_8
+    2300352: Plane
+    2300354: Sphere
+    2300356: Sphere_1
+    2300358: Sphere_1_2
+    2300360: Sphere_2
+    2300362: Sphere_2_2
+    2300364: Sphere_2_3
+    2300366: Sphere_2_4
+    2300368: Sphere_2_5
+    2300370: Sphere_2_6
+    2300372: Sphere_2_7
+    2300374: Sweep
+    2300376: Sweep_2
+    2300378: Torus
+    2300380: Torus_1
+    2300382: Torus_2
+    2300384: Torus_3
+    2300386: Torus_4
+    3300000: boot
+    3300002: boot_2
+    3300004: boot_2_2
+    3300006: boot_2_3
+    3300008: boot_2_4
+    3300010: boot_2_5
+    3300012: boot_2_6
+    3300014: boot_2_7
+    3300016: boot_3
+    3300018: boot_4
+    3300020: boot_5
+    3300022: boot_6
+    3300024: Cap_2
+    3300026: Cap_2_1
+    3300028: Cap_2_2
+    3300030: Cap_2_3
+    3300032: Cap_2_4
+    3300034: Cube
+    3300036: Cube_1
+    3300038: Cube_10
+    3300040: Cube_11
+    3300042: Cube_12
+    3300044: Cube_13
+    3300046: Cube_14
+    3300048: Cube_15
+    3300050: Cube_16
+    3300052: Cube_17
+    3300054: Cube_18
+    3300056: Cube_19
+    3300058: Cube_1_2
+    3300060: Cube_1_3
+    3300062: Cube_1_4
+    3300064: Cube_1_5
+    3300066: Cube_2
+    3300068: Cube_20
+    3300070: Cube_21
+    3300072: Cube_22
+    3300074: Cube_23
+    3300076: Cube_2_2
+    3300078: Cube_2_3
+    3300080: Cube_2_4
+    3300082: Cube_2_5
+    3300084: Cube_2_5_2
+    3300086: Cube_2_5_3
+    3300088: Cube_2_5_4
+    3300090: Cube_2_5_5
+    3300092: Cube_2_5_6
+    3300094: Cube_2_5_7
+    3300096: Cube_2_6
+    3300098: Cube_2_7
+    3300100: Cube_2_8
+    3300102: Cube_2_9
+    3300104: Cube_3
+    3300106: Cube_3_1
+    3300108: Cube_3_2
+    3300110: Cube_3_2_2
+    3300112: Cube_3_3
+    3300114: Cube_3_3_2
+    3300116: Cube_3_3_3
+    3300118: Cube_3_3_4
+    3300120: Cube_3_3_5
+    3300122: Cube_3_3_6
+    3300124: Cube_3_3_7
+    3300126: Cube_3_3_8
+    3300128: Cube_3_4
+    3300130: Cube_3_4_2
+    3300132: Cube_3_5
+    3300134: Cube_3_5_2
+    3300136: Cube_4
+    3300138: Cube_4_2
+    3300140: Cube_4_2_2
+    3300142: Cube_4_2_3
+    3300144: Cube_4_2_4
+    3300146: Cube_4_2_5
+    3300148: Cube_4_2_6
+    3300150: Cube_4_2_7
+    3300152: Cube_4_3
+    3300154: Cube_4_4
+    3300156: Cube_4_5
+    3300158: Cube_5
+    3300160: Cube_5_10
+    3300162: Cube_5_11
+    3300164: Cube_5_12
+    3300166: Cube_5_2
+    3300168: Cube_5_3
+    3300170: Cube_5_4
+    3300172: Cube_5_5
+    3300174: Cube_5_6
+    3300176: Cube_5_7
+    3300178: Cube_5_8
+    3300180: Cube_5_9
+    3300182: Cube_6
+    3300184: Cube_6_2
+    3300186: Cube_6_3
+    3300188: Cube_7
+    3300190: Cube_7_2
+    3300192: Cube_8
+    3300194: Cube_8_2
+    3300196: Cube_9
+    3300198: Cylinder
+    3300200: Cylinder_1
+    3300202: Cylinder_1_2
+    3300204: Cylinder_1_3
+    3300206: Cylinder_1_4
+    3300208: Cylinder_1_5
+    3300210: Cylinder_1_7
+    3300212: Cylinder_1_7_2
+    3300214: Cylinder_1_7_3
+    3300216: Cylinder_1_7_4
+    3300218: Cylinder_1_7_5
+    3300220: Cylinder_1_7_6
+    3300222: Cylinder_2
+    3300224: Cylinder_2_10
+    3300226: Cylinder_2_11
+    3300228: Cylinder_2_12
+    3300230: Cylinder_2_13
+    3300232: Cylinder_2_14
+    3300234: Cylinder_2_15
+    3300236: Cylinder_2_16
+    3300238: Cylinder_2_17
+    3300240: Cylinder_2_18
+    3300242: Cylinder_2_19
+    3300244: Cylinder_2_2
+    3300246: Cylinder_2_20
+    3300248: Cylinder_2_21
+    3300250: Cylinder_2_22
+    3300252: Cylinder_2_23
+    3300254: Cylinder_2_24
+    3300256: Cylinder_2_3
+    3300258: Cylinder_2_4
+    3300260: Cylinder_2_5
+    3300262: Cylinder_2_6
+    3300264: Cylinder_2_7
+    3300266: Cylinder_2_8
+    3300268: Cylinder_2_9
+    3300270: Cylinder_3
+    3300272: Cylinder_3_2
+    3300274: Cylinder_4
+    3300276: Cylinder_4_10
+    3300278: Cylinder_4_11
+    3300280: Cylinder_4_12
+    3300282: Cylinder_4_13
+    3300284: Cylinder_4_14
+    3300286: Cylinder_4_2
+    3300288: Cylinder_4_3
+    3300290: Cylinder_4_4
+    3300292: Cylinder_4_5
+    3300294: Cylinder_4_6
+    3300296: Cylinder_4_7
+    3300298: Cylinder_4_8
+    3300300: Cylinder_4_9
+    3300302: Cylinder_5
+    3300304: Cylinder_5_2
+    3300306: Cylinder_5_3
+    3300308: Cylinder_6
+    3300310: Cylinder_6_2
+    3300312: Cylinder_7
+    3300314: Cylinder_7_2
+    3300316: Cylinder_8
+    3300318: Cylinder_9
+    3300320: Extrude_1
+    3300322: Extrude_1_2
+    3300324: Extrude_1_3
+    3300326: EYE
+    3300328: EYE_1
+    3300330: EYE_1_2
+    3300332: EYE_2
+    3300334: inner_tube
+    3300336: inner_tube_1
+    3300338: inner_tube_2
+    3300340: inner_tube_3
+    3300342: inner_tube_4
+    3300344: inner_tube_5
+    3300346: inner_tube_6
+    3300348: inner_tube_7
+    3300350: inner_tube_8
+    3300352: Plane
+    3300354: Sphere
+    3300356: Sphere_1
+    3300358: Sphere_1_2
+    3300360: Sphere_2
+    3300362: Sphere_2_2
+    3300364: Sphere_2_3
+    3300366: Sphere_2_4
+    3300368: Sphere_2_5
+    3300370: Sphere_2_6
+    3300372: Sphere_2_7
+    3300374: Sweep
+    3300376: Sweep_2
+    3300378: Torus
+    3300380: Torus_1
+    3300382: Torus_2
+    3300384: Torus_3
+    3300386: Torus_4
+    4300000: Sphere_2
+    4300002: Sphere_2_2
+    4300004: Cube_4
+    4300006: Cube
+    4300008: Cube_2
+    4300010: Cube_3
+    4300012: Cube_4_2
+    4300014: Torus_1
+    4300016: Torus
+    4300018: EYE_1
+    4300020: EYE_1_2
+    4300022: Extrude_1
+    4300024: Cube_5
+    4300026: Cube_2_2
+    4300028: Cube_3_2
+    4300030: Cube_6
+    4300032: Cube_4_2_2
+    4300034: Cube_3_3
+    4300036: Cube_2_5
+    4300038: boot
+    4300040: boot_2
+    4300042: Cylinder_1_7
+    4300044: Cube_7
+    4300046: Cube_4_2_3
+    4300048: Cube_3_3_2
+    4300050: Cube_2_5_2
+    4300052: boot_2_2
+    4300054: boot_2_3
+    4300056: Cylinder_1_7_2
+    4300058: Cube_8
+    4300060: Cube_4_2_4
+    4300062: Cube_3_3_3
+    4300064: Cube_2_5_3
+    4300066: boot_3
+    4300068: boot_2_4
+    4300070: Cylinder_1_7_3
+    4300072: Cube_9
+    4300074: Cube_4_2_5
+    4300076: Cube_3_3_4
+    4300078: Cube_2_5_4
+    4300080: boot_4
+    4300082: boot_2_5
+    4300084: Cylinder_1_7_4
+    4300086: Sphere_2_3
+    4300088: Sphere_2_4
+    4300090: Extrude_1_2
+    4300092: Sphere_1
+    4300094: Sphere
+    4300096: Cube_10
+    4300098: Cube_2_3
+    4300100: Cube_1
+    4300102: Cube_11
+    4300104: Cube_3_3_5
+    4300106: Torus_2
+    4300108: Sweep
+    4300110: Sweep_2
+    4300112: Cube_4_3
+    4300114: Cube_12
+    4300116: Cube_4_2_6
+    4300118: Cube_3_3_6
+    4300120: Cube_2_5_5
+    4300122: boot_5
+    4300124: boot_2_6
+    4300126: Cylinder_1_7_5
+    4300128: Cube_13
+    4300130: Cube_4_2_7
+    4300132: Cube_3_3_7
+    4300134: Cube_2_5_6
+    4300136: boot_6
+    4300138: boot_2_7
+    4300140: Cylinder_1_7_6
+    4300142: Cube_14
+    4300144: Cube_3_5
+    4300146: Cube_3_4
+    4300148: Cube_3_3_8
+    4300150: Cube_3_2_2
+    4300152: Cube_3_1
+    4300154: EYE
+    4300156: EYE_2
+    4300158: Extrude_1_3
+    4300160: Sphere_1_2
+    4300162: Sphere_2_5
+    4300164: Cube_15
+    4300166: Cube_2_4
+    4300168: Cube_3_4_2
+    4300170: Torus_3
+    4300172: Sphere_2_6
+    4300174: Sphere_2_7
+    4300176: Cube_2_5_7
+    4300178: Cube_1_2
+    4300180: Torus_4
+    4300182: Cube_16
+    4300184: Cube_17
+    4300186: Cube_2_6
+    4300188: Cube_18
+    4300190: Cube_1_3
+    4300192: Cube_8_2
+    4300194: Cube_7_2
+    4300196: Cube_6_2
+    4300198: Cube_5_2
+    4300200: Cube_5_3
+    4300202: Cube_6_3
+    4300204: Cube_5_4
+    4300206: Cube_5_5
+    4300208: Cube_2_7
+    4300210: Cube_5_6
+    4300212: Cube_4_4
+    4300214: Cube_5_7
+    4300216: Cube_5_8
+    4300218: Cube_19
+    4300220: Cube_5_9
+    4300222: Cube_5_10
+    4300224: Cube_20
+    4300226: Cube_5_11
+    4300228: Cube_5_12
+    4300230: Cube_21
+    4300232: Cylinder_7
+    4300234: Cylinder_6
+    4300236: Cylinder_5
+    4300238: Cylinder_4
+    4300240: Cube_3_5_2
+    4300242: Cube_2_8
+    4300244: Cube_1_4
+    4300246: Cube_4_5
+    4300248: inner_tube_8
+    4300250: inner_tube_7
+    4300252: inner_tube_6
+    4300254: inner_tube_5
+    4300256: inner_tube_4
+    4300258: inner_tube_2
+    4300260: inner_tube_3
+    4300262: inner_tube_1
+    4300264: inner_tube
+    4300266: Cap_2_4
+    4300268: Cap_2_3
+    4300270: Cap_2_2
+    4300272: Cap_2_1
+    4300274: Cap_2
+    4300276: Cube_22
+    4300278: Cylinder_2
+    4300280: Cylinder_2_2
+    4300282: Cylinder_2_3
+    4300284: Cylinder_2_4
+    4300286: Cylinder_2_5
+    4300288: Cylinder_2_6
+    4300290: Cylinder_2_7
+    4300292: Cylinder_2_8
+    4300294: Cylinder_2_9
+    4300296: Cylinder_2_10
+    4300298: Cylinder_1
+    4300300: Cylinder_2_11
+    4300302: Cylinder_4_2
+    4300304: Cylinder_1_2
+    4300306: Cylinder
+    4300308: Cylinder_3
+    4300310: Cylinder_5_2
+    4300312: Cylinder_4_3
+    4300314: Cylinder_2_12
+    4300316: Cylinder_2_13
+    4300318: Cylinder_3_2
+    4300320: Cylinder_4_4
+    4300322: Cylinder_5_3
+    4300324: Cylinder_6_2
+    4300326: Cylinder_2_14
+    4300328: Cylinder_4_5
+    4300330: Cylinder_2_15
+    4300332: Cylinder_4_6
+    4300334: Cylinder_2_16
+    4300336: Cylinder_4_7
+    4300338: Cylinder_2_17
+    4300340: Cylinder_4_8
+    4300342: Cylinder_7_2
+    4300344: Cylinder_1_3
+    4300346: Cylinder_2_18
+    4300348: Cylinder_4_9
+    4300350: Cylinder_2_19
+    4300352: Cylinder_4_10
+    4300354: Cylinder_2_20
+    4300356: Cylinder_4_11
+    4300358: Cylinder_2_21
+    4300360: Cylinder_4_12
+    4300362: Cube_2_9
+    4300364: Cube_1_5
+    4300366: Cube_23
+    4300368: Cylinder_2_22
+    4300370: Cylinder_8
+    4300372: Cylinder_2_23
+    4300374: Cylinder_4_13
+    4300376: Cylinder_1_4
+    4300378: Cylinder_2_24
+    4300380: Cylinder_4_14
+    4300382: Cylinder_9
+    4300384: Cylinder_1_5
+    4300386: Plane
+    7400000: Intro
+    7400002: Idle
+    7400004: Celebrate
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Intro
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 875
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bell_sprite
+        weight: 1
+      - path: bell_sprite/LEG_L_3
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Cube_14
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/boot_2_7
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/boot_6
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cube_2_5_6
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cube_3_3_7
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cube_4_2_7
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cylinder_1_7_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Cube_13
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/boot_2_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/boot_5
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cube_2_5_5
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cube_3_3_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cube_4_2_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cylinder_1_7_5
+        weight: 1
+      - path: bell_sprite/torso_1_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_L_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_L_3/Sphere_2_7
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_R_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_R_3/Sphere_2_6
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_1_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_1_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_2_5_7
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_2_6
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_16
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_17
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_18
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Torus_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_1
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_2_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_3_8
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_5
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Cube_2_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Cube_3_4_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Extrude_1_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/EYE
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/EYE_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Sphere_1_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Sphere_2_5
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Subdivision_Surface_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Subdivision_Surface_4/Cube_15
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Torus_3
+        weight: 1
+      - path: CAVES
+        weight: 1
+      - path: CAVES/Cap_2
+        weight: 1
+      - path: CAVES/Cap_2_1
+        weight: 1
+      - path: CAVES/Cap_2_2
+        weight: 1
+      - path: CAVES/Cap_2_3
+        weight: 1
+      - path: CAVES/Cap_2_4
+        weight: 1
+      - path: CAVES/corner_1
+        weight: 1
+      - path: CAVES/corner_1/Cylinder_2_9
+        weight: 1
+      - path: CAVES/corner_1_1
+        weight: 1
+      - path: CAVES/corner_1_1/Cylinder_2_8
+        weight: 1
+      - path: CAVES/corner_1_2
+        weight: 1
+      - path: CAVES/corner_1_2/Cylinder_2_7
+        weight: 1
+      - path: CAVES/corner_1_3
+        weight: 1
+      - path: CAVES/corner_1_3/Cylinder_2_6
+        weight: 1
+      - path: CAVES/corner_1_4
+        weight: 1
+      - path: CAVES/corner_1_4/Cylinder_2_5
+        weight: 1
+      - path: CAVES/corner_1_5
+        weight: 1
+      - path: CAVES/corner_1_5/Cylinder_2_4
+        weight: 1
+      - path: CAVES/corner_1_6
+        weight: 1
+      - path: CAVES/corner_1_6/Cylinder_2_3
+        weight: 1
+      - path: CAVES/corner_1_7
+        weight: 1
+      - path: CAVES/corner_1_7/Cylinder_2_2
+        weight: 1
+      - path: CAVES/corner_1_8
+        weight: 1
+      - path: CAVES/corner_1_8/Cylinder_2
+        weight: 1
+      - path: CAVES/Cube_1_4
+        weight: 1
+      - path: CAVES/Cube_2_8
+        weight: 1
+      - path: CAVES/Cube_3_5_2
+        weight: 1
+      - path: CAVES/Cube_4_5
+        weight: 1
+      - path: CAVES/Cube_5_2
+        weight: 1
+      - path: CAVES/Cube_6_2
+        weight: 1
+      - path: CAVES/Cube_7_2
+        weight: 1
+      - path: CAVES/Cube_8_2
+        weight: 1
+      - path: CAVES/Cube_22
+        weight: 1
+      - path: CAVES/Cylinder
+        weight: 1
+      - path: CAVES/Cylinder_1
+        weight: 1
+      - path: CAVES/Cylinder_2_10
+        weight: 1
+      - path: CAVES/Cylinder_3
+        weight: 1
+      - path: CAVES/Cylinder_4
+        weight: 1
+      - path: CAVES/Cylinder_5
+        weight: 1
+      - path: CAVES/Cylinder_6
+        weight: 1
+      - path: CAVES/Cylinder_7
+        weight: 1
+      - path: CAVES/DONE2
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic/Cylinder_6_2
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_1
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_1/Cylinder_5_3
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_2
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_2/Cylinder_4_4
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_3
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_3/Cylinder_3_2
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_2_12
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_2_13
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_4_3
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_5_2
+        weight: 1
+      - path: CAVES/done_stuff
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_10
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_10/Cylinder_2_23
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_11
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_11/Cylinder_2_24
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_9
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_9/Cylinder_4_13
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_10
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_10/Cylinder_4_14
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_1_9
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_1_9/Cylinder_2_21
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_2_8
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_2_8/Cylinder_4_12
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_1_8_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_1_8_2/Cylinder_2_20
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_2_7
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_2_7/Cylinder_4_11
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_1_7_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_1_7_2/Cylinder_2_19
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_2_6
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_2_6/Cylinder_4_10
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_1_6_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_1_6_2/Cylinder_2_18
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_2_5
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_2_5/Cylinder_4_9
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_1_5_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_1_5_2/Cylinder_2_17
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_2_4
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_2_4/Cylinder_4_8
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_1_4_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_1_4_2/Cylinder_2_16
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_2_3
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_2_3/Cylinder_4_7
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_1_3_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_1_3_2/Cylinder_2_15
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_2_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_2_2/Cylinder_4_6
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_1_2_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_1_2_2/Cylinder_2_14
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_2/Cylinder_4_5
+        weight: 1
+      - path: CAVES/done_stuff/Cube_1_5
+        weight: 1
+      - path: CAVES/done_stuff/Cube_2_9
+        weight: 1
+      - path: CAVES/done_stuff/Cube_23
+        weight: 1
+      - path: CAVES/done_stuff/Cylinder_2_22
+        weight: 1
+      - path: CAVES/done_stuff/Cylinder_8
+        weight: 1
+      - path: CAVES/done_stuff/straight_1
+        weight: 1
+      - path: CAVES/done_stuff/straight_1/Cylinder_1_3
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_2/Cylinder_1_4
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_3
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_3/Cylinder_1_5
+        weight: 1
+      - path: CAVES/done_stuff/straight_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_2/Cylinder_7_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_2_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_2_2/Cylinder_9
+        weight: 1
+      - path: CAVES/inner_tube
+        weight: 1
+      - path: CAVES/inner_tube_1
+        weight: 1
+      - path: CAVES/inner_tube_2
+        weight: 1
+      - path: CAVES/inner_tube_3
+        weight: 1
+      - path: CAVES/inner_tube_4
+        weight: 1
+      - path: CAVES/inner_tube_5
+        weight: 1
+      - path: CAVES/inner_tube_6
+        weight: 1
+      - path: CAVES/inner_tube_7
+        weight: 1
+      - path: CAVES/inner_tube_8
+        weight: 1
+      - path: CAVES/island
+        weight: 1
+      - path: CAVES/island/Cube_5_11
+        weight: 1
+      - path: CAVES/island/Cube_5_12
+        weight: 1
+      - path: CAVES/island/Cube_21
+        weight: 1
+      - path: CAVES/island_1
+        weight: 1
+      - path: CAVES/island_1/Cube_5_9
+        weight: 1
+      - path: CAVES/island_1/Cube_5_10
+        weight: 1
+      - path: CAVES/island_1/Cube_20
+        weight: 1
+      - path: CAVES/island_2
+        weight: 1
+      - path: CAVES/island_2/Cube_5_7
+        weight: 1
+      - path: CAVES/island_2/Cube_5_8
+        weight: 1
+      - path: CAVES/island_2/Cube_19
+        weight: 1
+      - path: CAVES/pillar
+        weight: 1
+      - path: CAVES/pillar/Cube_4_4
+        weight: 1
+      - path: CAVES/pillar/Cube_5_6
+        weight: 1
+      - path: CAVES/pillar_medium
+        weight: 1
+      - path: CAVES/pillar_medium/Cube_2_7
+        weight: 1
+      - path: CAVES/pillar_medium/Cube_5_5
+        weight: 1
+      - path: CAVES/Plane
+        weight: 1
+      - path: CAVES/Plane_1
+        weight: 1
+      - path: CAVES/second_opening
+        weight: 1
+      - path: CAVES/second_opening/Cylinder_1_2
+        weight: 1
+      - path: CAVES/second_opening/Cylinder_2_11
+        weight: 1
+      - path: CAVES/second_opening/Cylinder_4_2
+        weight: 1
+      - path: CAVES/small_pillar
+        weight: 1
+      - path: CAVES/small_pillar/Cube_5_3
+        weight: 1
+      - path: CAVES/small_pillar/Cube_5_4
+        weight: 1
+      - path: CAVES/small_pillar/Cube_6_3
+        weight: 1
+      - path: jumble_sprite
+        weight: 1
+      - path: jumble_sprite/LEG_L
+        weight: 1
+      - path: jumble_sprite/LEG_L/Cube_7
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/boot_2_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/boot_2_3
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cube_2_5_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cube_3_3_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cube_4_2_3
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cylinder_1_7_2
+        weight: 1
+      - path: jumble_sprite/LEG_R
+        weight: 1
+      - path: jumble_sprite/LEG_R/Cube_6
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/boot
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/boot_2
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cube_2_5
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cube_3_3
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cube_4_2_2
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cylinder_1_7
+        weight: 1
+      - path: jumble_sprite/torso_1
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_L
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_L/Sphere_2_2
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_R
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_R/Sphere_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Cube_2_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Cube_3_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Extrude_1
+        weight: 1
+      - path: jumble_sprite/torso_1/head/EYE_1
+        weight: 1
+      - path: jumble_sprite/torso_1/head/EYE_1_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface/Cube_4_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_1
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_1/Cube_3
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2/Cube_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2_2/Cube_5
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Torus
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Torus_1
+        weight: 1
+      - path: jumble_sprite/torso_1/torso
+        weight: 1
+      - path: jumble_sprite/torso_1/torso/Cube
+        weight: 1
+      - path: jumble_sprite/torso_1/torso/Cube_4
+        weight: 1
+      - path: whitelightsprite
+        weight: 1
+      - path: whitelightsprite/LEG_L_2
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Cube_9
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/boot_2_5
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/boot_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cube_2_5_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cube_3_3_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cube_4_2_5
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cylinder_1_7_4
+        weight: 1
+      - path: whitelightsprite/LEG_R_2
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Cube_8
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/boot_2_4
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/boot_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cube_2_5_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cube_3_3_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cube_4_2_4
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cylinder_1_7_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_L_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_L_2/Sphere_2_4
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_R_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_R_2/Sphere_2_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/Cube_4_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/Cube_12
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_1
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_2_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_3_3_5
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_11
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Extrude_1_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1/Null_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1/Null_2/Sweep_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1/Sweep
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Sphere
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Sphere_1
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Subdivision_Surface_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Subdivision_Surface_3/Cube_10
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Torus_2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: CINEMA_4D_Main
+      firstFrame: 876
+      lastFrame: 1069
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bell_sprite
+        weight: 1
+      - path: bell_sprite/LEG_L_3
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Cube_14
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/boot_2_7
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/boot_6
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cube_2_5_6
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cube_3_3_7
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cube_4_2_7
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cylinder_1_7_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Cube_13
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/boot_2_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/boot_5
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cube_2_5_5
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cube_3_3_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cube_4_2_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cylinder_1_7_5
+        weight: 1
+      - path: bell_sprite/torso_1_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_L_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_L_3/Sphere_2_7
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_R_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_R_3/Sphere_2_6
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_1_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_1_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_2_5_7
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_2_6
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_16
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_17
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_18
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Torus_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_1
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_2_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_3_8
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_5
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Cube_2_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Cube_3_4_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Extrude_1_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/EYE
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/EYE_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Sphere_1_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Sphere_2_5
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Subdivision_Surface_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Subdivision_Surface_4/Cube_15
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Torus_3
+        weight: 1
+      - path: CAVES
+        weight: 1
+      - path: CAVES/Cap_2
+        weight: 1
+      - path: CAVES/Cap_2_1
+        weight: 1
+      - path: CAVES/Cap_2_2
+        weight: 1
+      - path: CAVES/Cap_2_3
+        weight: 1
+      - path: CAVES/Cap_2_4
+        weight: 1
+      - path: CAVES/corner_1
+        weight: 1
+      - path: CAVES/corner_1/Cylinder_2_9
+        weight: 1
+      - path: CAVES/corner_1_1
+        weight: 1
+      - path: CAVES/corner_1_1/Cylinder_2_8
+        weight: 1
+      - path: CAVES/corner_1_2
+        weight: 1
+      - path: CAVES/corner_1_2/Cylinder_2_7
+        weight: 1
+      - path: CAVES/corner_1_3
+        weight: 1
+      - path: CAVES/corner_1_3/Cylinder_2_6
+        weight: 1
+      - path: CAVES/corner_1_4
+        weight: 1
+      - path: CAVES/corner_1_4/Cylinder_2_5
+        weight: 1
+      - path: CAVES/corner_1_5
+        weight: 1
+      - path: CAVES/corner_1_5/Cylinder_2_4
+        weight: 1
+      - path: CAVES/corner_1_6
+        weight: 1
+      - path: CAVES/corner_1_6/Cylinder_2_3
+        weight: 1
+      - path: CAVES/corner_1_7
+        weight: 1
+      - path: CAVES/corner_1_7/Cylinder_2_2
+        weight: 1
+      - path: CAVES/corner_1_8
+        weight: 1
+      - path: CAVES/corner_1_8/Cylinder_2
+        weight: 1
+      - path: CAVES/Cube_1_4
+        weight: 1
+      - path: CAVES/Cube_2_8
+        weight: 1
+      - path: CAVES/Cube_3_5_2
+        weight: 1
+      - path: CAVES/Cube_4_5
+        weight: 1
+      - path: CAVES/Cube_5_2
+        weight: 1
+      - path: CAVES/Cube_6_2
+        weight: 1
+      - path: CAVES/Cube_7_2
+        weight: 1
+      - path: CAVES/Cube_8_2
+        weight: 1
+      - path: CAVES/Cube_22
+        weight: 1
+      - path: CAVES/Cylinder
+        weight: 1
+      - path: CAVES/Cylinder_1
+        weight: 1
+      - path: CAVES/Cylinder_2_10
+        weight: 1
+      - path: CAVES/Cylinder_3
+        weight: 1
+      - path: CAVES/Cylinder_4
+        weight: 1
+      - path: CAVES/Cylinder_5
+        weight: 1
+      - path: CAVES/Cylinder_6
+        weight: 1
+      - path: CAVES/Cylinder_7
+        weight: 1
+      - path: CAVES/DONE2
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic/Cylinder_6_2
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_1
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_1/Cylinder_5_3
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_2
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_2/Cylinder_4_4
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_3
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_3/Cylinder_3_2
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_2_12
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_2_13
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_4_3
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_5_2
+        weight: 1
+      - path: CAVES/done_stuff
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_10
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_10/Cylinder_2_23
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_11
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_11/Cylinder_2_24
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_9
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_9/Cylinder_4_13
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_10
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_10/Cylinder_4_14
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_1_9
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_1_9/Cylinder_2_21
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_2_8
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_2_8/Cylinder_4_12
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_1_8_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_1_8_2/Cylinder_2_20
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_2_7
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_2_7/Cylinder_4_11
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_1_7_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_1_7_2/Cylinder_2_19
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_2_6
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_2_6/Cylinder_4_10
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_1_6_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_1_6_2/Cylinder_2_18
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_2_5
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_2_5/Cylinder_4_9
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_1_5_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_1_5_2/Cylinder_2_17
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_2_4
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_2_4/Cylinder_4_8
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_1_4_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_1_4_2/Cylinder_2_16
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_2_3
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_2_3/Cylinder_4_7
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_1_3_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_1_3_2/Cylinder_2_15
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_2_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_2_2/Cylinder_4_6
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_1_2_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_1_2_2/Cylinder_2_14
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_2/Cylinder_4_5
+        weight: 1
+      - path: CAVES/done_stuff/Cube_1_5
+        weight: 1
+      - path: CAVES/done_stuff/Cube_2_9
+        weight: 1
+      - path: CAVES/done_stuff/Cube_23
+        weight: 1
+      - path: CAVES/done_stuff/Cylinder_2_22
+        weight: 1
+      - path: CAVES/done_stuff/Cylinder_8
+        weight: 1
+      - path: CAVES/done_stuff/straight_1
+        weight: 1
+      - path: CAVES/done_stuff/straight_1/Cylinder_1_3
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_2/Cylinder_1_4
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_3
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_3/Cylinder_1_5
+        weight: 1
+      - path: CAVES/done_stuff/straight_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_2/Cylinder_7_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_2_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_2_2/Cylinder_9
+        weight: 1
+      - path: CAVES/inner_tube
+        weight: 1
+      - path: CAVES/inner_tube_1
+        weight: 1
+      - path: CAVES/inner_tube_2
+        weight: 1
+      - path: CAVES/inner_tube_3
+        weight: 1
+      - path: CAVES/inner_tube_4
+        weight: 1
+      - path: CAVES/inner_tube_5
+        weight: 1
+      - path: CAVES/inner_tube_6
+        weight: 1
+      - path: CAVES/inner_tube_7
+        weight: 1
+      - path: CAVES/inner_tube_8
+        weight: 1
+      - path: CAVES/island
+        weight: 1
+      - path: CAVES/island/Cube_5_11
+        weight: 1
+      - path: CAVES/island/Cube_5_12
+        weight: 1
+      - path: CAVES/island/Cube_21
+        weight: 1
+      - path: CAVES/island_1
+        weight: 1
+      - path: CAVES/island_1/Cube_5_9
+        weight: 1
+      - path: CAVES/island_1/Cube_5_10
+        weight: 1
+      - path: CAVES/island_1/Cube_20
+        weight: 1
+      - path: CAVES/island_2
+        weight: 1
+      - path: CAVES/island_2/Cube_5_7
+        weight: 1
+      - path: CAVES/island_2/Cube_5_8
+        weight: 1
+      - path: CAVES/island_2/Cube_19
+        weight: 1
+      - path: CAVES/pillar
+        weight: 1
+      - path: CAVES/pillar/Cube_4_4
+        weight: 1
+      - path: CAVES/pillar/Cube_5_6
+        weight: 1
+      - path: CAVES/pillar_medium
+        weight: 1
+      - path: CAVES/pillar_medium/Cube_2_7
+        weight: 1
+      - path: CAVES/pillar_medium/Cube_5_5
+        weight: 1
+      - path: CAVES/Plane
+        weight: 1
+      - path: CAVES/Plane_1
+        weight: 1
+      - path: CAVES/second_opening
+        weight: 1
+      - path: CAVES/second_opening/Cylinder_1_2
+        weight: 1
+      - path: CAVES/second_opening/Cylinder_2_11
+        weight: 1
+      - path: CAVES/second_opening/Cylinder_4_2
+        weight: 1
+      - path: CAVES/small_pillar
+        weight: 1
+      - path: CAVES/small_pillar/Cube_5_3
+        weight: 1
+      - path: CAVES/small_pillar/Cube_5_4
+        weight: 1
+      - path: CAVES/small_pillar/Cube_6_3
+        weight: 1
+      - path: jumble_sprite
+        weight: 1
+      - path: jumble_sprite/LEG_L
+        weight: 1
+      - path: jumble_sprite/LEG_L/Cube_7
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/boot_2_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/boot_2_3
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cube_2_5_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cube_3_3_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cube_4_2_3
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cylinder_1_7_2
+        weight: 1
+      - path: jumble_sprite/LEG_R
+        weight: 1
+      - path: jumble_sprite/LEG_R/Cube_6
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/boot
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/boot_2
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cube_2_5
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cube_3_3
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cube_4_2_2
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cylinder_1_7
+        weight: 1
+      - path: jumble_sprite/torso_1
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_L
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_L/Sphere_2_2
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_R
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_R/Sphere_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Cube_2_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Cube_3_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Extrude_1
+        weight: 1
+      - path: jumble_sprite/torso_1/head/EYE_1
+        weight: 1
+      - path: jumble_sprite/torso_1/head/EYE_1_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface/Cube_4_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_1
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_1/Cube_3
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2/Cube_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2_2/Cube_5
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Torus
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Torus_1
+        weight: 1
+      - path: jumble_sprite/torso_1/torso
+        weight: 1
+      - path: jumble_sprite/torso_1/torso/Cube
+        weight: 1
+      - path: jumble_sprite/torso_1/torso/Cube_4
+        weight: 1
+      - path: whitelightsprite
+        weight: 1
+      - path: whitelightsprite/LEG_L_2
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Cube_9
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/boot_2_5
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/boot_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cube_2_5_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cube_3_3_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cube_4_2_5
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cylinder_1_7_4
+        weight: 1
+      - path: whitelightsprite/LEG_R_2
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Cube_8
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/boot_2_4
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/boot_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cube_2_5_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cube_3_3_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cube_4_2_4
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cylinder_1_7_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_L_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_L_2/Sphere_2_4
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_R_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_R_2/Sphere_2_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/Cube_4_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/Cube_12
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_1
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_2_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_3_3_5
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_11
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Extrude_1_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1/Null_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1/Null_2/Sweep_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1/Sweep
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Sphere
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Sphere_1
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Subdivision_Surface_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Subdivision_Surface_3/Cube_10
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Torus_2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Celebrate
+      takeName: CINEMA_4D_Main
+      firstFrame: 1070
+      lastFrame: 1129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bell_sprite
+        weight: 1
+      - path: bell_sprite/LEG_L_3
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Cube_14
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/boot_2_7
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/boot_6
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cube_2_5_6
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cube_3_3_7
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cube_4_2_7
+        weight: 1
+      - path: bell_sprite/LEG_L_3/Leg_Bottom_6/Cylinder_1_7_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Cube_13
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/boot_2_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/boot_5
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cube_2_5_5
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cube_3_3_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cube_4_2_6
+        weight: 1
+      - path: bell_sprite/LEG_R_3/Leg_Bottom_5/Cylinder_1_7_5
+        weight: 1
+      - path: bell_sprite/torso_1_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_L_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_L_3/Sphere_2_7
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_R_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/ARM_R_3/Sphere_2_6
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_1_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_1_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_2_5_7
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_2_6
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_16
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_17
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Cube_18
+        weight: 1
+      - path: bell_sprite/torso_1_3/detail/Torus_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_1
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_2_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_3_8
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Array/Cube_3_5
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Cube_2_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Cube_3_4_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Extrude_1_3
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/EYE
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/EYE_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Sphere_1_2
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Sphere_2_5
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Subdivision_Surface_4
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Subdivision_Surface_4/Cube_15
+        weight: 1
+      - path: bell_sprite/torso_1_3/head_3/Torus_3
+        weight: 1
+      - path: CAVES
+        weight: 1
+      - path: CAVES/Cap_2
+        weight: 1
+      - path: CAVES/Cap_2_1
+        weight: 1
+      - path: CAVES/Cap_2_2
+        weight: 1
+      - path: CAVES/Cap_2_3
+        weight: 1
+      - path: CAVES/Cap_2_4
+        weight: 1
+      - path: CAVES/corner_1
+        weight: 1
+      - path: CAVES/corner_1/Cylinder_2_9
+        weight: 1
+      - path: CAVES/corner_1_1
+        weight: 1
+      - path: CAVES/corner_1_1/Cylinder_2_8
+        weight: 1
+      - path: CAVES/corner_1_2
+        weight: 1
+      - path: CAVES/corner_1_2/Cylinder_2_7
+        weight: 1
+      - path: CAVES/corner_1_3
+        weight: 1
+      - path: CAVES/corner_1_3/Cylinder_2_6
+        weight: 1
+      - path: CAVES/corner_1_4
+        weight: 1
+      - path: CAVES/corner_1_4/Cylinder_2_5
+        weight: 1
+      - path: CAVES/corner_1_5
+        weight: 1
+      - path: CAVES/corner_1_5/Cylinder_2_4
+        weight: 1
+      - path: CAVES/corner_1_6
+        weight: 1
+      - path: CAVES/corner_1_6/Cylinder_2_3
+        weight: 1
+      - path: CAVES/corner_1_7
+        weight: 1
+      - path: CAVES/corner_1_7/Cylinder_2_2
+        weight: 1
+      - path: CAVES/corner_1_8
+        weight: 1
+      - path: CAVES/corner_1_8/Cylinder_2
+        weight: 1
+      - path: CAVES/Cube_1_4
+        weight: 1
+      - path: CAVES/Cube_2_8
+        weight: 1
+      - path: CAVES/Cube_3_5_2
+        weight: 1
+      - path: CAVES/Cube_4_5
+        weight: 1
+      - path: CAVES/Cube_5_2
+        weight: 1
+      - path: CAVES/Cube_6_2
+        weight: 1
+      - path: CAVES/Cube_7_2
+        weight: 1
+      - path: CAVES/Cube_8_2
+        weight: 1
+      - path: CAVES/Cube_22
+        weight: 1
+      - path: CAVES/Cylinder
+        weight: 1
+      - path: CAVES/Cylinder_1
+        weight: 1
+      - path: CAVES/Cylinder_2_10
+        weight: 1
+      - path: CAVES/Cylinder_3
+        weight: 1
+      - path: CAVES/Cylinder_4
+        weight: 1
+      - path: CAVES/Cylinder_5
+        weight: 1
+      - path: CAVES/Cylinder_6
+        weight: 1
+      - path: CAVES/Cylinder_7
+        weight: 1
+      - path: CAVES/DONE2
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic/Cylinder_6_2
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_1
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_1/Cylinder_5_3
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_2
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_2/Cylinder_4_4
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_3
+        weight: 1
+      - path: CAVES/DONE2/big_cave_basic_3/Cylinder_3_2
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_2_12
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_2_13
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_4_3
+        weight: 1
+      - path: CAVES/DONE2/Cylinder_5_2
+        weight: 1
+      - path: CAVES/done_stuff
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_10
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_10/Cylinder_2_23
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_11
+        weight: 1
+      - path: CAVES/done_stuff/corner_1_11/Cylinder_2_24
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_9
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_9/Cylinder_4_13
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_10
+        weight: 1
+      - path: CAVES/done_stuff/corner_2_10/Cylinder_4_14
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_1_9
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_1_9/Cylinder_2_21
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_2_8
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left/corner_2_8/Cylinder_4_12
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_1_8_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_1_8_2/Cylinder_2_20
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_2_7
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_1/corner_2_7/Cylinder_4_11
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_1_7_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_1_7_2/Cylinder_2_19
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_2_6
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_2/corner_2_6/Cylinder_4_10
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_1_6_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_1_6_2/Cylinder_2_18
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_2_5
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_3/corner_2_5/Cylinder_4_9
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_1_5_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_1_5_2/Cylinder_2_17
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_2_4
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_4/corner_2_4/Cylinder_4_8
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_1_4_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_1_4_2/Cylinder_2_16
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_2_3
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_5/corner_2_3/Cylinder_4_7
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_1_3_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_1_3_2/Cylinder_2_15
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_2_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_6/corner_2_2/Cylinder_4_6
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_1_2_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_1_2_2/Cylinder_2_14
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_2
+        weight: 1
+      - path: CAVES/done_stuff/corner_going_left_7/corner_2/Cylinder_4_5
+        weight: 1
+      - path: CAVES/done_stuff/Cube_1_5
+        weight: 1
+      - path: CAVES/done_stuff/Cube_2_9
+        weight: 1
+      - path: CAVES/done_stuff/Cube_23
+        weight: 1
+      - path: CAVES/done_stuff/Cylinder_2_22
+        weight: 1
+      - path: CAVES/done_stuff/Cylinder_8
+        weight: 1
+      - path: CAVES/done_stuff/straight_1
+        weight: 1
+      - path: CAVES/done_stuff/straight_1/Cylinder_1_3
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_2/Cylinder_1_4
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_3
+        weight: 1
+      - path: CAVES/done_stuff/straight_1_3/Cylinder_1_5
+        weight: 1
+      - path: CAVES/done_stuff/straight_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_2/Cylinder_7_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_2_2
+        weight: 1
+      - path: CAVES/done_stuff/straight_2_2/Cylinder_9
+        weight: 1
+      - path: CAVES/inner_tube
+        weight: 1
+      - path: CAVES/inner_tube_1
+        weight: 1
+      - path: CAVES/inner_tube_2
+        weight: 1
+      - path: CAVES/inner_tube_3
+        weight: 1
+      - path: CAVES/inner_tube_4
+        weight: 1
+      - path: CAVES/inner_tube_5
+        weight: 1
+      - path: CAVES/inner_tube_6
+        weight: 1
+      - path: CAVES/inner_tube_7
+        weight: 1
+      - path: CAVES/inner_tube_8
+        weight: 1
+      - path: CAVES/island
+        weight: 1
+      - path: CAVES/island/Cube_5_11
+        weight: 1
+      - path: CAVES/island/Cube_5_12
+        weight: 1
+      - path: CAVES/island/Cube_21
+        weight: 1
+      - path: CAVES/island_1
+        weight: 1
+      - path: CAVES/island_1/Cube_5_9
+        weight: 1
+      - path: CAVES/island_1/Cube_5_10
+        weight: 1
+      - path: CAVES/island_1/Cube_20
+        weight: 1
+      - path: CAVES/island_2
+        weight: 1
+      - path: CAVES/island_2/Cube_5_7
+        weight: 1
+      - path: CAVES/island_2/Cube_5_8
+        weight: 1
+      - path: CAVES/island_2/Cube_19
+        weight: 1
+      - path: CAVES/pillar
+        weight: 1
+      - path: CAVES/pillar/Cube_4_4
+        weight: 1
+      - path: CAVES/pillar/Cube_5_6
+        weight: 1
+      - path: CAVES/pillar_medium
+        weight: 1
+      - path: CAVES/pillar_medium/Cube_2_7
+        weight: 1
+      - path: CAVES/pillar_medium/Cube_5_5
+        weight: 1
+      - path: CAVES/Plane
+        weight: 1
+      - path: CAVES/Plane_1
+        weight: 1
+      - path: CAVES/second_opening
+        weight: 1
+      - path: CAVES/second_opening/Cylinder_1_2
+        weight: 1
+      - path: CAVES/second_opening/Cylinder_2_11
+        weight: 1
+      - path: CAVES/second_opening/Cylinder_4_2
+        weight: 1
+      - path: CAVES/small_pillar
+        weight: 1
+      - path: CAVES/small_pillar/Cube_5_3
+        weight: 1
+      - path: CAVES/small_pillar/Cube_5_4
+        weight: 1
+      - path: CAVES/small_pillar/Cube_6_3
+        weight: 1
+      - path: jumble_sprite
+        weight: 1
+      - path: jumble_sprite/LEG_L
+        weight: 1
+      - path: jumble_sprite/LEG_L/Cube_7
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/boot_2_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/boot_2_3
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cube_2_5_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cube_3_3_2
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cube_4_2_3
+        weight: 1
+      - path: jumble_sprite/LEG_L/Leg_Bottom_2/Cylinder_1_7_2
+        weight: 1
+      - path: jumble_sprite/LEG_R
+        weight: 1
+      - path: jumble_sprite/LEG_R/Cube_6
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/boot
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/boot_2
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cube_2_5
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cube_3_3
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cube_4_2_2
+        weight: 1
+      - path: jumble_sprite/LEG_R/Leg_Bottom/Cylinder_1_7
+        weight: 1
+      - path: jumble_sprite/torso_1
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_L
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_L/Sphere_2_2
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_R
+        weight: 1
+      - path: jumble_sprite/torso_1/ARM_R/Sphere_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Cube_2_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Cube_3_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Extrude_1
+        weight: 1
+      - path: jumble_sprite/torso_1/head/EYE_1
+        weight: 1
+      - path: jumble_sprite/torso_1/head/EYE_1_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface/Cube_4_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_1
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_1/Cube_3
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2/Cube_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2_2
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Subdivision_Surface_2_2/Cube_5
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Torus
+        weight: 1
+      - path: jumble_sprite/torso_1/head/Torus_1
+        weight: 1
+      - path: jumble_sprite/torso_1/torso
+        weight: 1
+      - path: jumble_sprite/torso_1/torso/Cube
+        weight: 1
+      - path: jumble_sprite/torso_1/torso/Cube_4
+        weight: 1
+      - path: whitelightsprite
+        weight: 1
+      - path: whitelightsprite/LEG_L_2
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Cube_9
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/boot_2_5
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/boot_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cube_2_5_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cube_3_3_4
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cube_4_2_5
+        weight: 1
+      - path: whitelightsprite/LEG_L_2/Leg_Bottom_4/Cylinder_1_7_4
+        weight: 1
+      - path: whitelightsprite/LEG_R_2
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Cube_8
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/boot_2_4
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/boot_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cube_2_5_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cube_3_3_3
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cube_4_2_4
+        weight: 1
+      - path: whitelightsprite/LEG_R_2/Leg_Bottom_3/Cylinder_1_7_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_L_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_L_2/Sphere_2_4
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_R_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/ARM_R_2/Sphere_2_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/Cube_4_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/Cube_12
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_1
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_2_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_3_3_5
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Cube_11
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Extrude_1_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1/Null_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1/Null_2/Sweep_2
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Null_1/Sweep
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Sphere
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Sphere_1
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Subdivision_Surface_3
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Subdivision_Surface_3/Cube_10
+        weight: 1
+      - path: whitelightsprite/torso_1_2/head_2/Torus_2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
