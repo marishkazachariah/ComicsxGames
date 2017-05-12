@@ -7,8 +7,10 @@ public class RaftPlatformMovement : MonoBehaviour
     public float speed = 1f;
     public GameObject player;
     public GameObject platform;
+    public Animator moonspiritAnimation;
 
-    public Transform target;
+    public Transform entranceToMouthTarget;
+    public Transform goIntoMouthTarget;
 
     public Collider raftCollider;
     public Collider platformCollider; 
@@ -18,21 +20,25 @@ public class RaftPlatformMovement : MonoBehaviour
     private Vector3 _playeroffset;
     private Vector3 _originalScale;
 
+    private DialogueImplementation _dialogueimp;
     private MovingObjectManager _moveObjectMgr;
 
     public void Start()
     {
         _originalScale = new Vector3(1, 1, 1);
         _moveObjectMgr = FindObjectOfType<MovingObjectManager>();
+        _dialogueimp = FindObjectOfType<DialogueImplementation>();
         raftCollider.enabled = false;
     }
 
-    private void LateUpdate()
+    public void OnTriggerEnter(Collider other)
     {
-        //if (_onRaft == true)
-        //    player.transform.position = gameObject.transform.position + _playeroffset;
+        if(other.tag == "Target")
+        {
+            _dialogueimp.StartThirdNode();
+            moonspiritAnimation.SetTrigger("OpenMouth");
+        }
     }
-
     public void OnTriggerStay(Collider other)
     {
         if (other.tag == "Player")
@@ -58,6 +64,11 @@ public class RaftPlatformMovement : MonoBehaviour
         StartCoroutine(ScaleRaft());
     }
 
+    public void GoToMouth()
+    {
+        StartCoroutine(MoveRaftToMouth());
+    }
+
     public IEnumerator ScaleRaft()
     {
         yield return new WaitForSeconds(3);
@@ -68,9 +79,15 @@ public class RaftPlatformMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         float step = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+        transform.position = Vector3.MoveTowards(transform.position, entranceToMouthTarget.position, step);
         //iTween.MoveTo(gameObject, iTween.Hash("path", iTweenPath.GetPath("RaftPath"), "time", 15, "easetype", iTween.EaseType.easeInOutSine));
         //iTween.MoveTo(player, iTween.Hash("path", iTweenPath.GetPath("PlayerRaft"), "time", 15, "easetype", iTween.EaseType.easeInOutSine));
+    }
 
+    public IEnumerator MoveRaftToMouth()
+    {
+        yield return new WaitForSeconds(3);
+        float step = speed * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, goIntoMouthTarget.position, step);
     }
 }

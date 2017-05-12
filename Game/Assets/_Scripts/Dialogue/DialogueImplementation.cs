@@ -50,6 +50,12 @@ public class DialogueImplementation : MonoBehaviour
         panel.SetActive(true);
     }
 
+    public void StartForthNode()
+    {
+        dialogue.Run(defaultDialogue, "IntroPt4", 0);
+        panel.SetActive(true);
+    }
+
     public string Parse(string characterName, string line)
 	{
 		return line;

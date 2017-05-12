@@ -6,7 +6,6 @@ public class MovingObjectManager : MonoBehaviour {
 
     [Header("Moving Platforms")]
     public GameObject introPlatform;
-
     [Header("Moving Objects")]
 
     [SerializeField]
@@ -16,7 +15,6 @@ public class MovingObjectManager : MonoBehaviour {
     public AudioSource crashingCeiling;
     public AudioSource charDialogue;
     public AudioClip[] introDialogue;
-    //public AudioClip introDialoguePt2;
 
     public Animator anim;
     [SerializeField]
@@ -37,7 +35,7 @@ public class MovingObjectManager : MonoBehaviour {
         _playerCtrl = FindObjectOfType<PlayerController>();
         _offset = new Vector3(0, 5, 0);
         _isOn = false;
-        IntroPlatform();
+        //IntroPlatform();
     }
 
     private void LateUpdate()
@@ -58,7 +56,6 @@ public class MovingObjectManager : MonoBehaviour {
 
         //if (Input.GetKeyDown(KeyCode.O))
         //    platformAnim.SetTrigger("MovePlat1");
-
     }
 
     public void IntroPlatform()

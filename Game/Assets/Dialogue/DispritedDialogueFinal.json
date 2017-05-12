@@ -22,6 +22,16 @@
 	{
 		"title": "IntroPt3",
 		"tags": "",
+		"body": "\n Assistant: Ready to go in?\nYou should probably throw some pills towards them.\nHelp them relax, ya know?\nThree should do the trick..I think??\n....\nI'm just the assistant..\n",
+		"position": {
+			"x": 546,
+			"y": 274
+		},
+		"colorID": 0
+	},
+	{
+		"title": "IntroPt4",
+		"tags": "",
 		"body": "Moon-Spirit: Hey, you're not gonna give me too many epiphanies are you? I wanna feel better but I also still wanna be a regular spirit person.\nI’m worried too much 'perspective' will inspire me to sell my pet moon rock collection. I don't want that to happen!\nNot that I'm materialistic, but...everyone has a vice!\nMine just happens to be anthropomorphized space iron.",
 		"position": {
 			"x": 522,
