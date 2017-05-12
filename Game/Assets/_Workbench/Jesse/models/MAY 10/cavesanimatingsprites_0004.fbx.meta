@@ -297,6 +297,12 @@ ModelImporter:
     100578: whitelightsprite
     100580: all
     100582: Null
+    100584: Capsule
+    100586: Null_1_2
+    100588: Null_1_3
+    100590: Sphere_2_8
+    100592: Sphere_3
+    100594: weird_sphere
     400000: ARM_L
     400002: ARM_L_2
     400004: ARM_L_3
@@ -589,6 +595,12 @@ ModelImporter:
     400578: whitelightsprite
     400580: all
     400582: Null
+    400584: Capsule
+    400586: Null_1_2
+    400588: Null_1_3
+    400590: Sphere_2_8
+    400592: Sphere_3
+    400594: weird_sphere
     2300000: boot
     2300002: boot_2
     2300004: boot_2_2
@@ -783,6 +795,9 @@ ModelImporter:
     2300382: Torus_2
     2300384: Torus_3
     2300386: Torus_4
+    2300388: Capsule
+    2300390: Sphere_2_8
+    2300392: Sphere_3
     3300000: boot
     3300002: boot_2
     3300004: boot_2_2
@@ -977,6 +992,9 @@ ModelImporter:
     3300382: Torus_2
     3300384: Torus_3
     3300386: Torus_4
+    3300388: Capsule
+    3300390: Sphere_2_8
+    3300392: Sphere_3
     4300000: Sphere_2
     4300002: Sphere_2_2
     4300004: Cube_4
@@ -1171,6 +1189,9 @@ ModelImporter:
     4300382: Cylinder_9
     4300384: Cylinder_1_5
     4300386: Plane
+    4300388: Capsule
+    4300390: Sphere_3
+    4300392: Sphere_2_8
     7400000: Intro
     7400002: Idle
     7400004: Celebrate
