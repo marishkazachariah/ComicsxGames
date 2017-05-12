@@ -44,6 +44,11 @@ public class DialogueImplementation : MonoBehaviour
         panel.SetActive(true);
     }
 
+    public void StartThirdNode()
+    {
+        dialogue.Run(defaultDialogue, "IntroPt3", 0);
+        panel.SetActive(true);
+    }
 
     public string Parse(string characterName, string line)
 	{

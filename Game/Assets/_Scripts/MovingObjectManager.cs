@@ -6,8 +6,6 @@ public class MovingObjectManager : MonoBehaviour {
 
     [Header("Moving Platforms")]
     public GameObject introPlatform;
-    public Animator platformAnim;
-    //public GameObject raft;
 
     [Header("Moving Objects")]
 
@@ -28,6 +26,7 @@ public class MovingObjectManager : MonoBehaviour {
     private DialogueImplementation _dialogueimp;
 
     private Vector3 _offset;
+
     [SerializeField]
     private bool _isOn = false;
 
@@ -36,17 +35,18 @@ public class MovingObjectManager : MonoBehaviour {
         _player = GameObject.Find("Player");
         _dialogueimp = FindObjectOfType<DialogueImplementation>();
         _playerCtrl = FindObjectOfType<PlayerController>();
-        //_dialogueimp.StartFirstNode();
-        IntroPlatform();
         _offset = new Vector3(0, 5, 0);
         _isOn = false;
+        IntroPlatform();
     }
+
     private void LateUpdate()
     {
         if (_isOn == true)
             _player.transform.position = introPlatform.transform.position + _offset;
 
     }
+
     void Update ()
     {
         satellite.transform.RotateAround(Vector3.zero, Vector3.up, 20 * Time.deltaTime);
@@ -61,7 +61,6 @@ public class MovingObjectManager : MonoBehaviour {
 
     }
 
-
     public void IntroPlatform()
     {
         StartCoroutine("FirstSequence");
@@ -69,7 +68,6 @@ public class MovingObjectManager : MonoBehaviour {
 
     public IEnumerator FirstSequence()
     {
-        Debug.Log("rawr");
         anim.SetTrigger("StartIntroAnim");
         yield return new WaitForSeconds(3);
         crashingCeiling.Play();
@@ -77,24 +75,25 @@ public class MovingObjectManager : MonoBehaviour {
         _dialogueimp.StartFirstNode();
         charDialogue.clip = introDialogue[0];
         charDialogue.Play();
-        yield return new WaitForSecondsRealtime(35);
+        yield return new WaitForSecondsRealtime(28);
         _isOn = true;
         MovePlatformPtOne();
-        yield return new WaitForSeconds(35);
+        yield return new WaitForSeconds(41);
         charDialogue.clip = introDialogue[1];
         charDialogue.Play();
         _dialogueimp.StartSecondNode();
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(35);
         _isOn = false;
     }
+
     public void MovePlatformPtOne()
     {
-        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("FirstIntro"), "time", 20, "easetype", iTween.EaseType.easeInCubic, "oncomplete", "MovePlatformPtTwo", "oncompletetarget", this.gameObject));
+        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("FirstIntro"), "time", 29, "easetype", iTween.EaseType.easeInCubic, "oncomplete", "MovePlatformPtTwo", "oncompletetarget", this.gameObject));
     }
+
     public void MovePlatformPtTwo()
     {
-
-        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("SecondIntro"), "time", 15, "movetopath", false, "easetype", iTween.EaseType.linear, "oncomplete", "MovePlatformPtThree", "oncompletetarget", this.gameObject));
+        iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("SecondIntro"), "time", 15, "movetopath", false, "easetype", iTween.EaseType.easeInOutCubic, "oncomplete", "MovePlatformPtThree", "oncompletetarget", this.gameObject));
     }
 
     public void MovePlatformPtThree()
