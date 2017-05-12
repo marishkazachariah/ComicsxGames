@@ -7,7 +7,11 @@ public class RaftPlatformMovement : MonoBehaviour
     public float speed = 1f;
     public GameObject player;
     public GameObject platform;
+
     public Animator moonspiritAnimation;
+
+    public AudioSource dialogueAudio;
+    public AudioClip pillDialogue;
 
     public Transform entranceToMouthTarget;
     public Transform goIntoMouthTarget;
@@ -37,6 +41,8 @@ public class RaftPlatformMovement : MonoBehaviour
         {
             _dialogueimp.StartThirdNode();
             moonspiritAnimation.SetTrigger("OpenMouth");
+            dialogueAudio.clip = pillDialogue;
+            dialogueAudio.Play();
         }
     }
     public void OnTriggerStay(Collider other)

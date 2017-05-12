@@ -505,12 +505,14 @@
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_SDKManager.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_SharedMethods.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_Simulator.cs" />
+    <Compile Include="Assets\_Scripts\CameraFade.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\Continuity.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\Dialogue.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\DialogueImplementation.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\OptionButton.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\SimpleJSON.cs" />
     <Compile Include="Assets\_Scripts\FeedMouth.cs" />
+    <Compile Include="Assets\_Scripts\InstantiatePills.cs" />
     <Compile Include="Assets\_Scripts\MovingObjectManager.cs" />
     <Compile Include="Assets\_Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Scripts\RaftPlatformMovement.cs" />

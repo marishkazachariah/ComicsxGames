@@ -83,6 +83,7 @@ public class MovingObjectManager : MonoBehaviour {
         _isOn = false;
     }
 
+
     public void MovePlatformPtOne()
     {
         iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("FirstIntro"), "time", 29, "easetype", iTween.EaseType.easeInCubic, "oncomplete", "MovePlatformPtTwo", "oncompletetarget", this.gameObject));

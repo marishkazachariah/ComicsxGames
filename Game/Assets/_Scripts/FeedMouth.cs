@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using System.Reflection;
+using Valve.VR;
 
 public class FeedMouth : MonoBehaviour {
 
@@ -38,9 +41,27 @@ public class FeedMouth : MonoBehaviour {
     {
         yield return new WaitForSeconds(2);
         _raftController.GoToMouth();
-        yield return new WaitForSeconds(2);
-        iTween.CameraFadeTo(1.0f, 1.0f);
+        yield return new WaitForSeconds(3);
+        FadeToBlack();
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene("InsideMoonSpirit");
+    }
+
+    private float _fadeDuration = 1f;
+
+    public void FadeToBlack()
+    {
+        //set start color
+        SteamVR_Fade.Start(Color.clear, 0f);
+        //set and start fade to
+        SteamVR_Fade.Start(Color.black, _fadeDuration);
+    }
+
+    public void FadeFromBlack()
+    {
+        //set start color
+        SteamVR_Fade.Start(Color.black, 0f);
+        //set and start fade to
+        SteamVR_Fade.Start(Color.clear, _fadeDuration);
     }
 }
