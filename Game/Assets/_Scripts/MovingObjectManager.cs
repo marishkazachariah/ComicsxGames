@@ -35,7 +35,7 @@ public class MovingObjectManager : MonoBehaviour {
         _playerCtrl = FindObjectOfType<PlayerController>();
         _offset = new Vector3(0, 5, 0);
         _isOn = false;
-        //IntroPlatform();
+        IntroPlatform();
     }
 
     private void LateUpdate()

@@ -19,21 +19,26 @@ public class FeedMouth : MonoBehaviour {
         _raftController = FindObjectOfType<RaftPlatformMovement>();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            moonspiritAnimation.SetTrigger("GoToCave");
+
+        }
+    }
+
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "pill")
         {
-            fed += 1;
-        }
-    }
-
-    public void CheckPillAmount()
-    {
-        if(fed == 3)
-        {
-            moonspiritAnimation.SetTrigger("GoToCave");
-            //trigger openmouth animation + camera fade + loadscene!!
-            StartCoroutine(GoToNextScene());
+            fed ++;
+            if (fed > 2)
+            {
+                moonspiritAnimation.SetTrigger("GoToCave");
+                //trigger openmouth animation + camera fade + loadscene!!
+                StartCoroutine(GoToNextScene());
+            }
         }
     }
 

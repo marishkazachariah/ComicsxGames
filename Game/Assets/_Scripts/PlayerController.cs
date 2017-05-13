@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour {
 
     public GameObject raft;
     public GameObject particles;
-
     private MovingObjectManager _moveObject;
     private RaftPlatformMovement _raftController;
 
@@ -14,8 +13,7 @@ public class PlayerController : MonoBehaviour {
     {
         _moveObject = FindObjectOfType<MovingObjectManager>();
         _raftController = FindObjectOfType<RaftPlatformMovement>();
-        raft.SetActive(false);
-        //MoveOnPlatform();
+        //raft.SetActive(false);
     }
 
     void Update () 
@@ -30,19 +28,19 @@ public class PlayerController : MonoBehaviour {
         if (other.gameObject.tag == "activateRaft")
         {
             _raftController.StartScaleRaft();
-            raft.SetActive(true);
+            //raft.SetActive(true);
             particles.SetActive(false);
         }
     }
 
-    public void OnCollisionEnter (Collision collision)
-	{
-        if (collision.gameObject.tag == "tool")
-        {
-            MoveOnPlatform();
-        }
+ //   public void OnCollisionEnter (Collision collision)
+	//{
+ //       if (collision.gameObject.tag == "tool")
+ //       {
+ //           MoveOnPlatform();
+ //       }
        
-    }
+ //   }
 
     public void MoveOnPlatform()
     {

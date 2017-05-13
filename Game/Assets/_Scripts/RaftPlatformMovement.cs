@@ -5,6 +5,7 @@ using UnityEngine;
 public class RaftPlatformMovement : MonoBehaviour
 {
     public float speed = 1f;
+    public float secondSpeed = 0.2f;
     public GameObject player;
     public GameObject platform;
 
@@ -32,25 +33,33 @@ public class RaftPlatformMovement : MonoBehaviour
         _originalScale = new Vector3(1, 1, 1);
         _moveObjectMgr = FindObjectOfType<MovingObjectManager>();
         _dialogueimp = FindObjectOfType<DialogueImplementation>();
-        raftCollider.enabled = false;
+        //raftCollider.enabled = false;
+        SetAllCollidersStatus(active: false);
     }
 
-    public void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "Target")
-        {
-            _dialogueimp.StartThirdNode();
-            moonspiritAnimation.SetTrigger("OpenMouth");
-            dialogueAudio.clip = pillDialogue;
-            dialogueAudio.Play();
-        }
-    }
+    //public void OnTriggerEnter(Collider other)
+    //{
+    //    if(other.tag == "Target")
+    //    {
+    //        _dialogueimp.StartThirdNode();
+    //        moonspiritAnimation.SetTrigger("OpenMouth");
+    //        dialogueAudio.clip = pillDialogue;
+    //        dialogueAudio.Play();
+    //    }
+    //}
     public void OnTriggerStay(Collider other)
     {
         if (other.tag == "Player")
         {
             StartCoroutine("MoveRaftToBody");
             other.transform.parent = transform;
+        }
+        if (other.tag == "Target")
+        {
+            _dialogueimp.StartThirdNode();
+            moonspiritAnimation.SetTrigger("OpenMouth");
+            dialogueAudio.clip = pillDialogue;
+            dialogueAudio.Play();
         }
     }
    
@@ -78,7 +87,10 @@ public class RaftPlatformMovement : MonoBehaviour
     public IEnumerator ScaleRaft()
     {
         yield return new WaitForSeconds(3);
+        platform.SetActive(false);
         iTween.ScaleTo(gameObject, iTween.Hash("scale", _originalScale, "time", 3, "easeType", iTween.EaseType.easeOutElastic));
+        yield return new WaitForSeconds(2);
+        SetAllCollidersStatus(active: true);
     }
 
     public IEnumerator MoveRaftToBody()
@@ -93,7 +105,16 @@ public class RaftPlatformMovement : MonoBehaviour
     public IEnumerator MoveRaftToMouth()
     {
         yield return new WaitForSeconds(3);
-        float step = speed * Time.deltaTime;
+        float step = secondSpeed * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, goIntoMouthTarget.position, step);
     }
+
+    public void SetAllCollidersStatus(bool active)
+    {
+        foreach (Collider c in GetComponents<Collider>())
+        {
+            c.enabled = active;
+        }
+    }
+
 }

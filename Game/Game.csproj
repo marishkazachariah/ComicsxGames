@@ -505,7 +505,6 @@
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_SDKManager.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_SharedMethods.cs" />
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_Simulator.cs" />
-    <Compile Include="Assets\_Scripts\CameraFade.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\Continuity.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\Dialogue.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\DialogueImplementation.cs" />
@@ -516,7 +515,9 @@
     <Compile Include="Assets\_Scripts\MovingObjectManager.cs" />
     <Compile Include="Assets\_Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Scripts\RaftPlatformMovement.cs" />
+    <Compile Include="Assets\_Scripts\StartCaveAnimation.cs" />
     <Compile Include="Assets\_Scripts\StartMovingPlatform.cs" />
+    <Compile Include="Assets\getMorePills.cs" />
     <Compile Include="Assets\iTweenEditor\Examples\StartAndStopTween.cs" />
     <Compile Include="Assets\iTweenEditor\Helper Classes\EventParamMappings.cs" />
     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransform.cs" />
