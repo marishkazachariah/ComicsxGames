@@ -158,6 +158,7 @@
     <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Runtime\MeshCombineUtility.cs" />
     <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Runtime\OptimizedCombineChildren.cs" />
     <Compile Include="Assets\Draw Call Minimizer\Scripts\OLD\Runtime\TextureCombineUtility.cs" />
+    <Compile Include="Assets\EndRestart.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\SoftNormalsToVertexColor.cs" />
@@ -294,6 +295,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\TrashCanGo.cs" />
     <Compile Include="Assets\VRArcTeleporter\Scripts\ArcTeleporter.cs" />
     <Compile Include="Assets\VRInteraction\Scripts\VRInput.cs" />
     <Compile Include="Assets\VRTK\Examples\Resources\Scripts\Archery\Arrow.cs" />
@@ -510,6 +512,7 @@
     <Compile Include="Assets\_Scripts\Dialogue\DialogueImplementation.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\OptionButton.cs" />
     <Compile Include="Assets\_Scripts\Dialogue\SimpleJSON.cs" />
+    <Compile Include="Assets\_Scripts\EndingCredits.cs" />
     <Compile Include="Assets\_Scripts\FeedMouth.cs" />
     <Compile Include="Assets\_Scripts\InstantiatePills.cs" />
     <Compile Include="Assets\_Scripts\MovingObjectManager.cs" />
@@ -517,7 +520,8 @@
     <Compile Include="Assets\_Scripts\RaftPlatformMovement.cs" />
     <Compile Include="Assets\_Scripts\StartCaveAnimation.cs" />
     <Compile Include="Assets\_Scripts\StartMovingPlatform.cs" />
-    <Compile Include="Assets\getMorePills.cs" />
+    <Compile Include="Assets\_Scripts\StartPuzzle.cs" />
+    <Compile Include="Assets\_Scripts\getMorePills.cs" />
     <Compile Include="Assets\iTweenEditor\Examples\StartAndStopTween.cs" />
     <Compile Include="Assets\iTweenEditor\Helper Classes\EventParamMappings.cs" />
     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransform.cs" />

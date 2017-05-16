@@ -5,7 +5,7 @@ using UnityEngine;
 public class RaftPlatformMovement : MonoBehaviour
 {
     public float speed = 1f;
-    public float secondSpeed = 0.2f;
+    public float secondSpeed = 2f;
     public GameObject player;
     public GameObject platform;
 
@@ -37,23 +37,9 @@ public class RaftPlatformMovement : MonoBehaviour
         SetAllCollidersStatus(active: false);
     }
 
-    //public void OnTriggerEnter(Collider other)
-    //{
-    //    if(other.tag == "Target")
-    //    {
-    //        _dialogueimp.StartThirdNode();
-    //        moonspiritAnimation.SetTrigger("OpenMouth");
-    //        dialogueAudio.clip = pillDialogue;
-    //        dialogueAudio.Play();
-    //    }
-    //}
-    public void OnTriggerStay(Collider other)
+
+    public void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
-        {
-            StartCoroutine("MoveRaftToBody");
-            other.transform.parent = transform;
-        }
         if (other.tag == "Target")
         {
             _dialogueimp.StartThirdNode();
@@ -61,6 +47,19 @@ public class RaftPlatformMovement : MonoBehaviour
             dialogueAudio.clip = pillDialogue;
             dialogueAudio.Play();
         }
+        if (other.tag == "finalPath")
+            GoToMouth();
+    }
+
+    public void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            //StartCoroutine("MoveRaftToBody");
+            StartCoroutine(MoveToBody(new Vector3(-12.1f, 262.6f, 278.3f)));
+            other.transform.parent = transform;
+        }
+    
     }
    
     public void OnTriggerExit(Collider collider)
@@ -82,6 +81,8 @@ public class RaftPlatformMovement : MonoBehaviour
     public void GoToMouth()
     {
         StartCoroutine(MoveRaftToMouth());
+        //StartCoroutine(MoveToBody(new Vector3(-21.2f, 272.3f, 335.4f)));
+
     }
 
     public IEnumerator ScaleRaft()
@@ -104,9 +105,17 @@ public class RaftPlatformMovement : MonoBehaviour
 
     public IEnumerator MoveRaftToMouth()
     {
+        Debug.Log("meow");
+        yield return new WaitForSeconds(1);
+        iTween.MoveTo(gameObject, new Vector3(-21.2f, 272.3f, 335.4f), 15);
+    }
+
+    IEnumerator MoveToBody(Vector3 pos)
+    {
+        Debug.Log("moving to body");
         yield return new WaitForSeconds(3);
-        float step = secondSpeed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, goIntoMouthTarget.position, step);
+        transform.position = Vector3.MoveTowards(transform.position, pos, speed * Time.deltaTime);
+        yield return null;
     }
 
     public void SetAllCollidersStatus(bool active)

@@ -56,6 +56,12 @@ public class DialogueImplementation : MonoBehaviour
         panel.SetActive(true);
     }
 
+    public void StartFifthNode()
+    {
+        dialogue.Run(defaultDialogue, "IntroPt5", 0);
+        panel.SetActive(true);
+    }
+
     public string Parse(string characterName, string line)
 	{
 		return line;

@@ -11,7 +11,7 @@ public class FeedMouth : MonoBehaviour {
     public int fed = 0;
     public Camera mainCamera;
     public Animator moonspiritAnimation;
-
+    public AudioSource moonspiritWail;
     private RaftPlatformMovement _raftController;
 
     private void Start()
@@ -21,10 +21,9 @@ public class FeedMouth : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            moonspiritAnimation.SetTrigger("GoToCave");
-
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
@@ -33,6 +32,7 @@ public class FeedMouth : MonoBehaviour {
         if (other.gameObject.tag == "pill")
         {
             fed ++;
+            moonspiritWail.Play();
             if (fed > 2)
             {
                 moonspiritAnimation.SetTrigger("GoToCave");
@@ -44,9 +44,9 @@ public class FeedMouth : MonoBehaviour {
 
     public IEnumerator GoToNextScene()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         _raftController.GoToMouth();
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         FadeToBlack();
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene("InsideMoonSpirit");

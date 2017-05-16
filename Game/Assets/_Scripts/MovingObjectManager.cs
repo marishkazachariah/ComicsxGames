@@ -15,7 +15,10 @@ public class MovingObjectManager : MonoBehaviour {
     public AudioSource crashingCeiling;
     public AudioSource charDialogue;
     public AudioClip[] introDialogue;
-
+    public AudioSource mikaScore;
+    public AudioSource RoomNoise;
+    public AudioSource platformDrone;
+    public AudioSource moonSpiritScore;
     public Animator anim;
     [SerializeField]
     [Header("Player")]
@@ -70,22 +73,28 @@ public class MovingObjectManager : MonoBehaviour {
         crashingCeiling.Play();
         yield return new WaitForSeconds(8);
         _dialogueimp.StartFirstNode();
+        mikaScore.Play();
         charDialogue.clip = introDialogue[0];
         charDialogue.Play();
         yield return new WaitForSecondsRealtime(28);
         _isOn = true;
         MovePlatformPtOne();
         yield return new WaitForSeconds(41);
+        mikaScore.Stop();
+        moonSpiritScore.Play();
         charDialogue.clip = introDialogue[1];
         charDialogue.Play();
         _dialogueimp.StartSecondNode();
         yield return new WaitForSeconds(35);
         _isOn = false;
+        RoomNoise.Stop();
+        platformDrone.Stop();
     }
 
 
     public void MovePlatformPtOne()
     {
+        platformDrone.Play();
         iTween.MoveTo(introPlatform, iTween.Hash("path", iTweenPath.GetPath("FirstIntro"), "time", 29, "easetype", iTween.EaseType.easeInCubic, "oncomplete", "MovePlatformPtTwo", "oncompletetarget", this.gameObject));
     }
 

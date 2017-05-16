@@ -31,14 +31,14 @@ public class InstantiatePills : MonoBehaviour
     }
     public void GetMorePills()
     {
-        happypillAmount = new GameObject[3];
+        happypillAmount = new GameObject[1];
         for (int i = 0; i < happypillAmount.Length; i++)
         {
             GameObject happyPillClone = Instantiate(smileyPill, Random.insideUnitSphere * radius + transform.position, Random.rotation);
             happypillAmount[i] = happyPillClone;
         }
 
-        regularpillAmount = new GameObject[3];
+        regularpillAmount = new GameObject[1];
         for (int i = 0; i < regularpillAmount.Length; i++)
         {
             GameObject regularPillClone = Instantiate(regularPill, Random.insideUnitSphere * radius + transform.position, Random.rotation);
